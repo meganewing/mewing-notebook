@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2023_1018 Update"
+title: "2023 1018 Update"
 subtitle: "First notebook post"
 ---
 
