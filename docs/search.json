@@ -7,11 +7,18 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/2023_1018/index.html",
+    "href": "posts/2023_1018/index.html",
+    "title": "2023 1018 Update",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Oct 18, 2023\nNotebook Work\nSlowly getting the notebook together and explored some of the files that were created automatically to kind of get a handle on how to make a post. Not really sure how to add new “pages” or folders though? Like if I’m meant to keep my code available in the notebook. Not super sure how to get that going besides just making posts with executable code but that seems…disorganized.\nBlast Stuff\nBeen working on the blast tutorial. Haven’t started with the geoduck file given in the assigned github issue yet, as I wanted to make sure I could get through the workflow with the example files/links in the tutorials without issue first, before adding in another variable. Plus, I figured it would be a good opportunity to dust off the cobwebs when it comes to creating a robust and reusable script.\nI’ve made it through all the visualization steps fine so far, but have been running into issues once trying to run the actual blast. Since it’s Wednesday evening though and I won’t be working on this much longer tonight, I figured I’ll wait til lab meeting."
+  },
+  {
+    "objectID": "posts/2023_1018.html",
+    "href": "posts/2023_1018.html",
+    "title": "2023_1018 Update",
+    "section": "",
+    "text": "Oct 18, 2023\nNotebook Work\nSlowly getting the notebook together and explored some of the files that were created automatically to kind of get a handle on how to make a post. Not really sure how to add new “pages” or folders though? Like if I’m meant to keep my code available in the notebook. Not super sure how to get that going besides just making posts with executable code but that seems…disorganized.\nBlast Stuff\nBeen working on the blast tutorial. Haven’t started with the geoduck file given in the assigned github issue yet, as I wanted to make sure I could get through the workflow with the example files/links in the tutorials without issue first, before adding in another variable. Plus, I figured it would be a good opportunity to dust off the cobwebs when it comes to creating a robust and reusable script.\nI’ve made it through all the visualization steps fine so far, but have been running into issues once trying to run the actual blast. Since it’s Wednesday evening though and I won’t be working on this much longer tonight, I figured I’ll wait til lab meeting."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -21,10 +28,17 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "mewing-notebook",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "2023_1018 Update\n\n\nFirst notebook post\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n2023 1018 Update\n\n\nFirst notebook post\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]
