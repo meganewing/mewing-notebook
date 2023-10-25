@@ -9,9 +9,9 @@
   {
     "objectID": "posts/2023_1018/index.html",
     "href": "posts/2023_1018/index.html",
-    "title": "2023 1018 Update",
+    "title": "First notebook post",
     "section": "",
-    "text": "Oct 18, 2023\nNotebook Work\nSlowly getting the notebook together and explored some of the files that were created automatically to kind of get a handle on how to make a post. Not really sure how to add new “pages” or folders though? Like if I’m meant to keep my code available in the notebook. Not super sure how to get that going besides just making posts with executable code but that seems…disorganized.\nBlast Stuff\nBeen working on the blast tutorial. Haven’t started with the geoduck file given in the assigned github issue yet, as I wanted to make sure I could get through the workflow with the example files/links in the tutorials without issue first, before adding in another variable. Plus, I figured it would be a good opportunity to dust off the cobwebs when it comes to creating a robust and reusable script.\nI’ve made it through all the visualization steps fine so far, but have been running into issues once trying to run the actual blast. Since it’s Wednesday evening though and I won’t be working on this much longer tonight, I figured I’ll wait til lab meeting."
+    "text": "Slowly getting the notebook together and explored some of the files that were created automatically to kind of get a handle on how to make a post. Not really sure how to add new “pages” or folders though? Like if I’m meant to keep my code available in the notebook. Not super sure how to get that going besides just making posts with executable code but that seems…disorganized."
   },
   {
     "objectID": "posts/2023_1018.html",
@@ -39,6 +39,41 @@
     "href": "index.html",
     "title": "mewing-notebook",
     "section": "",
-    "text": "2023_1018 Update\n\n\nFirst notebook post\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n2023 1018 Update\n\n\nFirst notebook post\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Blast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023-10/2023-1024.html",
+    "href": "posts/2023-10/2023-1024.html",
+    "title": "Blast Adventures",
+    "section": "",
+    "text": "Currently working on annotating and running blast on some geoduck genes linked on an assigned github issue. Was doing it locally originally, but have since switched over to raven to run it. Learning how to troubleshoot some stuff with git, as well as accessing the shared file directory.\nGoing to try to wrap this up this afternoon, if not early tomorrow morning, in order to be prepared to meet with Mac tomorrow and hopefully get a better idea of what kind of project I’ll be doing / what the next steps are besides just trucking along with classes."
+  },
+  {
+    "objectID": "posts/2023-10/2023-1024.html#geoduck-blast",
+    "href": "posts/2023-10/2023-1024.html#geoduck-blast",
+    "title": "Blast Adventures",
+    "section": "",
+    "text": "Currently working on annotating and running blast on some geoduck genes linked on an assigned github issue. Was doing it locally originally, but have since switched over to raven to run it. Learning how to troubleshoot some stuff with git, as well as accessing the shared file directory.\nGoing to try to wrap this up this afternoon, if not early tomorrow morning, in order to be prepared to meet with Mac tomorrow and hopefully get a better idea of what kind of project I’ll be doing / what the next steps are besides just trucking along with classes."
+  },
+  {
+    "objectID": "posts/2023-10/2023-1024.html#class-and-other-updates",
+    "href": "posts/2023-10/2023-1024.html#class-and-other-updates",
+    "title": "Blast Adventures",
+    "section": "Class and Other Updates",
+    "text": "Class and Other Updates\nClasses are going. Midterm in QSCI 482 this Friday so trying to study for that on top of homework for my classes, finishing up the blast/meeting with Mac, and some work stuff. Should be a fairly busy week, but get to round it off with the SAFS grad retreat!"
+  },
+  {
+    "objectID": "posts/2023_1018/index.html#notebook-work",
+    "href": "posts/2023_1018/index.html#notebook-work",
+    "title": "First notebook post",
+    "section": "",
+    "text": "Slowly getting the notebook together and explored some of the files that were created automatically to kind of get a handle on how to make a post. Not really sure how to add new “pages” or folders though? Like if I’m meant to keep my code available in the notebook. Not super sure how to get that going besides just making posts with executable code but that seems…disorganized."
+  },
+  {
+    "objectID": "posts/2023_1018/index.html#blast-stuff",
+    "href": "posts/2023_1018/index.html#blast-stuff",
+    "title": "First notebook post",
+    "section": "Blast Stuff",
+    "text": "Blast Stuff\nBeen working on the blast tutorial. Haven’t started with the geoduck file given in the assigned github issue yet, as I wanted to make sure I could get through the workflow with the example files/links in the tutorials without issue first, before adding in another variable. Plus, I figured it would be a good opportunity to dust off the cobwebs when it comes to creating a robust and reusable script.\nI’ve made it through all the visualization steps fine so far, but have been running into issues once trying to run the actual blast. Since it’s Wednesday evening though and I won’t be working on this much longer tonight, I figured I’ll wait til lab meeting."
   }
 ]

@@ -1,0 +1,19 @@
+---
+title: "Blast Adventures"
+subtite: "Moving over to raven for geoduck blast, midterm season"
+author: "Megan Ewing"
+date: "2023-10-24"
+categories: 
+format: html
+editor: visual
+---
+
+## Geoduck Blast
+
+Currently working on annotating and running blast on some geoduck genes linked on an assigned github issue. Was doing it locally originally, but have since switched over to raven to run it. Learning how to troubleshoot some stuff with git, as well as accessing the shared file directory.
+
+Going to try to wrap this up this afternoon, if not early tomorrow morning, in order to be prepared to meet with Mac tomorrow and hopefully get a better idea of what kind of project I'll be doing / what the next steps are besides just trucking along with classes.
+
+## Class and Other Updates
+
+Classes are going. Midterm in QSCI 482 this Friday so trying to study for that on top of homework for my classes, finishing up the blast/meeting with Mac, and some work stuff. Should be a fairly busy week, but get to round it off with the SAFS grad retreat!

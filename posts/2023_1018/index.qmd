@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "2023 1018 Update"
-subtitle: "First notebook post"
+title: "First notebook post"
+subtitle: "Getting notebook up and running, starting blast"
+author: "Megan Ewing"
+date: "2023-10-18"
 ---
 
-# Oct 18, 2023
-
-**Notebook Work**
+## **Notebook Work**
 
 Slowly getting the notebook together and explored some of the files that were created automatically to kind of get a handle on how to make a post. Not really sure how to add new "pages" or folders though? Like if I'm meant to keep my code available in the notebook. Not super sure how to get that going besides just making posts with executable code but that seems...disorganized.
 
-**Blast Stuff**
+## **Blast Stuff**
 
 Been working on the blast tutorial. Haven't started with the geoduck file given in the assigned github issue yet, as I wanted to make sure I could get through the workflow with the example files/links in the tutorials without issue first, before adding in another variable. Plus, I figured it would be a good opportunity to dust off the cobwebs when it comes to creating a robust and reusable script.
 
