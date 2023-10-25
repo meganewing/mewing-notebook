@@ -1,0 +1,19 @@
+---
+title: "Bivlaves and Blast"
+subtite: "Meeting Mac to talk about clams and geoducks, and more blast fun"
+author: "Megan Ewing"
+date: "2023-10-25"
+categories: 
+format: html
+editor: visual
+---
+
+## Potential Clam and Geoduck Happenings
+
+Went to NOAA today to meet Mac and discuss potential things for me to work on. One of the projects looks at differential gene expression in control vs. treated clams, with the treatment group coming from parents exposed to OA, and also being exposed to OA to look at priming. The other looks at single cell RNA seq data for geoducks early on in development (\~18 hours) to try to identify early clusters.
+
+Mac sent over raw Manila clam reads as well as genome reference info after the meeting, which I'll (presumably) start to dig into next week.
+
+## Blast Fun (or, "Having a Blast")
+
+Still working through the blast issue, but finally (!) getting it to run on raven with seemingly little to no issues so far (it is running in the background as I write this so perhaps too soon to tell). One issue I ran into was it seemed blastx was not returning any matches. Come to find out I was running blastx on a protein sequence. Switched to blastp and all seems to be going alright. Still need to continue through to annotation steps, but will likely put a pin in it until Monday as my non-class time tomorrow and Friday morning will be going towards studying for my qsci midterm.
