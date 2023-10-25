@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "mewing-notebook",
     "section": "",
-    "text": "Blast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Bivlaves and Blast\n\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-10/2023-1024.html",
@@ -75,5 +75,26 @@
     "title": "First notebook post",
     "section": "Blast Stuff",
     "text": "Blast Stuff\nBeen working on the blast tutorial. Haven’t started with the geoduck file given in the assigned github issue yet, as I wanted to make sure I could get through the workflow with the example files/links in the tutorials without issue first, before adding in another variable. Plus, I figured it would be a good opportunity to dust off the cobwebs when it comes to creating a robust and reusable script.\nI’ve made it through all the visualization steps fine so far, but have been running into issues once trying to run the actual blast. Since it’s Wednesday evening though and I won’t be working on this much longer tonight, I figured I’ll wait til lab meeting."
+  },
+  {
+    "objectID": "posts/2023-10/2023-1025.html",
+    "href": "posts/2023-10/2023-1025.html",
+    "title": "Bivlaves and Blast",
+    "section": "",
+    "text": "Went to NOAA today to meet Mac and discuss potential things for me to work on. One of the projects looks at differential gene expression in control vs. treated clams, with the treatment group coming from parents exposed to OA, and also being exposed to OA to look at priming. The other looks at single cell RNA seq data for geoducks early on in development (~18 hours) to try to identify early clusters.\nMac sent over raw Manila clam reads as well as genome reference info after the meeting, which I’ll (presumably) start to dig into next week."
+  },
+  {
+    "objectID": "posts/2023-10/2023-1025.html#potential-clam-and-geoduck-happenings",
+    "href": "posts/2023-10/2023-1025.html#potential-clam-and-geoduck-happenings",
+    "title": "Bivlaves and Blast",
+    "section": "",
+    "text": "Went to NOAA today to meet Mac and discuss potential things for me to work on. One of the projects looks at differential gene expression in control vs. treated clams, with the treatment group coming from parents exposed to OA, and also being exposed to OA to look at priming. The other looks at single cell RNA seq data for geoducks early on in development (~18 hours) to try to identify early clusters.\nMac sent over raw Manila clam reads as well as genome reference info after the meeting, which I’ll (presumably) start to dig into next week."
+  },
+  {
+    "objectID": "posts/2023-10/2023-1025.html#blast-fun-or-having-a-blast",
+    "href": "posts/2023-10/2023-1025.html#blast-fun-or-having-a-blast",
+    "title": "Bivlaves and Blast",
+    "section": "Blast Fun (or, “Having a Blast”)",
+    "text": "Blast Fun (or, “Having a Blast”)\nStill working through the blast issue, but finally (!) getting it to run on raven with seemingly little to no issues so far (it is running in the background as I write this so perhaps too soon to tell). One issue I ran into was it seemed blastx was not returning any matches. Come to find out I was running blastx on a protein sequence. Switched to blastp and all seems to be going alright. Still need to continue through to annotation steps, but will likely put a pin in it until Monday as my non-class time tomorrow and Friday morning will be going towards studying for my qsci midterm."
   }
 ]
