@@ -3,7 +3,9 @@ title: "Playing Around"
 author: "Megan Ewing"
 date: "2023-11-02"
 categories: exercises
-format: html
+format: 
+  html:
+    toc: true
 editor: visual
 ---
 
