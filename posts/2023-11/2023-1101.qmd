@@ -1,8 +1,8 @@
 ---
 title: "Gearing up for clam work"
 author: "Megan Ewing"
-date: "2023-10-25"
-categories: 
+date: "2023-11-01"
+categories: daily
 format: html
 editor: visual
 ---

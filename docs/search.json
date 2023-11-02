@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "mewing-notebook",
     "section": "",
-    "text": "Bivlaves and Blast\n\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nGearing up for clam work\n\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Playing Around\n\n\n\n\n\n\n\nexercises\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nGearing up for clam work\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nNov 1, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBivlaves and Blast\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-10/2023-1024.html",
@@ -110,5 +110,61 @@
     "title": "Gearing up for clam work",
     "section": "",
     "text": "Finally wrapped up the blast tutorial and got through the visualization of top 10 genes, which was sick. I definitely need to refresh on how to even read the results of a blast table though, just so I have a better understanding of what things like e values mean. Next/final step in that regard is to push the repo to git hub, but didn’t get around to that today since I had that issue with commiting large files and need to recreate the repo before I can re-commit and push. That will be first order of business tomorrow before lab meeting prep then lab meeting.\nMore on looking forward, I am about to start analysis with the clam data Mac shared. To prep for this, I spent some time today reviewing the repo and workflow I used for coho data analyses in 546 a couple years ago, to 1) refresh, 2) see what parts of the workflow I could use for this analysis, and 3) identify what things I need to improve upon in terms of reproducability (my code comments and readme docs could be better). As I continue reviewing that this week, I will start crackin’ into the clam data."
+  },
+  {
+    "objectID": "posts/2023-11/2023-1102.html",
+    "href": "posts/2023-11/2023-1102.html",
+    "title": "Playing Around",
+    "section": "",
+    "text": "Sam has challenged us with the task of creating code to autopopulate dates on daily notebook entries. To further understand what he is asking, let’s look at the example of Chris’ notebook he shared."
+  },
+  {
+    "objectID": "posts/2023-11/2023-1102.html#challenge-presented",
+    "href": "posts/2023-11/2023-1102.html#challenge-presented",
+    "title": "Playing Around",
+    "section": "",
+    "text": "Sam has challenged us with the task of creating code to autopopulate dates on daily notebook entries. To further understand what he is asking, let’s look at the example of Chris’ notebook he shared."
+  },
+  {
+    "objectID": "posts/2023-11/2023-1102.html#further-exploring-the-example-chris-notebook",
+    "href": "posts/2023-11/2023-1102.html#further-exploring-the-example-chris-notebook",
+    "title": "Playing Around",
+    "section": "Further Exploring the Example (Chris’ Notebook)",
+    "text": "Further Exploring the Example (Chris’ Notebook)\nChris’ notebook:"
+  },
+  {
+    "objectID": "posts/2023-11/2023-1102.html#looks-familiar",
+    "href": "posts/2023-11/2023-1102.html#looks-familiar",
+    "title": "Playing Around",
+    "section": "Looks Familiar…",
+    "text": "Looks Familiar…\nI do most of my homework for classes in R markdown, and because I am awful at remembering some of the shortcuts for markdown, and can’t be bothered to look up a cheat sheet half the time, I often use the visual view within R studio. Right away, I notice this looks like my homeworks with header 2’s, which then auto creates a live table of contents on the right hand side:\n\nI think that you could put all your notebook updates on one quarto document, and have one document per month (versus a folder full of individual documents for each post that month). There are several benefits to this that I see:\n\nDate is auto populated (if I’m correct and this renders as expected that is)\nYou don’t have to create a whole new document for each post, which can be particularly cumbersome if you don’t have much to update on\nHaving to only update a document versus create a new document could increase the consistency of posting (knowing myself)\nWhen looking back, it is very easy to reference different dates and see progress across the month without having to change which post you’re viewing (can look at them all on the same page and simply scroll)."
+  },
+  {
+    "objectID": "posts/2023-11/2023-1102.html#testing-1-2-3",
+    "href": "posts/2023-11/2023-1102.html#testing-1-2-3",
+    "title": "Playing Around",
+    "section": "Testing 1, 2, 3…",
+    "text": "Testing 1, 2, 3…\nI am now going to input some dates below with some info about those dates, just to simulate what it would look like if I’m right about how I think to do this:"
+  },
+  {
+    "objectID": "posts/2023-11/2023-1102.html#november-10-2023",
+    "href": "posts/2023-11/2023-1102.html#november-10-2023",
+    "title": "Playing Around",
+    "section": "November 10, 2023",
+    "text": "November 10, 2023\nProjectd opening day of Timberline Lodge, Mt. Hood"
+  },
+  {
+    "objectID": "posts/2023-11/2023-1102.html#november-13-2023",
+    "href": "posts/2023-11/2023-1102.html#november-13-2023",
+    "title": "Playing Around",
+    "section": "November 13, 2023",
+    "text": "November 13, 2023\nWinter Kickoff at Evo Seattle"
+  },
+  {
+    "objectID": "posts/2023-11/2023-1102.html#december-1-2023",
+    "href": "posts/2023-11/2023-1102.html#december-1-2023",
+    "title": "Playing Around",
+    "section": "December 1, 2023",
+    "text": "December 1, 2023\nProjected opening day of Stevens Pass"
   }
 ]

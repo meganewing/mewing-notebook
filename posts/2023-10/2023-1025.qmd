@@ -3,7 +3,7 @@ title: "Bivlaves and Blast"
 subtite: "Meeting Mac to talk about clams and geoducks, and more blast fun"
 author: "Megan Ewing"
 date: "2023-10-25"
-categories: 
+categories: daily
 format: html
 editor: visual
 ---

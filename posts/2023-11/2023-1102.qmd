@@ -1,0 +1,49 @@
+---
+title: "Playing Around"
+author: "Megan Ewing"
+date: "2023-11-02"
+categories: exercises
+format: html
+editor: visual
+---
+
+## Challenge Presented:
+
+![](images/Screen%20Shot%202023-11-02%20at%208.56.48%20AM.png)
+
+Sam has challenged us with the task of creating code to autopopulate dates on daily notebook entries. To further understand what he is asking, let's look at the example of Chris' notebook he shared.
+
+## Further Exploring the Example (Chris' Notebook)
+
+Chris' notebook:
+
+![](images/Screen Shot 2023-11-02 at 8.58.54 AM.png)
+
+## Looks Familiar...
+
+I do most of my homework for classes in R markdown, and because I am awful at remembering some of the shortcuts for markdown, and can't be bothered to look up a cheat sheet half the time, I often use the visual view within R studio. Right away, I notice this looks like my homeworks with header 2's, which then auto creates a live table of contents on the right hand side:
+
+![](images/Screen Shot 2023-11-02 at 9.01.10 AM.png)
+
+I think that you could put all your notebook updates on one quarto document, and have one document per month (versus a folder full of individual documents for each post that month). There are several benefits to this that I see:
+
+1.  Date is auto populated (if I'm correct and this renders as expected that is)
+2.  You don't have to create a whole new document for each post, which can be particularly cumbersome if you don't have much to update on
+3.  Having to only update a document versus create a new document could increase the consistency of posting (knowing myself)
+4.  When looking back, it is very easy to reference different dates and see progress across the month without having to change which post you're viewing (can look at them all on the same page and simply scroll).
+
+## Testing 1, 2, 3... 
+
+I am now going to input some dates below with some info about those dates, just to simulate what it would look like if I'm right about how I think to do this:
+
+## November 10, 2023
+
+Projectd opening day of Timberline Lodge, Mt. Hood
+
+## November 13, 2023
+
+Winter Kickoff at Evo Seattle
+
+## December 1, 2023
+
+Projected opening day of Stevens Pass
