@@ -1,0 +1,14 @@
+---
+title: "Gearing up for clam work"
+author: "Megan Ewing"
+date: "2023-10-25"
+categories: 
+format: html
+editor: visual
+---
+
+## Wrapping up with blast tutorial, pushing issues, moving forward
+
+Finally wrapped up the blast tutorial and got through the visualization of top 10 genes, which was sick. I definitely need to refresh on how to even read the results of a blast table though, just so I have a better understanding of what things like e values mean. Next/final step in that regard is to push the repo to git hub, but didn't get around to that today since I had that issue with commiting large files and need to recreate the repo before I can re-commit and push. That will be first order of business tomorrow before lab meeting prep then lab meeting.
+
+More on looking forward, I am about to start analysis with the clam data Mac shared. To prep for this, I spent some time today reviewing the repo and workflow I used for coho data analyses in 546 a couple years ago, to 1) refresh, 2) see what parts of the workflow I could use for this analysis, and 3) identify what things I need to improve upon in terms of reproducability (my code comments and readme docs could be better). As I continue reviewing that this week, I will start crackin' into the clam data.
