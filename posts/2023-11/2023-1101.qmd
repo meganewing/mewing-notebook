@@ -48,3 +48,9 @@ Not much lab-focused stuff today. Had class and got ahead on some assignments fo
     -   Work
 
 ## Nov. 7
+
+Finished what I had hoped to today! Created/pushed the new repo for blast tutorial and closed that issue (finally). I created the repo for clam data and added a readme to each folder, and have started using the single-doc / TOC format for notebook updates. 
+ 
+Aside from that, I also added my November goals to my notebook, and did school stuff (class and homework). 
+
+

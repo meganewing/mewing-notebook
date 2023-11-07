@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "mewing-notebook",
     "section": "",
-    "text": "November Daily Posts\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPlaying Around\n\n\n\n\n\n\n\nexercises\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBivlaves and Blast\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "November 23 Goals\n\n\n\n\n\n\n\ngoals\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nNovember Daily Posts\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPlaying Around\n\n\n\n\n\n\n\nexercises\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBivlaves and Blast\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-10/2023-1024.html",
@@ -186,6 +186,13 @@
     "href": "posts/2023-11/2023-1101.html#nov.-7",
     "title": "November Daily Posts",
     "section": "Nov. 7",
-    "text": "Nov. 7"
+    "text": "Nov. 7\nFinished what I had hoped to today! Created/pushed the new repo for blast tutorial and closed that issue (finally). I created the repo for clam data and added a readme to each folder, and have started using the single-doc / TOC format for notebook updates.\nAside from that, I also added my November goals to my notebook, and did school stuff (class and homework)."
+  },
+  {
+    "objectID": "posts/2023-11/2023-11-goals.html",
+    "href": "posts/2023-11/2023-11-goals.html",
+    "title": "November 23 Goals",
+    "section": "",
+    "text": "Goals for the month of November:\n\nBe more consistent with notebook updates\n\nI’ve added a daily task to my google calendar (my preferred method of organizing my life) for notebook updates to prompt me at 5pm each day if I haven’t posted to help with this.\nI’ve also switched to the single document with a TOC for each date for notebook posts, I think this will help as well since it makes it less steps to update my notebook not having to make a new document each time.\n\n\n\nRefresh my understanding of how bioinfo tools (like blast) work / how to read the tables\n\nStart with reviewing the FISH546 materials\nAsk for additional resources as needed\n\n\n\nClam Work\n\nRun RNA-seq analysis on clam gonad samples (per github issue)\n\n\n\nProject Stuff\n\nWork on creating a more clear direction of what my project will look like\nWork with Steven to plan what I need to do to get started on my specific project"
   }
 ]

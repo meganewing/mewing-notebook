@@ -1,0 +1,34 @@
+---
+title: "November 23 Goals"
+author: "Megan Ewing"
+date: "2023-11-07"
+categories: goals
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+Goals for the month of November:
+
+### Be more consistent with notebook updates
+
+-   I've added a daily task to my google calendar (my preferred method of organizing my life) for notebook updates to prompt me at 5pm each day if I haven't posted to help with this.
+
+-   I've also switched to the single document with a TOC for each date for notebook posts, I think this will help as well since it makes it less steps to update my notebook not having to make a new document each time.
+
+### Refresh my understanding of how bioinfo tools (like blast) work / how to read the tables
+
+-   Start with reviewing the FISH546 materials
+
+-   Ask for additional resources as needed
+
+### Clam Work 
+
+-   Run RNA-seq analysis on clam gonad samples (per [github issue](https://github.com/RobertsLab/resources/issues/1748))
+
+### Project Stuff
+
+-   Work on creating a more clear direction of what my project will look like
+
+-   Work with Steven to plan what I need to do to get started on my specific project
