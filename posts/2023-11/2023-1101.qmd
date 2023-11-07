@@ -1,14 +1,48 @@
 ---
-title: "Gearing up for clam work"
+title: "November Daily Posts"
 author: "Megan Ewing"
-date: "2023-11-01"
+date: "2023-11-07"
 categories: daily
-format: html
+format: 
+  html:
+    toc: true
 editor: visual
 ---
 
-## Wrapping up with blast tutorial, pushing issues, moving forward
+## Nov. 1 - Gearing up for clam work
+
+**Wrapping up with blast tutorial, pushing issues, moving forward**
 
 Finally wrapped up the blast tutorial and got through the visualization of top 10 genes, which was sick. I definitely need to refresh on how to even read the results of a blast table though, just so I have a better understanding of what things like e values mean. Next/final step in that regard is to push the repo to git hub, but didn't get around to that today since I had that issue with commiting large files and need to recreate the repo before I can re-commit and push. That will be first order of business tomorrow before lab meeting prep then lab meeting.
 
 More on looking forward, I am about to start analysis with the clam data Mac shared. To prep for this, I spent some time today reviewing the repo and workflow I used for coho data analyses in 546 a couple years ago, to 1) refresh, 2) see what parts of the workflow I could use for this analysis, and 3) identify what things I need to improve upon in terms of reproducability (my code comments and readme docs could be better). As I continue reviewing that this week, I will start crackin' into the clam data.
+
+## Nov. 6 - Homework and Planning
+
+Not much lab-focused stuff today. Had class and got ahead on some assignments for the week. After that, did some planning for what to work on this week:
+
+-   Tuesday:
+
+    -   Create new repo for blast tutorial so I can push to github and close the issue.
+
+    -   Start repo for clam data
+
+    -   Update notebook format using the TOC method we talked about in lab meeting last week
+
+-   Wednesday:
+
+    -   Clam data work
+
+    -   Read DEI chapter/s for lab meeting
+
+-   Thursday
+
+    -   Finish any remaining assignments for classes for the week (HW 1 for 553 main priority)
+
+-   Friday
+
+    -   Veteran's day / no qsci lab meeting
+
+    -   Work
+
+## Nov. 7

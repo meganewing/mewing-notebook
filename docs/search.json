@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "mewing-notebook",
     "section": "",
-    "text": "Playing Around\n\n\n\n\n\n\n\nexercises\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nGearing up for clam work\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nNov 1, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBivlaves and Blast\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "November Daily Posts\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPlaying Around\n\n\n\n\n\n\n\nexercises\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBivlaves and Blast\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-10/2023-1024.html",
@@ -100,9 +100,9 @@
   {
     "objectID": "posts/2023-11/2023-1101.html",
     "href": "posts/2023-11/2023-1101.html",
-    "title": "Gearing up for clam work",
+    "title": "November Daily Posts",
     "section": "",
-    "text": "Finally wrapped up the blast tutorial and got through the visualization of top 10 genes, which was sick. I definitely need to refresh on how to even read the results of a blast table though, just so I have a better understanding of what things like e values mean. Next/final step in that regard is to push the repo to git hub, but didn’t get around to that today since I had that issue with commiting large files and need to recreate the repo before I can re-commit and push. That will be first order of business tomorrow before lab meeting prep then lab meeting.\nMore on looking forward, I am about to start analysis with the clam data Mac shared. To prep for this, I spent some time today reviewing the repo and workflow I used for coho data analyses in 546 a couple years ago, to 1) refresh, 2) see what parts of the workflow I could use for this analysis, and 3) identify what things I need to improve upon in terms of reproducability (my code comments and readme docs could be better). As I continue reviewing that this week, I will start crackin’ into the clam data."
+    "text": "Wrapping up with blast tutorial, pushing issues, moving forward\nFinally wrapped up the blast tutorial and got through the visualization of top 10 genes, which was sick. I definitely need to refresh on how to even read the results of a blast table though, just so I have a better understanding of what things like e values mean. Next/final step in that regard is to push the repo to git hub, but didn’t get around to that today since I had that issue with commiting large files and need to recreate the repo before I can re-commit and push. That will be first order of business tomorrow before lab meeting prep then lab meeting.\nMore on looking forward, I am about to start analysis with the clam data Mac shared. To prep for this, I spent some time today reviewing the repo and workflow I used for coho data analyses in 546 a couple years ago, to 1) refresh, 2) see what parts of the workflow I could use for this analysis, and 3) identify what things I need to improve upon in terms of reproducability (my code comments and readme docs could be better). As I continue reviewing that this week, I will start crackin’ into the clam data."
   },
   {
     "objectID": "posts/2023-11/2023-1101.html#wrapping-up-with-blast-tutorial-pushing-issues-moving-forward",
@@ -166,5 +166,26 @@
     "title": "Playing Around",
     "section": "December 1, 2023",
     "text": "December 1, 2023\nProjected opening day of Stevens Pass"
+  },
+  {
+    "objectID": "posts/2023-11/2023-1101.html#nov.-1---gearing-up-for-clam-work",
+    "href": "posts/2023-11/2023-1101.html#nov.-1---gearing-up-for-clam-work",
+    "title": "November Daily Posts",
+    "section": "",
+    "text": "Wrapping up with blast tutorial, pushing issues, moving forward\nFinally wrapped up the blast tutorial and got through the visualization of top 10 genes, which was sick. I definitely need to refresh on how to even read the results of a blast table though, just so I have a better understanding of what things like e values mean. Next/final step in that regard is to push the repo to git hub, but didn’t get around to that today since I had that issue with commiting large files and need to recreate the repo before I can re-commit and push. That will be first order of business tomorrow before lab meeting prep then lab meeting.\nMore on looking forward, I am about to start analysis with the clam data Mac shared. To prep for this, I spent some time today reviewing the repo and workflow I used for coho data analyses in 546 a couple years ago, to 1) refresh, 2) see what parts of the workflow I could use for this analysis, and 3) identify what things I need to improve upon in terms of reproducability (my code comments and readme docs could be better). As I continue reviewing that this week, I will start crackin’ into the clam data."
+  },
+  {
+    "objectID": "posts/2023-11/2023-1101.html#nov.-6---homework-and-planning",
+    "href": "posts/2023-11/2023-1101.html#nov.-6---homework-and-planning",
+    "title": "November Daily Posts",
+    "section": "Nov. 6 - Homework and Planning",
+    "text": "Nov. 6 - Homework and Planning\nNot much lab-focused stuff today. Had class and got ahead on some assignments for the week. After that, did some planning for what to work on this week:\n\nTuesday:\n\nCreate new repo for blast tutorial so I can push to github and close the issue.\nStart repo for clam data\nUpdate notebook format using the TOC method we talked about in lab meeting last week\n\nWednesday:\n\nClam data work\nRead DEI chapter/s for lab meeting\n\nThursday\n\nFinish any remaining assignments for classes for the week (HW 1 for 553 main priority)\n\nFriday\n\nVeteran’s day / no qsci lab meeting\nWork"
+  },
+  {
+    "objectID": "posts/2023-11/2023-1101.html#nov.-7",
+    "href": "posts/2023-11/2023-1101.html#nov.-7",
+    "title": "November Daily Posts",
+    "section": "Nov. 7",
+    "text": "Nov. 7"
   }
 ]
