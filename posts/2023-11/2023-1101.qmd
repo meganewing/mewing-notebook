@@ -9,9 +9,11 @@ format:
 editor: visual
 ---
 
+**Daily notebook updates for November**
+
 ## Nov. 1 - Gearing up for clam work
 
-**Wrapping up with blast tutorial, pushing issues, moving forward**
+Wrapping up with blast tutorial, pushing issues, moving forward:
 
 Finally wrapped up the blast tutorial and got through the visualization of top 10 genes, which was sick. I definitely need to refresh on how to even read the results of a blast table though, just so I have a better understanding of what things like e values mean. Next/final step in that regard is to push the repo to git hub, but didn't get around to that today since I had that issue with commiting large files and need to recreate the repo before I can re-commit and push. That will be first order of business tomorrow before lab meeting prep then lab meeting.
 
