@@ -1,7 +1,7 @@
 ---
 title: "November Daily Posts"
 author: "Megan Ewing"
-date: "2023-11-07"
+date: Sys.Date()
 categories: daily
 format: 
   html:
