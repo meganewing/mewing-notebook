@@ -1,7 +1,7 @@
 ---
 title: "November Daily Posts"
 author: "Megan Ewing"
-date: "Sys.Date()"
+date: "11-08-2023"
 categories: daily
 format: 
   html:
@@ -47,10 +47,28 @@ Not much lab-focused stuff today. Had class and got ahead on some assignments fo
 
     -   Work
 
-## Nov. 7
+## Nov. 7 - Finished geoduck tutorial, start clam repo
 
-Finished what I had hoped to today! Created/pushed the new repo for blast tutorial and closed that issue (finally). I created the repo for clam data and added a readme to each folder, and have started using the single-doc / TOC format for notebook updates. 
- 
-Aside from that, I also added my November goals to my notebook, and did school stuff (class and homework). 
+Finished what I had hoped to today! Created/pushed the new repo for blast tutorial and closed that issue (finally). I created the repo for clam data and added a readme to each folder, and have started using the single-doc / TOC format for notebook updates.
 
+Aside from that, I also added my November goals to my notebook, and did school stuff (class and homework).
 
+## Nov. 8 - Clam RNAseq work
+
+Pretty chill day -- some homework in the morning before class.
+
+After class, I got started on the clam rnaseq analysis. Mostly just retrieving the files from Gannet, which took some time. While that loaded I was able to start mapping out the next step in the workflow, which will be checking md5sums to confirm file integrity, then using FastQC and MultiQC to look at the quality of our reads. I hope to run these steps tomorrow so I can start next steps (or start some reading to understand what the next steps even are) come Monday. Based on my work with Coho RNAseq data back in 2021, the next steps after fast/multiQC would be:
+
+-   trimming
+
+-   kallisto to quantify gene expression using the provided [reference genome](https://github.com/RobertsLab/resources/issues/1748) included in github issue.
+
+-   use DESeq2 to visualize DEGs
+
+-   run blast to identify DEG functions
+
+-   join the DEG stats from DESeq2 and the identified DEGs
+
+The last two I'm a little unsure if those are the right steps for this specific data. The coho analysis was comparing two treatments, and I'm just not *entirely* sure if that's the type of analysis we are looking for here. But that is where the reading / literature hunt will come in on Monday.
+
+While the files were loading, I read Race After Technology - Chapter 1 to prep for tomorrow's lab meeting.

@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Megan Ewing">
+<meta name="dcterms.date" content="2023-11-08">
 
 <title>mewing-notebook - November Daily Posts</title>
 <style>
@@ -127,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">Invalid Date</p>
+        <p class="date">November 8, 2023</p>
       </div>
     </div>
     
@@ -145,7 +146,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#nov.-1---gearing-up-for-clam-work" id="toc-nov.-1---gearing-up-for-clam-work" class="nav-link active" data-scroll-target="#nov.-1---gearing-up-for-clam-work">Nov.&nbsp;1 - Gearing up for clam work</a></li>
   <li><a href="#nov.-6---homework-and-planning" id="toc-nov.-6---homework-and-planning" class="nav-link" data-scroll-target="#nov.-6---homework-and-planning">Nov.&nbsp;6 - Homework and Planning</a></li>
-  <li><a href="#nov.-7" id="toc-nov.-7" class="nav-link" data-scroll-target="#nov.-7">Nov.&nbsp;7</a></li>
+  <li><a href="#nov.-7---finished-geoduck-tutorial-start-clam-repo" id="toc-nov.-7---finished-geoduck-tutorial-start-clam-repo" class="nav-link" data-scroll-target="#nov.-7---finished-geoduck-tutorial-start-clam-repo">Nov.&nbsp;7 - Finished geoduck tutorial, start clam repo</a></li>
+  <li><a href="#nov.-8---clam-rnaseq-work" id="toc-nov.-8---clam-rnaseq-work" class="nav-link" data-scroll-target="#nov.-8---clam-rnaseq-work">Nov.&nbsp;8 - Clam RNAseq work</a></li>
   </ul>
 </nav>
     </div>
@@ -188,10 +190,24 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="nov.-7" class="level2">
-<h2 class="anchored" data-anchor-id="nov.-7">Nov.&nbsp;7</h2>
+<section id="nov.-7---finished-geoduck-tutorial-start-clam-repo" class="level2">
+<h2 class="anchored" data-anchor-id="nov.-7---finished-geoduck-tutorial-start-clam-repo">Nov.&nbsp;7 - Finished geoduck tutorial, start clam repo</h2>
 <p>Finished what I had hoped to today! Created/pushed the new repo for blast tutorial and closed that issue (finally). I created the repo for clam data and added a readme to each folder, and have started using the single-doc / TOC format for notebook updates.</p>
 <p>Aside from that, I also added my November goals to my notebook, and did school stuff (class and homework).</p>
+</section>
+<section id="nov.-8---clam-rnaseq-work" class="level2">
+<h2 class="anchored" data-anchor-id="nov.-8---clam-rnaseq-work">Nov.&nbsp;8 - Clam RNAseq work</h2>
+<p>Pretty chill day – some homework in the morning before class.</p>
+<p>After class, I got started on the clam rnaseq analysis. Mostly just retrieving the files from Gannet, which took some time. While that loaded I was able to start mapping out the next step in the workflow, which will be checking md5sums to confirm file integrity, then using FastQC and MultiQC to look at the quality of our reads. I hope to run these steps tomorrow so I can start next steps (or start some reading to understand what the next steps even are) come Monday. Based on my work with Coho RNAseq data back in 2021, the next steps after fast/multiQC would be:</p>
+<ul>
+<li><p>trimming</p></li>
+<li><p>kallisto to quantify gene expression using the provided <a href="https://github.com/RobertsLab/resources/issues/1748">reference genome</a> included in github issue.</p></li>
+<li><p>use DESeq2 to visualize DEGs</p></li>
+<li><p>run blast to identify DEG functions</p></li>
+<li><p>join the DEG stats from DESeq2 and the identified DEGs</p></li>
+</ul>
+<p>The last two I’m a little unsure if those are the right steps for this specific data. The coho analysis was comparing two treatments, and I’m just not <em>entirely</em> sure if that’s the type of analysis we are looking for here. But that is where the reading / literature hunt will come in on Monday.</p>
+<p>While the files were loading, I read Race After Technology - Chapter 1 to prep for tomorrow’s lab meeting.</p>
 
 
 </section>

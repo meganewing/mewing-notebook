@@ -23,7 +23,7 @@ Goals for the month of November:
 
 -   Ask for additional resources as needed
 
-### Clam Work 
+### Clam Work
 
 -   Run RNA-seq analysis on clam gonad samples (per [github issue](https://github.com/RobertsLab/resources/issues/1748))
 

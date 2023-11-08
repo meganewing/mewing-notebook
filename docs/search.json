@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "mewing-notebook",
     "section": "",
-    "text": "November 23 Goals\n\n\n\n\n\n\n\ngoals\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPlaying Around\n\n\n\n\n\n\n\nexercises\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBivlaves and Blast\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nNovember Daily Posts\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "November Daily Posts\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nNov 8, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nNovember 23 Goals\n\n\n\n\n\n\n\ngoals\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPlaying Around\n\n\n\n\n\n\n\nexercises\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBivlaves and Blast\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-10/2023-1024.html",
@@ -194,5 +194,19 @@
     "title": "November 23 Goals",
     "section": "",
     "text": "Goals for the month of November:\n\nBe more consistent with notebook updates\n\nI’ve added a daily task to my google calendar (my preferred method of organizing my life) for notebook updates to prompt me at 5pm each day if I haven’t posted to help with this.\nI’ve also switched to the single document with a TOC for each date for notebook posts, I think this will help as well since it makes it less steps to update my notebook not having to make a new document each time.\n\n\n\nRefresh my understanding of how bioinfo tools (like blast) work / how to read the tables\n\nStart with reviewing the FISH546 materials\nAsk for additional resources as needed\n\n\n\nClam Work\n\nRun RNA-seq analysis on clam gonad samples (per github issue)\n\n\n\nProject Stuff\n\nWork on creating a more clear direction of what my project will look like\nWork with Steven to plan what I need to do to get started on my specific project"
+  },
+  {
+    "objectID": "posts/2023-11/2023-1101.html#nov.-7---finished-geoduck-tutorial-start-clam-repo",
+    "href": "posts/2023-11/2023-1101.html#nov.-7---finished-geoduck-tutorial-start-clam-repo",
+    "title": "November Daily Posts",
+    "section": "Nov. 7 - Finished geoduck tutorial, start clam repo",
+    "text": "Nov. 7 - Finished geoduck tutorial, start clam repo\nFinished what I had hoped to today! Created/pushed the new repo for blast tutorial and closed that issue (finally). I created the repo for clam data and added a readme to each folder, and have started using the single-doc / TOC format for notebook updates.\nAside from that, I also added my November goals to my notebook, and did school stuff (class and homework)."
+  },
+  {
+    "objectID": "posts/2023-11/2023-1101.html#nov.-8---clam-rnaseq-work",
+    "href": "posts/2023-11/2023-1101.html#nov.-8---clam-rnaseq-work",
+    "title": "November Daily Posts",
+    "section": "Nov. 8 - Clam RNAseq work",
+    "text": "Nov. 8 - Clam RNAseq work\nPretty chill day – some homework in the morning before class.\nAfter class, I got started on the clam rnaseq analysis. Mostly just retrieving the files from Gannet, which took some time. While that loaded I was able to start mapping out the next step in the workflow, which will be checking md5sums to confirm file integrity, then using FastQC and MultiQC to look at the quality of our reads. I hope to run these steps tomorrow so I can start next steps (or start some reading to understand what the next steps even are) come Monday. Based on my work with Coho RNAseq data back in 2021, the next steps after fast/multiQC would be:\n\ntrimming\nkallisto to quantify gene expression using the provided reference genome included in github issue.\nuse DESeq2 to visualize DEGs\nrun blast to identify DEG functions\njoin the DEG stats from DESeq2 and the identified DEGs\n\nThe last two I’m a little unsure if those are the right steps for this specific data. The coho analysis was comparing two treatments, and I’m just not entirely sure if that’s the type of analysis we are looking for here. But that is where the reading / literature hunt will come in on Monday.\nWhile the files were loading, I read Race After Technology - Chapter 1 to prep for tomorrow’s lab meeting."
   }
 ]
