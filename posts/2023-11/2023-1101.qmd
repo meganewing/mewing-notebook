@@ -72,3 +72,17 @@ After class, I got started on the clam rnaseq analysis. Mostly just retrieving t
 The last two I'm a little unsure if those are the right steps for this specific data. The coho analysis was comparing two treatments, and I'm just not *entirely* sure if that's the type of analysis we are looking for here. But that is where the reading / literature hunt will come in on Monday.
 
 While the files were loading, I read Race After Technology - Chapter 1 to prep for tomorrow's lab meeting.
+
+## Nov. 15 - FastQC / MultiQC
+
+Woof. Admittedly I haven't gotten around to much lab related stuff early this week, but was able to sit and get through the fastqc tonight. Multiqc will be in the morning. I attempted, but doing it on Raven makes it a little funky since the `multiqc .` command I used last time doesn't seem to work the same. Also had a little trouble running the md5sum check so I skipped for now. But luckily we'll be goin over things in lab meeting tomorrow :)
+
+## Nov. 16 - MultiQC, Next Steps
+
+Goals for today
+
+-   Finish MultiQC and md5sum check
+
+-   Draft next steps code
+
+-   Get ahead on Lab for qsci and hw for fish553

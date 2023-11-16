@@ -208,5 +208,19 @@
     "title": "November Daily Posts",
     "section": "Nov. 8 - Clam RNAseq work",
     "text": "Nov. 8 - Clam RNAseq work\nPretty chill day – some homework in the morning before class.\nAfter class, I got started on the clam rnaseq analysis. Mostly just retrieving the files from Gannet, which took some time. While that loaded I was able to start mapping out the next step in the workflow, which will be checking md5sums to confirm file integrity, then using FastQC and MultiQC to look at the quality of our reads. I hope to run these steps tomorrow so I can start next steps (or start some reading to understand what the next steps even are) come Monday. Based on my work with Coho RNAseq data back in 2021, the next steps after fast/multiQC would be:\n\ntrimming\nkallisto to quantify gene expression using the provided reference genome included in github issue.\nuse DESeq2 to visualize DEGs\nrun blast to identify DEG functions\njoin the DEG stats from DESeq2 and the identified DEGs\n\nThe last two I’m a little unsure if those are the right steps for this specific data. The coho analysis was comparing two treatments, and I’m just not entirely sure if that’s the type of analysis we are looking for here. But that is where the reading / literature hunt will come in on Monday.\nWhile the files were loading, I read Race After Technology - Chapter 1 to prep for tomorrow’s lab meeting."
+  },
+  {
+    "objectID": "posts/2023-11/2023-1101.html#nov.-15---fastqc-multiqc",
+    "href": "posts/2023-11/2023-1101.html#nov.-15---fastqc-multiqc",
+    "title": "November Daily Posts",
+    "section": "Nov. 15 - FastQC / MultiQC",
+    "text": "Nov. 15 - FastQC / MultiQC\nWoof. Admittedly I haven’t gotten around to much lab related stuff early this week, but was able to sit and get through the fastqc tonight. Multiqc will be in the morning. I attempted, but doing it on Raven makes it a little funky since the multiqc . command I used last time doesn’t seem to work the same. Also had a little trouble running the md5sum check so I skipped for now. But luckily we’ll be goin over things in lab meeting tomorrow :)"
+  },
+  {
+    "objectID": "posts/2023-11/2023-1101.html#nov.-16---multiqc-next-steps",
+    "href": "posts/2023-11/2023-1101.html#nov.-16---multiqc-next-steps",
+    "title": "November Daily Posts",
+    "section": "Nov. 16 - MultiQC, Next Steps",
+    "text": "Nov. 16 - MultiQC, Next Steps\nGoals for today\n\nFinish MultiQC and md5sum check\nDraft next steps code\nGet ahead on Lab for qsci and hw for fish553"
   }
 ]
