@@ -222,5 +222,12 @@
     "title": "November Daily Posts",
     "section": "Nov. 16 - MultiQC, Next Steps",
     "text": "Nov. 16 - MultiQC, Next Steps\nGoals for today\n\nFinish MultiQC and md5sum check\nDraft next steps code\nGet ahead on Lab for qsci and hw for fish553"
+  },
+  {
+    "objectID": "posts/2023-11/2023-1101.html#nov.-27---multiqc-kallisto-start-school-stuff",
+    "href": "posts/2023-11/2023-1101.html#nov.-27---multiqc-kallisto-start-school-stuff",
+    "title": "November Daily Posts",
+    "section": "Nov. 27 - MultiQC, Kallisto Start, School Stuff",
+    "text": "Nov. 27 - MultiQC, Kallisto Start, School Stuff\nLooked at MultiQC results and moved on to Kallisto. Currently reading through a Kallisto tutorial to refresh my memory in addition to looking to old code (that I did not do the best at annotating).\nRegistered for classes and outlined my day-to-day schedule for school/lab/work stuff next quarter. Signed up for 521: Research Proposal Writing (req’d) and 510: Current Topics in Genetics and Physiology, which I figured will be of relevance for my project.\nAs November comes to an end my goals for this week are to:\n\nGeneral: re check my November goals to see what’s left I need to wrap up\nTuesday\n\nfinish kallisto\nstart/finish deseq2 visualization\nread papers for hot topics course (co moderating discussion this week)\n\nWednesday\n\nblast on clam data\njoin DEG list and expression levels (would love to get a heatmap a start to DEG function ID by EOD wednesday)\nmeet with co moderator for hot topics\npre lab meeting reading\n\nThursday\n\nlab meeting\nfinish up homework for the week\nattend safs seminar"
   }
 ]

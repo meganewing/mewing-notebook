@@ -86,3 +86,39 @@ Goals for today
 -   Draft next steps code
 
 -   Get ahead on Lab for qsci and hw for fish553
+
+## Nov. 27 - MultiQC, Kallisto Start, School Stuff
+
+Looked at MultiQC results and moved on to Kallisto. Currently reading through a Kallisto tutorial to refresh my memory in addition to looking to old code (that I did not do the best at annotating).
+
+Registered for classes and outlined my day-to-day schedule for school/lab/work stuff next quarter. Signed up for 521: Research Proposal Writing (req'd) and 510: Current Topics in Genetics and Physiology, which I figured will be of relevance for my project.
+
+As November comes to an end my goals for this week are to:
+
+-   General: re check my November goals to see what's left I need to wrap up
+
+-   Tuesday
+
+    -   finish kallisto
+
+    -   start/finish deseq2 visualization
+
+    -   read papers for hot topics course (co moderating discussion this week)
+
+-   Wednesday
+
+    -   blast on clam data
+
+    -   join DEG list and expression levels (would love to get a heatmap a start to DEG function ID by EOD wednesday)
+
+    -   meet with co moderator for hot topics
+
+    -   pre lab meeting reading
+
+-   Thursday
+
+    -   lab meeting
+
+    -   finish up homework for the week
+
+    -   attend safs seminar
