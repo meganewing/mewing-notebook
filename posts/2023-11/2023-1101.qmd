@@ -122,3 +122,9 @@ As November comes to an end my goals for this week are to:
     -   finish up homework for the week
 
     -   attend safs seminar
+
+## Nov. 28 - Kallisto, DESeq2 
+
+Kallisto code is finished but still running, so I wasn't really able to do the deseq2 step like anticipated, but I did write out the code so as soon as Kallisto is finished up it should be good to go. While I may not be able to start and finish the blast tomorrow, I should be able to get the heatmap and volcano plot like I had hoped.
+
+For other stuff, I worked on readings for hot topics and got coffee with my SAFS peer mentor (we meet every \~3 weeks).
