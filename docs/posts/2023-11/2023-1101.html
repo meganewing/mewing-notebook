@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -152,6 +186,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#nov.-16---multiqc-next-steps" id="toc-nov.-16---multiqc-next-steps" class="nav-link" data-scroll-target="#nov.-16---multiqc-next-steps">Nov.&nbsp;16 - MultiQC, Next Steps</a></li>
   <li><a href="#nov.-27---multiqc-kallisto-start-school-stuff" id="toc-nov.-27---multiqc-kallisto-start-school-stuff" class="nav-link" data-scroll-target="#nov.-27---multiqc-kallisto-start-school-stuff">Nov.&nbsp;27 - MultiQC, Kallisto Start, School Stuff</a></li>
   <li><a href="#nov.-28---kallisto-deseq2" id="toc-nov.-28---kallisto-deseq2" class="nav-link" data-scroll-target="#nov.-28---kallisto-deseq2">Nov.&nbsp;28 - Kallisto, DESeq2</a></li>
+  <li><a href="#nov.-28---kallisto-troubles-and-learning-ggplot" id="toc-nov.-28---kallisto-troubles-and-learning-ggplot" class="nav-link" data-scroll-target="#nov.-28---kallisto-troubles-and-learning-ggplot">Nov.&nbsp;28 - Kallisto troubles and learning ggplot</a></li>
   </ul>
 </nav>
     </div>
@@ -258,6 +293,33 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="nov.-28---kallisto-deseq2">Nov.&nbsp;28 - Kallisto, DESeq2</h2>
 <p>Kallisto code is finished but still running, so I wasn’t really able to do the deseq2 step like anticipated, but I did write out the code so as soon as Kallisto is finished up it should be good to go. While I may not be able to start and finish the blast tomorrow, I should be able to get the heatmap and volcano plot like I had hoped.</p>
 <p>For other stuff, I worked on readings for hot topics and got coffee with my SAFS peer mentor (we meet every ~3 weeks).</p>
+</section>
+<section id="nov.-28---kallisto-troubles-and-learning-ggplot" class="level2">
+<h2 class="anchored" data-anchor-id="nov.-28---kallisto-troubles-and-learning-ggplot">Nov.&nbsp;28 - Kallisto troubles and learning ggplot</h2>
+<p>If Kallisto was a person, this morning I was damn near getting into a bar fight with them.</p>
+<p>Not really but ran into some issues with the output files not showing what I wanted so spent some time trouble shooting that and didn’t get to do the DESeq2 like I had hoped :(</p>
+<p>Other than that, worked with my co moderator on a plan for our hot topics discussion tomorrow, and then had class this morning where I learned about how to use ggplot (just in time for our plot focused lab meeting tomorrow!) Here is the code for the plot I created in class:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> diamonds, </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>       <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carat, <span class="at">y =</span> price, <span class="at">shape =</span> cut, <span class="at">color =</span> color, <span class="at">alpha =</span> clarity, <span class="at">size =</span> depth)) <span class="sc">+</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>       <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>       <span class="fu">ggtitle</span>(<span class="st">"Diamonds are Expensive"</span>) <span class="sc">+</span> <span class="fu">xlab</span>(<span class="st">"why? (carat)"</span>)<span class="sc">+</span> <span class="fu">ylab</span>(<span class="st">"how expensive? (price)"</span>) <span class="sc">+</span> </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>       <span class="fu">theme</span>(<span class="at">plot.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"hotpink"</span>), </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">panel.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"lavender"</span>),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">legend.key.size =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">'cm'</span>), <span class="co">#change legend key size</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>       <span class="at">legend.key.height =</span> <span class="fu">unit</span>(.<span class="dv">5</span>, <span class="st">'cm'</span>), <span class="co">#change legend key height</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>       <span class="at">legend.key.width =</span> <span class="fu">unit</span>(.<span class="dv">5</span>, <span class="st">'cm'</span>), <span class="co">#change legend key width</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">legend.title =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">4</span>), <span class="co">#change legend title font size</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>       <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">4</span>)) <span class="sc">+</span> </span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>       <span class="fu">scale_shape_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="dv">21</span>, <span class="dv">22</span>, <span class="dv">23</span>, <span class="dv">24</span>, <span class="dv">25</span>)) <span class="sc">+</span> </span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>       <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"pink"</span>, <span class="st">"pink2"</span>, <span class="st">"pink3"</span>, <span class="st">"pink4"</span>, <span class="st">"hotpink"</span>, <span class="st">"hotpink2"</span>, <span class="st">"hotpink3"</span>)) <span class="sc">+</span> </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>       <span class="fu">scale_y_continuous</span>(<span class="at">breaks=</span><span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">20000</span>, <span class="dv">2000</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="2023-1101_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 
 
 </section>
