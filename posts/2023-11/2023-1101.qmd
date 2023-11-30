@@ -129,7 +129,7 @@ Kallisto code is finished but still running, so I wasn't really able to do the d
 
 For other stuff, I worked on readings for hot topics and got coffee with my SAFS peer mentor (we meet every \~3 weeks).
 
-## Nov. 28 - Kallisto troubles and learning ggplot
+## Nov. 29 - Kallisto troubles and learning ggplot
 
 If Kallisto was a person, this morning I was damn near getting into a bar fight with them.
 
