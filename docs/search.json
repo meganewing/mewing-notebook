@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "mewing-notebook",
     "section": "",
-    "text": "November Daily Posts\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nNov 8, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nNovember 23 Goals\n\n\n\n\n\n\n\ngoals\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPlaying Around\n\n\n\n\n\n\n\nexercises\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBivlaves and Blast\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "November Daily Posts\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nNov 8, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nNovember 23 Goals\n\n\n\n\n\n\n\ngoals\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPlaying Around\n\n\n\n\n\n\n\nexercises\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBivlaves and Blast\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nBlast Adventures\n\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nFirst notebook post\n\n\nGetting notebook up and running, starting blast\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\nMegan Ewing\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nDecember Daily Posts\n\n\n\n\n\n\n\ndaily\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nMegan Ewing\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-10/2023-1024.html",
@@ -257,5 +257,26 @@
     "title": "November Daily Posts",
     "section": "Nov. 29 - Kallisto troubles and learning ggplot",
     "text": "Nov. 29 - Kallisto troubles and learning ggplot\nIf Kallisto was a person, this morning I was damn near getting into a bar fight with them.\nNot really but ran into some issues with the output files not showing what I wanted so spent some time trouble shooting that and didn’t get to do the DESeq2 like I had hoped :(\nOther than that, worked with my co moderator on a plan for our hot topics discussion tomorrow, and then had class this morning where I learned about how to use ggplot (just in time for our plot focused lab meeting tomorrow!) Here is the code for the plot I created in class:\n\nlibrary(ggplot2)\n\nggplot(data = diamonds, \n       mapping = aes(x = carat, y = price, shape = cut, color = color, alpha = clarity, size = depth)) +\n       geom_point() + \n       ggtitle(\"Diamonds are Expensive\") + xlab(\"why? (carat)\")+ ylab(\"how expensive? (price)\") + \n       theme(plot.background = element_rect(fill = \"hotpink\"), \n       panel.background = element_rect(fill = \"lavender\"),\n       legend.key.size = unit(1, 'cm'), #change legend key size\n       legend.key.height = unit(.5, 'cm'), #change legend key height\n       legend.key.width = unit(.5, 'cm'), #change legend key width\n       legend.title = element_text(size=4), #change legend title font size\n       legend.text = element_text(size=4)) + \n       scale_shape_manual(values = c(21, 22, 23, 24, 25)) + \n       scale_color_manual(values = c(\"pink\", \"pink2\", \"pink3\", \"pink4\", \"hotpink\", \"hotpink2\", \"hotpink3\")) + \n       scale_y_continuous(breaks=seq(0, 20000, 2000))"
+  },
+  {
+    "objectID": "posts/2023-12/2023-12.html",
+    "href": "posts/2023-12/2023-12.html",
+    "title": "December Daily Posts",
+    "section": "",
+    "text": "Daily Notebook Updates for December"
+  },
+  {
+    "objectID": "posts/2023-12/2023-12.html#dec.-5---final-prep-quarter-wrap-up",
+    "href": "posts/2023-12/2023-12.html#dec.-5---final-prep-quarter-wrap-up",
+    "title": "December Daily Posts",
+    "section": "Dec. 5 - Final Prep / Quarter Wrap Up",
+    "text": "Dec. 5 - Final Prep / Quarter Wrap Up\nThis week I’ve put a pause on lab stuff to focus on wrapping up any assignments for the quarter and studying for the final in qsci. Goals for the week:\n\nstudy for qsci\nfinish any remaining assignments\nread chapters for lab meeting\nget December goals posted"
+  },
+  {
+    "objectID": "posts/2023-12/2023-12.html#dec.-6---studying",
+    "href": "posts/2023-12/2023-12.html#dec.-6---studying",
+    "title": "December Daily Posts",
+    "section": "Dec. 6 - Studying",
+    "text": "Dec. 6 - Studying\nHad my last class for fish552/3. Only have 1 assignment left for that which I should be wrapped up with by Friday night.\nCurrently compiling notes for qsci and reviewing old story assignments and labs. Tomorrow I’ll take the practice midterm and then review any remaining topics from there."
   }
 ]

@@ -1,0 +1,30 @@
+---
+title: "December Daily Posts"
+author: "Megan Ewing"
+date: "`r Sys.Date()`"
+categories: daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+**Daily Notebook Updates for December**
+
+## Dec. 5 - Final Prep / Quarter Wrap Up
+
+This week I've put a pause on lab stuff to focus on wrapping up any assignments for the quarter and studying for the final in qsci. Goals for the week:
+
+-   study for qsci
+
+-   finish any remaining assignments
+
+-   read chapters for lab meeting
+
+-   get December goals posted
+
+## Dec. 6 - Studying 
+
+Had my last class for fish552/3. Only have 1 assignment left for that which I should be wrapped up with by Friday night.
+
+Currently compiling notes for qsci and reviewing old story assignments and labs. Tomorrow I'll take the practice midterm and then review any remaining topics from there.
