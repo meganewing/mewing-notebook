@@ -306,5 +306,12 @@
     "title": "December Goals",
     "section": "Organizing my brain / reflection",
     "text": "Organizing my brain / reflection\nI’ve been trying to play with different ways to manage class, work, and lab stuff in a way that doesn’t cause any to suffer, and also doesn’t disrupt my work life balance (which I try to follow the rule of thirds on: a third work, a third family/friend commitments, and a third myself). As is, I’m spending 20-25 hours a week on “grad school stuff”, which is about what my target is. But there definitely seemed to be a tradeoff between class and lab stuff, where if I felt like I was making good progress on one, the other was kind of lagging. I’m hoping with having less class time next quarter will help, because the days/weeks in November that I made the most progress on the RNA seq analysis were days that I didn’t have my workflow disrupted by class or didn’t have any homework/class stuff to focus on. If not though, my friend told me about his work taking projects on in “sprints” where they do 1-2 weeks on one project, then 1-2 on a different project, and go back and forth like that. I also remember Aspen mentioning that she focuses the first half of her week on TA duties, with the latter half on Lab/Project stuff. So one goal I have for December (and January once classes start again) is to implement on of these strategies of time management, so I don’t feel like I’m trying to juggle too many things at once, and can spend dedicated time on one thing at a time."
+  },
+  {
+    "objectID": "posts/2023-12/2023-12.html#dec.-12---kallisto",
+    "href": "posts/2023-12/2023-12.html#dec.-12---kallisto",
+    "title": "December Daily Posts",
+    "section": "Dec. 12 - Kallisto",
+    "text": "Dec. 12 - Kallisto\nHad a work (non school) event this morning/afternoon. Afterwards I got back on the rnaseq workflow and unzipped the reference genome file. Ran the code to create the index file (currently still running). If that finishes in time then I’ll run the kallisto chunks so they are ready for tomorrow to work on next steps during hack week."
   }
 ]

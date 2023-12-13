@@ -23,8 +23,12 @@ This week I've put a pause on lab stuff to focus on wrapping up any assignments 
 
 -   get December goals posted
 
-## Dec. 6 - Studying 
+## Dec. 6 - Studying
 
 Had my last class for fish552/3. Only have 1 assignment left for that which I should be wrapped up with by Friday night.
 
 Currently compiling notes for qsci and reviewing old story assignments and labs. Tomorrow I'll take the practice midterm and then review any remaining topics from there.
+
+## Dec. 12 - Kallisto
+
+Had a work (non school) event this morning/afternoon. Afterwards I got back on the rnaseq workflow and unzipped the reference genome file. Ran the code to create the index file (currently still running). If that finishes in time then I'll run the kallisto chunks so they are ready for tomorrow to work on next steps during hack week.
