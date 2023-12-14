@@ -11,7 +11,7 @@ editor: visual
 
 **Goals for December:**
 
-## Finish Manila Clam RNA seq analysis 
+## Finish Manila Clam RNA seq analysis
 
 I was hoping to get this wrapped up last month but classes got the better of me. With no classes starting next week, I think I'll be able to get this issue closed semi-quickly.
 

@@ -32,3 +32,9 @@ Currently compiling notes for qsci and reviewing old story assignments and labs.
 ## Dec. 12 - Kallisto
 
 Had a work (non school) event this morning/afternoon. Afterwards I got back on the rnaseq workflow and unzipped the reference genome file. Ran the code to create the index file (currently still running). If that finishes in time then I'll run the kallisto chunks so they are ready for tomorrow to work on next steps during hack week.
+
+## Dec. 13 - Hackweek and Kallisto
+
+Woot woot finally moved through Kallisto and got a good and proper matrix. Now onto DESeq2. Got the volcano plot and am currently working on the heatmap. If I can get those done early tomorrow morning then it will be just blasting all day tomorrow: the manila clam rna seq data and the top marker genes for the oyster/geoduck files.
+
+Today I also started hunting for papers to prep for the potential of working on an olympia oyster related project. Quickly realized I have pretty substantial knowledge gaps in oyster biology/physiology as a whole so starting a bit broader than expected, but at least have a bit of direction to head towards.
