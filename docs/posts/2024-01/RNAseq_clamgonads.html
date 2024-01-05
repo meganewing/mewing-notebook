@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Megan Ewing">
+<meta name="dcterms.date" content="2024-01-04">
+
+<title>mewing-notebook - Clam Gonad RNAseq Analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">mewing-notebook</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Clam Gonad RNAseq Analysis</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">projects</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Megan Ewing </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 4, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link active" data-scroll-target="#the-data">The Data</a></li>
+  <li><a href="#the-workflow" id="toc-the-workflow" class="nav-link" data-scroll-target="#the-workflow">The Workflow</a>
+  <ul class="collapse">
+  <li><a href="#retrieving-files-from-gannet" id="toc-retrieving-files-from-gannet" class="nav-link" data-scroll-target="#retrieving-files-from-gannet">Retrieving Files From Gannet</a></li>
+  <li><a href="#checking-file-integrity-via-md5sums" id="toc-checking-file-integrity-via-md5sums" class="nav-link" data-scroll-target="#checking-file-integrity-via-md5sums">Checking File Integrity via MD5sums</a></li>
+  <li><a href="#fastqc-and-multiqc" id="toc-fastqc-and-multiqc" class="nav-link" data-scroll-target="#fastqc-and-multiqc">FastQC and MultiQC</a></li>
+  <li><a href="#psuedo-alignment-with-kallisto" id="toc-psuedo-alignment-with-kallisto" class="nav-link" data-scroll-target="#psuedo-alignment-with-kallisto">Psuedo Alignment with Kallisto</a></li>
+  <li><a href="#differential-expression-and-visualization-with-deseq2" id="toc-differential-expression-and-visualization-with-deseq2" class="nav-link" data-scroll-target="#differential-expression-and-visualization-with-deseq2">Differential Expression and Visualization with DESeq2</a></li>
+  <li><a href="#identifying-deg-functions-with-blastx" id="toc-identifying-deg-functions-with-blastx" class="nav-link" data-scroll-target="#identifying-deg-functions-with-blastx">Identifying DEG Functions with Blastx</a></li>
+  <li><a href="#joining-deg-with-blast-results-and-uniprot-gene-ontology-annotations" id="toc-joining-deg-with-blast-results-and-uniprot-gene-ontology-annotations" class="nav-link" data-scroll-target="#joining-deg-with-blast-results-and-uniprot-gene-ontology-annotations">Joining DEG with Blast Results and UniProt Gene Ontology Annotations</a></li>
+  <li><a href="#general-non-step-specific-software-and-hardware-info" id="toc-general-non-step-specific-software-and-hardware-info" class="nav-link" data-scroll-target="#general-non-step-specific-software-and-hardware-info">General (non-step specific) software and hardware info:</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>Write up for <a href="https://github.com/RobertsLab/resources/issues/1748">this github issue</a></p>
+<p>Github repo available <a href="https://github.com/meganewing/clamgonads-macsamples">here</a> but each step’s chunk is also linked in workflow write up.</p>
+<section id="the-data" class="level1">
+<h1>The Data</h1>
+<p>The RNA-seq data that was analyzed for this issue was from manila clam (<em>Ruditapes philippinarum</em>) samples of a control and treatment group. There were 15 control samples and 15 treatment samples, each with 2 reads. Each fasta file had the naming scheme <code>M-?-###_R#_001</code> where <code>?</code> = C (control) or T(treatment), <code>###</code> = sample number, and <code>R#</code> = R1 (read 1) or R2 (read 2). Raw files can be found <a href="https://gannet.fish.washington.edu/mewing0/Man_clam_raw/">here</a>.</p>
+</section>
+<section id="the-workflow" class="level1">
+<h1>The Workflow</h1>
+<section id="retrieving-files-from-gannet" class="level3">
+<h3 class="anchored" data-anchor-id="retrieving-files-from-gannet">Retrieving Files From Gannet</h3>
+<p>To start the analysis, I retrieved the raw reads from gannet using wget.</p>
+<p><a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/code/01-RNAseq.Rmd">Code on Github</a></p>
+</section>
+<section id="checking-file-integrity-via-md5sums" class="level3">
+<h3 class="anchored" data-anchor-id="checking-file-integrity-via-md5sums">Checking File Integrity via MD5sums</h3>
+<p>Typically, the next step would be to check the file integrity by comparing the md5sums of the downloaded files with those on the remote server (gannet). However, the directory containing our reads did not have a text file of the md5sums for me to run <code>md5sum</code> on. So we skipped this step.</p>
+<p><a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/code/02-md5sums.Rmd">Code on Github</a></p>
+</section>
+<section id="fastqc-and-multiqc" class="level3">
+<h3 class="anchored" data-anchor-id="fastqc-and-multiqc">FastQC and MultiQC</h3>
+<p>The next step was to evaluate the quality of our sequences using FastQC and MultiQC. I generated a FastQC file for each of the reads, and then combined all of those using MultiQC to look at the quality of all of our reads together. The MultiQC report can be found <a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/output/fastQC-output/multiqc_report.html">here</a> (note to view the “pretty version” you will need to download the html file and open the local file since github just shows the raw). Here’s some of the results from that:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fastqc_sequence_counts_plot.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption"><img src="images/fastqc_per_base_sequence_quality_plot.png" class="img-fluid figure-img"></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fastqc_per_sequence_quality_scores_plot.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fastqc_per_sequence_gc_content_plot.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fastqc_per_base_n_content_plot.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fastqc_sequence_duplication_levels_plot.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p><img src="images/fastqc_overrepresented_sequences_plot.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Screen Shot 2024-01-04 at 3.16.31 PM.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/fastqc-status-check-heatmap.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Software Used:</p>
+<ul>
+<li>FastQC (v0.12.1)</li>
+</ul>
+<p><a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/code/03-fastqc_multiqc.Rmd">Code on Github</a></p>
+</section>
+<section id="psuedo-alignment-with-kallisto" class="level3">
+<h3 class="anchored" data-anchor-id="psuedo-alignment-with-kallisto">Psuedo Alignment with Kallisto</h3>
+<p>Next I pseudo aligned the reads and quantified expression using Kallisto. I did not trim prior to this as it is not wholly necessary for pseudo alignment. An index for alignment and quantification was created using a <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_026571515.1/">reference transcriptome for <em>Ruditapes philippinarum</em></a> (note: ensure to select for RNA file)<em>.</em> Paired end reads for each sample were then aligned and quantified against this index.</p>
+<p>Following pseudo alignment and quantification, a trinity matrix was created with the Kallisto output to build an abundance matrix.</p>
+<p>Software Used:</p>
+<ul>
+<li><p>Kallisto (Linux)(v0.50.1)</p></li>
+<li><p>TrinityRNAseq (v2.12.0)</p></li>
+</ul>
+<p><a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/code/05-kallisto.Rmd">Code on Github</a></p>
+</section>
+<section id="differential-expression-and-visualization-with-deseq2" class="level3">
+<h3 class="anchored" data-anchor-id="differential-expression-and-visualization-with-deseq2">Differential Expression and Visualization with DESeq2</h3>
+<p>Using the quantification in the trinity matrix created, I ran DESeq2 to show deferentially expressed genes, and filtering for those who’s expression showed a difference with a p value &lt;= 0.05. Differential expression was also visualized via a volcano plot and heatmap of the top 25 deferentially expressed genes)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/volcanoplot-01.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/heatmap.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Along with the visualzations, I created a dataframe with the differentially expressed genes and associated statistics (base mean, log 2fold change, lfcSE, stat, pvalue, padj) and saved as a tab file for the next steps.</p>
+<p>Software used:</p>
+<ul>
+<li><p>BiocManager (v1.30.22)</p></li>
+<li><p>DESeq2 (v1.38.3)</p></li>
+<li><p>pheatmap (v1.0.12)</p></li>
+</ul>
+<p><a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/code/06-deseq2.Rmd">Code on GitHub</a></p>
+</section>
+<section id="identifying-deg-functions-with-blastx" class="level3">
+<h3 class="anchored" data-anchor-id="identifying-deg-functions-with-blastx">Identifying DEG Functions with Blastx</h3>
+<p>Once we had a tab file with differentially expressed genes, we could run blast on our <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_026571515.1/">reference genome</a> (note: be sure to select for RNA file). Doing this creates a list of all of the genes (and gene short names) in our reference genome for us to get the names of our DEGs in the next step.</p>
+<p>Software used:</p>
+<ul>
+<li>NCBI Blast (v2.11.0)</li>
+</ul>
+<p><a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/code/07-blast.Rmd">Code on Github</a></p>
+</section>
+<section id="joining-deg-with-blast-results-and-uniprot-gene-ontology-annotations" class="level3">
+<h3 class="anchored" data-anchor-id="joining-deg-with-blast-results-and-uniprot-gene-ontology-annotations">Joining DEG with Blast Results and UniProt Gene Ontology Annotations</h3>
+<p>Using the file created from the reference genome Blast, I combined the Blast results with the DEG file by the common gene names. This dataframe contained the gene ID, gene short name, base mean, log 2fold change, pvalue, and padj. I isolated the UniProt IDs from the gene short names in order to retrieve the gene ontology (GO) annotations of interest.</p>
+<p>I looked up the annotations on <a href="https://www.uniprot.org/id-mapping">UniProt’s web interface</a> and saved the output as a tab file. Finally, I merged the Blast/DEG data frame with the GO data frame by the common UniProt ID’s/Entries to get a file of our GO annotations for the significantly deferentially expressed genes. The annotation file is available <a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/output/clam_GO_annotations.csv">here</a>.</p>
+<p><a href="08-join_annotations.Rmd">Code on Github</a></p>
+</section>
+<section id="general-non-step-specific-software-and-hardware-info" class="level3">
+<h3 class="anchored" data-anchor-id="general-non-step-specific-software-and-hardware-info">General (non-step specific) software and hardware info:</h3>
+<p>Computer: 2016 MacBook Pro 8GB 13” with macOS Big Sur (v11.2)</p>
+<p>IDE: R Studio (v4.2.3)(via raven)</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
