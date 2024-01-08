@@ -1,0 +1,18 @@
+---
+title: "January Daily Posts"
+author: "Megan Ewing"
+date: 
+categories: daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## Jan. 4
+
+Gettin back in the flow of things after the holidays. Finished up and did the writeup for the clam RNAseq data. Notebook post available here.
+
+## Jan. 7
+
+Did some registration stuff, prep for classes starting tomorrow, and the writeup for the oyster/geoduck top marker genes. Notebook post available here (will add next daily update since I'm doin it in the same commit as this one)

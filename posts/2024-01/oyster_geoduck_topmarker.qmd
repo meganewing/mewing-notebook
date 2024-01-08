@@ -1,0 +1,22 @@
+---
+title: "Geoduck and Oyster scRNAseq Top Marker Gene Comparison"
+author: "Megan Ewing"
+date: "01-07-2024"
+categories: projects
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+Write up for [this github issue](https://github.com/RobertsLab/resources/issues/1749)
+
+Github repo available [here](https://github.com/meganewing/oyster-geoduck-topmarkers/tree/main)
+
+## The Data
+
+Two scRNAseq annotated files containing top marker genes. One for [geoduck](https://github.com/sr320/paper-geoduck-gene-exp/blob/main/data/geoduck_topmarkers_annot.txt) one for [oyster](https://docs.google.com/spreadsheets/d/1FwwQP7-bHOjVpJjQivAw2Clw2B71Vndr/edit#gid=598008114).
+
+## The Workflow
+
+This one was pretty short. I read in both of the files, which had annotations for the top marker genes, and joined them based on their common gene id's. The resulting matches show the top marker genes shared by both. The output was then written to a [csv](https://github.com/meganewing/oyster-geoduck-topmarkers/blob/main/output/top_marker_oyster_geoduck_common.csv).
