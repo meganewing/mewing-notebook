@@ -1,7 +1,7 @@
 ---
 title: "January Daily Posts"
 author: "Megan Ewing"
-date: "01-04-2024"
+date: "01-11-2024"
 categories: daily
 format: 
   html:
@@ -11,8 +11,16 @@ editor: visual
 
 ## Jan. 4
 
-Gettin back in the flow of things after the holidays. Finished up and did the writeup for the clam RNAseq data. Notebook post available here.
+Gettin back in the flow of things after the holidays. Finished up and did the writeup for the clam RNAseq data. Notebook post available [here](https://meganewing.github.io/mewing-notebook/posts/2024-01/RNAseq_clamgonads.html).
 
 ## Jan. 7
 
-Did some registration stuff, prep for classes starting tomorrow, and the writeup for the oyster/geoduck top marker genes. Notebook post available here (will add next daily update since I'm doin it in the same commit as this one)
+Did some registration stuff, prep for classes starting tomorrow, and the writeup for the oyster/geoduck top marker genes. Notebook post available [here](https://meganewing.github.io/mewing-notebook/posts/2024-01/oyster_geoduck_topmarker.html).
+
+## Jan. 8 / 9
+
+First couple days of classes. Reviewed syllabuses (syllabi?). Resumed literature search for oyster papers. Read chapter 4 for dei meeting.
+
+## Jan. 11
+
+Updated January goals (a little late, I know). Got started on paper pile and added some of the papers I'm reading and/or am interested in reading.
