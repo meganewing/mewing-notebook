@@ -1,0 +1,46 @@
+---
+title: "March Daily Posts"
+author: "Megan Ewing"
+date: "03-31-2024"
+categories: daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+better late than never :)
+
+## March 25th
+
+-   First Day of Classes
+
+-   Finished registration stuff
+
+-   Caught up on emails
+
+-   Read ch. 1 for fish 541
+
+## March 26th
+
+-   GRFP activities report
+
+-   Review proposal edits
+
+-   class
+
+## March 27th
+
+-   Met with Steven to review GRFP activities report and proposal edits
+
+-   Got new information on what the project will look like
+
+-   Homework readings & quizzes
+
+## March 28th 
+
+-   Posted github issues on methods and clam stuff
+
+-   Read braiding sweetgrass section
+
+-   class, lab meeting, pub a thon

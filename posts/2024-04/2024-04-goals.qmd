@@ -1,0 +1,36 @@
+---
+title: "April Goals"
+author: "Megan Ewing"
+date: "04-01-2024"
+categories: goals
+format: html
+editor: visual
+---
+
+## April Goals...well...[goal]{.underline}
+
+-   Main goal this quarter is to get together a draft of chapter 1: on comparative physiology and transciptomics of bivalve reproductions. This includes
+
+    -   Doing both the following approaches:
+
+        -   Approach 1: 
+
+            -   Short list of genes (query file)
+
+                -   Look up proteins on ncbi and download faster files to use as queer file
+
+            -   Transciptome of organism of interest (database)
+
+            -   Use blast to see if they are present in different genomes
+
+            Approach 2 (shotgun approach)
+
+            -   Taking everything in species
+
+            -   Annotating everything
+
+            -   Sorting things based on reproduction
+
+        So for April I'll start with 1 data set (one species) and get protocls in place, then go from there.
+
+-   Will also be doing some sampling (april 9/10 at manchester)
