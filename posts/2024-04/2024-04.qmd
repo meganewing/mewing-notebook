@@ -1,0 +1,110 @@
+---
+title: "April Daily Posts"
+author: "Megan Ewing"
+date: "04-04-2024"
+categories: daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## April 1
+
+-   541 reading/quiz
+
+## April 2
+
+-   class
+
+## April 3
+
+-   541 reading/quiz
+
+-   oyster methods updates
+
+## April 4
+
+-   reread 541 paper for more thorough notes
+
+-   Started manila clam methods edits
+
+-   class, lab meeting, pub a thon
+
+-   starting to brainstorm and ask around about ways to get involved with outreach incl. open house, maritime HS, and SEAS
+
+## April 8
+
+-   Not Roberts lab related, but spent most of the day working on revisions for an old manuscript that are due next week
+
+-   Class prep work
+
+## April 9
+
+-   Went out to Manchester for the day to help Mac with little neck clam spawning. The spawning was unsuccessful, sadly, and we'll have to re attempt in 2 weeks with hopes that 1) the clams are ripe enough and 2) there won't be excess mortality before we have a chance to spawn them
+
+## April 10th
+
+-   class prep / homework
+
+## April 11th
+
+-   got the repo together for the oyster project
+
+-   pub a thon
+
+-   class
+
+-   more manila clam edits
+
+## April 15th
+
+-   class prep/homework
+
+## April 16th
+
+-   class / lab
+
+-   start blast for o. lurida
+
+## April 17th
+
+-   class prep/homework
+
+## April 18th
+
+-   lab meeting
+
+-   class
+
+-   hisat work
+
+## April 19th
+
+-   finish hisat / submit lab
+
+    -   hisat output interrupted by server space
+
+## April 22nd
+
+-   class prep/homework
+
+## April 23rd
+
+-   Spawning at Manchester. Went better than last time. Had both treatments go through temperature cycles of 30 minutes at 25C and 30 minutes at 15C. After planned four cycles had 2 spawners (1 male, 1 female) from both control and OA treatments. At the end of the fourth cycle, more started spawning and added 1 additional 30/30 cycle and a shorter 15/15 cycle which yielded additional males and females for both treatments. Ended with 5 total females available for crossing, est. 5 million eggs/potential larvae. I had to leave early to catch the ferry and didn't get the final counts though.
+
+## April 24th
+
+-   class prep/homework
+
+## April 25th
+
+-   pub-a-thon
+
+-   re run deseq2 / troubleshoot why my heatmap turned out funky
+
+-   class
+
+-   lab meeting
+
+-   co work with zach to get on the lurida blast / finish it
