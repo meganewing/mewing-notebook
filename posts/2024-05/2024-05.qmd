@@ -1,0 +1,28 @@
+---
+title: "May Daily Posts"
+author: "Megan Ewing"
+date: "05-21-2024"
+categories: daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+Whoops forgot to do dailys, so here's weeklys:
+
+### May 1-4
+
+May 9th is my assigned day to lead 541, so on top of normal class and homework stuff, I was working on gathering curriculum material
+
+### May 5-11
+
+More curriculum prep stuff, regular class things, and caught up on lab homework (DESeq2 w featurecounts, blast, joining, gene enrichment, etc). Also open house is next weekend so did some prep with Andy for that.
+
+### May 12-18
+
+Class and regularly scheduled programming. Prep for open house, with grace. Went out on a boat (admiral jack!) with Rosalind and Maritime HS. And had the open house which was sick and had over 1200 estimated visitors!
+
+### May 19-26
+
+Class and lab, re installed x tools to finally get my notebook updated
