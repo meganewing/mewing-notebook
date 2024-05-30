@@ -9,7 +9,7 @@ format:
 editor: visual
 ---
 
-Whoops forgot to do dailys, so here's weeklys:
+Whoops forgot to do dailys for the first half (ok, three quarters) of the month, so here's weeklys:
 
 ### May 1-4
 
@@ -25,4 +25,20 @@ Class and regularly scheduled programming. Prep for open house, with grace. Went
 
 ### May 19-26
 
-Class and lab, re installed x tools to finally get my notebook updated
+Class and lab, re installed x tools to finally get my notebook updated. Started previewing some literature to understand enriched biological processes for clam samples. Was out Thursday afternoon through Monday.
+
+### May 27th
+
+Was out of office still, but in the evening continued working on looking at enriched biological processes functions / role in various pathways.
+
+### May 28th
+
+Presentation for 541. Working on going back to the list of DEG and log2fold change to try and tie back the biological processes to try and parse which ones are increasing or decreasing with my samples. Lottttt of debugging and contemplating becoming an off-the-grid nomad so I never have to touch a computer again.
+
+### May 29th
+
+Bright and early I went to continue debugging, with little success. Moved on and wrote up the methods for the clam OA stuff from class/lab, refined my figures a bit, and made my presentation for the creative project for class.
+
+### May 30
+
+Wrote up speaker notes for my presenation, did some more background literature reading, and prepped a bit for the presentation. Had class (didn't present) and lab meeting. Found out during lab meeting that the issues I was having with figuring out how to connect DEG, log2fold change, and BP together was really close to the right solution. Steven says that DAVID provides a uniprot accession number associated with each GO term it gives you, and can use that to connect REVIGO output to DEG expression levels.
