@@ -1,0 +1,14 @@
+---
+title: "June Daily Posts"
+author: "Megan Ewing"
+date: "06-05-2024"
+categories: daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+### June 3rd/4th
+
+Its hack-a-thon, but I've been terribly sick. My goals for hackathon were to 1. wrap up 541 lab, 2. finish the workflow for lurida, and 3. email potential committee members. When not resting I was able to do a little bit more work on the 3rd one, looking at committee requirements, potential folks to invite, and how to submit the milestone

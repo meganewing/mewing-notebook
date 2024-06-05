@@ -1,0 +1,30 @@
+---
+title: "June Goals"
+author: "Megan Ewing"
+date: "06-01-2024"
+categories: goals
+format: html
+editor: visual
+---
+
+## June Goals
+
+-   Finish workflow for O. lurida gene identification and get 1 additional species through the work flow (probs R. Phil)
+
+    -   "Shotgun approach"
+
+        -   Annotate whole transcriptome
+
+        -   Get a list of genes associated with reproduction
+
+    -   Search approach
+
+        -   Get a literature-based list of genes associated with reproduction
+
+        -   Get fasta file for each gene from NCBI (query file)
+
+        -   Blast using transcriptome of species of interest (database) to see if they are present in different organisms
+
+-   Write up workflow
+
+-   Form a committee
