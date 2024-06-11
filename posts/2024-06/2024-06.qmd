@@ -20,3 +20,11 @@ Emailed committee members, heard back from 2/3. Luke and Jose on board, just wai
 Also worked on finalizing my manila clam repo, getting the readme docs updated. Forwarded the hisat workflow write up and repo to mac as well.
 
 Troubleshooted VPN problems to no avail. And still sick so wasn't able to go into the office...
+
+### June 6th 
+
+Heard back from mac and we're good to go. Finalized manila clam repo and finished updating the readme docs. Submitted final lab assignment.
+
+### June 10th
+
+Went over lurida workflow to date ( just blast) to check outputs and added some visualizations. Started to search for various known (to literature) genes associated with repro (ex. dmrt) to see if present in blast output. Coordinated with mac to setup a time to go over committee and clam stuff.
