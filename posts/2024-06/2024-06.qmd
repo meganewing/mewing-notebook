@@ -21,7 +21,7 @@ Also worked on finalizing my manila clam repo, getting the readme docs updated. 
 
 Troubleshooted VPN problems to no avail. And still sick so wasn't able to go into the office...
 
-### June 6th 
+### June 6th
 
 Heard back from mac and we're good to go. Finalized manila clam repo and finished updating the readme docs. Submitted final lab assignment.
 
