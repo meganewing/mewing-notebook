@@ -1,5 +1,5 @@
 ---
-title: "June Daily Posts"
+title: "July Daily Posts"
 author: "Megan Ewing"
 date: "07-10-2024"
 categories: daily
