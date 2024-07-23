@@ -23,4 +23,8 @@ Met with mac to go over rphil updates. Next steps are to continue to mess around
 
 ### July 17th
 
-Worked on DESeq and Heatmap code to 1) clean it up to make it a bit more clear and 2) refine the heatmaps for each of the analysis so far. First readthrough of the rphil manuscript (so far) too.
+Worked on DESeq and Heatmap code to 1) clean it up to make it a bit more clear and 2) refine the heatmaps for each of the analysis so far. Started first readthrough of the rphil manuscript too.
+
+### July 19th
+
+Light week, but got some technical issues figured out and moved enough of the clam repo local to do some of the less heavy analysis from home again. Finished manuscript read through. Prepped for Chris' panel next week.
