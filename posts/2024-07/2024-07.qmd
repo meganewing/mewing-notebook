@@ -21,6 +21,6 @@ Went into the office and worked on some rphil updates. Reduced results to gene l
 
 Met with mac to go over rphil updates. Next steps are to continue to mess around with different filter settings to see what genes persist, and keep updating visualizations.
 
-### July 17th 
+### July 17th
 
 Worked on DESeq and Heatmap code to 1) clean it up to make it a bit more clear and 2) refine the heatmaps for each of the analysis so far. First readthrough of the rphil manuscript (so far) too.
