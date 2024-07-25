@@ -28,3 +28,7 @@ Worked on DESeq and Heatmap code to 1) clean it up to make it a bit more clear a
 ### July 19th
 
 Light week, but got some technical issues figured out and moved enough of the clam repo local to do some of the less heavy analysis from home again. Finished manuscript read through. Prepped for Chris' panel next week.
+
+### July 24th
+
+Went back and reconciled for the missing 193 sample. Redid featurcounts to include 193.
