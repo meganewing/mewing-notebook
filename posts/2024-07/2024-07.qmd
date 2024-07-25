@@ -32,3 +32,7 @@ Light week, but got some technical issues figured out and moved enough of the cl
 ### July 24th
 
 Went back and reconciled for the missing 193 sample. Redid featurcounts to include 193.
+
+### July 25th
+
+Contunued reconcilation for 193 and went and redid the analysis downstream of hisat / featurecounts. The number of DEGs now more closely matches Giles' results. First round of prefiltering of deseq results too.
