@@ -36,3 +36,11 @@ Went back and reconciled for the missing 193 sample. Redid featurcounts to inclu
 ### July 25th
 
 Contunued reconcilation for 193 and went and redid the analysis downstream of hisat / featurecounts. The number of DEGs now more closely matches Giles' results. First round of prefiltering of deseq results too.
+
+### July 26th
+
+Chris' student panel thing. More work on deseq prefiltering
+
+### July 27th
+
+More deseq prefiltering and moved onto by group specific prefiltering. Identified consistent top genes across each pre filtering parameter and set up list for annoation.
