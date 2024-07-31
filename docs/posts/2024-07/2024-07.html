@@ -153,6 +153,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#july-25th" id="toc-july-25th" class="nav-link" data-scroll-target="#july-25th">July 25th</a></li>
   <li><a href="#july-26th" id="toc-july-26th" class="nav-link" data-scroll-target="#july-26th">July 26th</a></li>
   <li><a href="#july-27th" id="toc-july-27th" class="nav-link" data-scroll-target="#july-27th">July 27th</a></li>
+  <li><a href="#july-30th" id="toc-july-30th" class="nav-link" data-scroll-target="#july-30th">July 30th</a></li>
   </ul>
 </nav>
     </div>
@@ -196,7 +197,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="july-27th" class="level3">
 <h3 class="anchored" data-anchor-id="july-27th">July 27th</h3>
-<p>More deseq prefiltering and moved onto by group specific prefiltering. Identified consistent top genes across each pre filtering parameter and set up list for annoation.</p>
+<p>More deseq prefiltering and moved onto by group specific prefiltering. Identified consistent <a href="https://docs.google.com/spreadsheets/d/1HLfplzyMJgt4hvGHSuq2Bse7EQ9OpsM63HKGwg9eJ1I/edit?usp=sharing">top genes across each pre filtering parameter</a> and set up list for annoation.</p>
+</section>
+<section id="july-30th" class="level3">
+<h3 class="anchored" data-anchor-id="july-30th">July 30th</h3>
+<p>Post filtering analysis, creating heatmaps, and running recurring DEGs through annotation.</p>
+<p><img src="images/IMG_9924.jpeg" class="img-fluid"></p>
+<p>^ basically a short visual summary of the filtering process</p>
+<p>pre-filtered featurecounts matrix / deseq to only include results that hit certain parameters:</p>
+<ul>
+<li><p>average of 10+ reads across 3+ samples (10r3n) (DEG = 84)</p></li>
+<li><p>average of 10+ reads across 15+ samples (10r15n) (DEG = 45)</p></li>
+<li><p>average of 10+ reads across 30 samples (10r30n) (DEG = 38)</p></li>
+<li><p>average of 10+ reads across each treatment (10r ToC) (DEG = 87)</p></li>
+</ul>
+<p><img src="images/0725-DEG_heatmap_10r_TorC.png" class="img-fluid"></p>
+<p><img src="images/0725-DEG_heatmap_10r15n.png" class="img-fluid"></p>
+<p><img src="images/0725-DEG_heatmap_10r30n.png" class="img-fluid"></p>
+<p>After making heatmaps, I used the list of recurring genes I made and ran that though the first annotation step. (Not going all the way through uniprot just yet )</p>
+<p><img src="images/Screen Shot 2024-07-30 at 5.11.27 PM.png" class="img-fluid"></p>
+<p>Then made a heatmap of these recurring genes</p>
+<p><img src="images/0730-DEG_heatmap_recurring.png" class="img-fluid"></p>
 
 
 </section>

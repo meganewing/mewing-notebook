@@ -43,4 +43,36 @@ Chris' student panel thing. More work on deseq prefiltering
 
 ### July 27th
 
-More deseq prefiltering and moved onto by group specific prefiltering. Identified consistent top genes across each pre filtering parameter and set up list for annoation.
+More deseq prefiltering and moved onto by group specific prefiltering. Identified consistent [top genes across each pre filtering parameter](https://docs.google.com/spreadsheets/d/1HLfplzyMJgt4hvGHSuq2Bse7EQ9OpsM63HKGwg9eJ1I/edit?usp=sharing) and set up list for annoation.
+
+### July 30th
+
+Post filtering analysis, creating heatmaps, and running recurring DEGs through annotation.
+
+![](images/IMG_9924.jpeg)
+
+\^ basically a short visual summary of the filtering process
+
+pre-filtered featurecounts matrix / deseq to only include results that hit certain parameters:
+
+-   average of 10+ reads across 3+ samples (10r3n) (DEG = 84)
+
+-   average of 10+ reads across 15+ samples (10r15n) (DEG = 45)
+
+-   average of 10+ reads across 30 samples (10r30n) (DEG = 38)
+
+-   average of 10+ reads across each treatment (10r ToC) (DEG = 87)
+
+![](images/0725-DEG_heatmap_10r_TorC.png)
+
+![](images/0725-DEG_heatmap_10r15n.png)
+
+![](images/0725-DEG_heatmap_10r30n.png)
+
+After making heatmaps, I used the list of recurring genes I made and ran that though the first annotation step. (Not going all the way through uniprot just yet )
+
+![](images/Screen Shot 2024-07-30 at 5.11.27 PM.png)
+
+Then made a heatmap of these recurring genes
+
+![](images/0730-DEG_heatmap_recurring.png)
