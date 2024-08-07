@@ -655,6 +655,6 @@
     "href": "posts/2024-08/2024-08.html",
     "title": "August Daily Posts",
     "section": "",
-    "text": "August 7th\nAugust goals, submitted masters committee milestone, pre filtering based off of parameters discussed with Mac."
+    "text": "August 7th\nAugust goals, submitted masters committee milestone. Based off of what Mac and i discussed last week, I went back to trying different pre-filtering parameters and decided to take a different approach. Created histogram, boxplot, and generated summary stats for all of the count data to see how they were spread. We knew the rRNA was eating up a ton of the reads, so I wanted to visually see the spread a bit better, where I could ignore the rRNA interference and make a decision on what made sense as a cutoff for pre-filtering. Depending on if I set the cutoff for the histogram and boxplot counts ranging between 0-50, 0-100, 0-1000, 0-6000, or all counts, the median stayed between 20 to 30. When using all counts the median was 23.\n\nI set the pre-filter parameters to at least 23 counts for at least 8 individuals (so, at least half) for control OR treatment group.\n\nThe control and treatment groups stayed together on the heatmap, even when clustered, which is promising.\n\nWaiting on egg quality / mother quality data to make some sense of the samples that still seem to not show super distinct differences in expression."
   }
 ]
