@@ -1,0 +1,14 @@
+---
+title: "August Daily Posts"
+author: "Megan Ewing"
+date: "08-07-2024"
+categories: daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+### August 7th
+
+August goals, submitted masters committee milestone, pre filtering based off of parameters discussed with Mac.

@@ -1,7 +1,7 @@
 ---
 title: "July Daily Posts"
 author: "Megan Ewing"
-date: "07-10-2024"
+date: "07-31-2024"
 categories: daily
 format: 
   html:
@@ -80,3 +80,5 @@ Then made a heatmap of these recurring genes
 ### July 31st
 
 Met with mac to review results and discuss new parameter options for pre filtering. Then learned how to read gonad histology slides with Mac and Eala
+
+![](images/IMG_9936.jpeg)

@@ -1,0 +1,20 @@
+---
+title: "August Goals"
+author: "Megan Ewing"
+date: "08-01-2024"
+categories: goals
+format: html
+editor: visual
+---
+
+As I continue to work through finding good pre filtering parameters to make a heatmap that actually clusters / results that Mac and I can feel confident in, I'm starting to think about how this will transition into a chapter. My goals then are
+
+-   Finish fine tuning the results
+
+-   Start write up for transcriptomics section of the MS
+
+    -   write the methods and results for what there is so far
+
+    -   outline intro and methods
+
+-   Look into funding for the 2025 Aquaculture conference in late winter/early spring
