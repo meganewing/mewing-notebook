@@ -71,8 +71,12 @@ pre-filtered featurecounts matrix / deseq to only include results that hit certa
 
 After making heatmaps, I used the list of recurring genes I made and ran that though the first annotation step. (Not going all the way through uniprot just yet )
 
-![](images/Screen Shot 2024-07-30 at 5.11.27 PM.png)
+![](images/Screen%20Shot%202024-07-30%20at%205.11.27%20PM.png)
 
 Then made a heatmap of these recurring genes
 
 ![](images/0730-DEG_heatmap_recurring.png)
+
+### July 31st
+
+Met with mac to review results and discuss new parameter options for pre filtering. Then learned how to read gonad histology slides with Mac and Eala
