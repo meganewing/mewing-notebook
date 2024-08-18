@@ -24,3 +24,27 @@ The control and treatment groups stayed together on the heatmap, even when clust
 ![](images/0807-DEG_heatmap_8ind23r_ToC_clust.png){width="498"}
 
 Waiting on egg quality / mother quality data to make some sense of the samples that still seem to not show super distinct differences in expression.
+
+### August 13th
+
+Small day. Got the egg quality data and started to review it. Bit more info than anticipated. Also organized different degrees of "outliers" (not really outliers) of the samples that didn't have super distinct expression, based off of the clustering in the heatmap from last week to give an idea what samples to keep an eye out for when diving into the egg data.
+
+### August 14th
+
+Identifying patterns in egg quality data as it relates to the samples in the heatmap. But found that there wasn't enough egg quality info about the samples that are the "outliers" since not all mothers had egg quality data measured. Results inconclusive.
+
+![](images/Screen Shot 2024-08-17 at 5.36.54 PM.png){width="492"}
+
+### August 15th
+
+Switched to looking for patterns in read QC. ie, looking if total number of aligned reads explained any of the data in our heatmap (thinking, "maybe those with overall less reads are the ones that have less distinct expression compared to others in their treatment group"). no dice.
+
+![](images/Screen Shot 2024-08-17 at 5.43.14 PM.png){width="478"}
+
+Colors represent the clustering of samples, where more blue shows "cooler" expression on the heatmap for the chunk of genes that are generally "hotter" in the control group. More red bars = "hotter" on the heatmap.
+
+### August 17th
+
+After talking to mac, going to proceed towards annotation with the latest gene list (from aug 7). Clustering looks good, pre filter parameters have sound biological reasoning, and nothing seems to be explaining the differences in expression (or lack of differences) that relates to egg or read quality.
+
+Had an issue previously with blast not having hits for all of my genes in my DEG list, which is odd since the genome is fully annotated. Mac suggested try running with less stringent e value. Went from E-20 to E-5 which feels drastic, but I do filter out for just the hit with the best e value for each LOC, and can use bit score to confirm integrity of the results later downstream.
