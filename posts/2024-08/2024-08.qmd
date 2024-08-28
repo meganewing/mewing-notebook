@@ -96,3 +96,45 @@ I tried re joining my new DEG/annotation joined list to the full blast results b
 So I'm not sure where to go from here.
 
 **I want to be able to get GO information so I can get biological process information.**
+
+### August 28th
+
+-   Provide preview (`head`) of BLAST output table.
+
+![](images/Screen Shot 2024-08-28 at 2.01.37 PM.png)
+
+-   Provide preview of your query file(s) for BLASTing.
+
+*I don't have this right now because it's too big to push and my computer doesn't work with the VPN. Will update when I can go to the office tomorrow. It is on raven though and the relative path is* `../data/ncbi_dataset/data/GCF_026571515.1/cds_from_genomic.fna`
+
+-   Provide preview (`head`) of `0807-DEGstats_ToC_8ind23r.tab`.
+
+![](images/Screen Shot 2024-08-28 at 2.05.56 PM.png)
+
+-   Provide preview (`head`) of `ncbi_dataset.tsv`.
+
+![](images/Screen Shot 2024-08-28 at 2.12.55 PM.png)
+
+col 1-9
+
+![](images/Screen Shot 2024-08-28 at 2.13.17 PM.png)
+
+col 9-15
+
+Including step-wise previews of the various tables/files will greatly help.
+
+<https://rpubs.com/mewing0/1214571>
+
+Also, a clear statement on what data you're starting with and what you want for an end result will help.
+
+*the workflow, generally speaking, is as follows (starting from featurecounts)*
+
+1.  *featurecounts -\>*
+
+2.  *filter out any genes that don't meet the parameters (see aug. 7) -\>*
+
+3.  *DESeq2 -\> filter for significant padj -\>*
+
+4.  *generated a dataframe that has the DEGs and corresponding stats (see above) & a dataframe that has DEGs and corresponding counts for each sample (not super relevant) -\>*
+
+5.  ***WANT:** to connect annotation information to DEG list that will allow me to get GO terms (whether through uniprot accession numbers/SPID or other methods unknown to me)*

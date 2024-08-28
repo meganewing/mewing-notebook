@@ -151,6 +151,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#august-17th" id="toc-august-17th" class="nav-link" data-scroll-target="#august-17th">August 17th</a></li>
   <li><a href="#august-21st" id="toc-august-21st" class="nav-link" data-scroll-target="#august-21st">August 21st</a></li>
   <li><a href="#august-26th" id="toc-august-26th" class="nav-link" data-scroll-target="#august-26th">August 26th</a></li>
+  <li><a href="#august-28th" id="toc-august-28th" class="nav-link" data-scroll-target="#august-28th">August 28th</a></li>
   </ul>
 </nav>
     </div>
@@ -217,6 +218,39 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/Screen Shot 2024-08-28 at 10.48.02 AM.png" class="img-fluid"></p>
 <p>So I’m not sure where to go from here.</p>
 <p><strong>I want to be able to get GO information so I can get biological process information.</strong></p>
+</section>
+<section id="august-28th" class="level3">
+<h3 class="anchored" data-anchor-id="august-28th">August 28th</h3>
+<ul>
+<li>Provide preview (<code>head</code>) of BLAST output table.</li>
+</ul>
+<p><img src="images/Screen Shot 2024-08-28 at 2.01.37 PM.png" class="img-fluid"></p>
+<ul>
+<li>Provide preview of your query file(s) for BLASTing.</li>
+</ul>
+<p><em>I don’t have this right now because it’s too big to push and my computer doesn’t work with the VPN. Will update when I can go to the office tomorrow. It is on raven though and the relative path is</em> <code>../data/ncbi_dataset/data/GCF_026571515.1/cds_from_genomic.fna</code></p>
+<ul>
+<li>Provide preview (<code>head</code>) of <code>0807-DEGstats_ToC_8ind23r.tab</code>.</li>
+</ul>
+<p><img src="images/Screen Shot 2024-08-28 at 2.05.56 PM.png" class="img-fluid"></p>
+<ul>
+<li>Provide preview (<code>head</code>) of <code>ncbi_dataset.tsv</code>.</li>
+</ul>
+<p><img src="images/Screen Shot 2024-08-28 at 2.12.55 PM.png" class="img-fluid"></p>
+<p>col 1-9</p>
+<p><img src="images/Screen Shot 2024-08-28 at 2.13.17 PM.png" class="img-fluid"></p>
+<p>col 9-15</p>
+<p>Including step-wise previews of the various tables/files will greatly help.</p>
+<p><a href="https://rpubs.com/mewing0/1214571" class="uri">https://rpubs.com/mewing0/1214571</a></p>
+<p>Also, a clear statement on what data you’re starting with and what you want for an end result will help.</p>
+<p><em>the workflow, generally speaking, is as follows (starting from featurecounts)</em></p>
+<ol type="1">
+<li><p><em>featurecounts -&gt;</em></p></li>
+<li><p><em>filter out any genes that don’t meet the parameters (see aug. 7) -&gt;</em></p></li>
+<li><p><em>DESeq2 -&gt; filter for significant padj -&gt;</em></p></li>
+<li><p><em>generated a dataframe that has the DEGs and corresponding stats (see above) &amp; a dataframe that has DEGs and corresponding counts for each sample (not super relevant) -&gt;</em></p></li>
+<li><p><em><strong>WANT:</strong> to connect annotation information to DEG list that will allow me to get GO terms (whether through uniprot accession numbers/SPID or other methods unknown to me)</em></p></li>
+</ol>
 
 
 </section>
