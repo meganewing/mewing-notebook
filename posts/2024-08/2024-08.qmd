@@ -33,13 +33,13 @@ Small day. Got the egg quality data and started to review it. Bit more info than
 
 Identifying patterns in egg quality data as it relates to the samples in the heatmap. But found that there wasn't enough egg quality info about the samples that are the "outliers" since not all mothers had egg quality data measured. Results inconclusive.
 
-![](images/Screen Shot 2024-08-17 at 5.36.54 PM.png){width="492"}
+![](images/Screen%20Shot%202024-08-17%20at%205.36.54%20PM.png){width="492"}
 
 ### August 15th
 
 Switched to looking for patterns in read QC. ie, looking if total number of aligned reads explained any of the data in our heatmap (thinking, "maybe those with overall less reads are the ones that have less distinct expression compared to others in their treatment group"). no dice.
 
-![](images/Screen Shot 2024-08-17 at 5.43.14 PM.png){width="478"}
+![](images/Screen%20Shot%202024-08-17%20at%205.43.14%20PM.png){width="478"}
 
 Colors represent the clustering of samples, where more blue shows "cooler" expression on the heatmap for the chunk of genes that are generally "hotter" in the control group. More red bars = "hotter" on the heatmap.
 
@@ -48,3 +48,51 @@ Colors represent the clustering of samples, where more blue shows "cooler" expre
 After talking to mac, going to proceed towards annotation with the latest gene list (from aug 7). Clustering looks good, pre filter parameters have sound biological reasoning, and nothing seems to be explaining the differences in expression (or lack of differences) that relates to egg or read quality.
 
 Had an issue previously with blast not having hits for all of my genes in my DEG list, which is odd since the genome is fully annotated. Mac suggested try running with less stringent e value. Went from E-20 to E-5 which feels drastic, but I do filter out for just the hit with the best e value for each LOC, and can use bit score to confirm integrity of the results later downstream.
+
+### August 21st
+
+Got the blast results and took a peak, still not getting all the matches (left hand columns are DEG stats, right hand columns are from the blast output):
+
+[blast code:](https://github.com/meganewing/clamgonads-macsamples/blob/main/code/10-blast_with_cds.Rmd)
+
+![](images/Screen Shot 2024-08-28 at 10.34.45 AM.png){width="394"}
+
+output (after [joining](https://github.com/meganewing/clamgonads-macsamples/blob/main/code/12.2-deg_annot_cds_gene_level.Rmd)):
+
+![](images/Screen Shot 2024-08-28 at 10.31.56 AM.png)
+
+Not really sure what is going on and if this is expected or not.
+
+Busy week with other jobs, didn't really have time to do anything besides glance at this and give it one go.
+
+### August 26th
+
+Per Mac's advice, I went onto NCBI where I could manually search for each of the LOC (aka, "symbol"s) within the [list of annotated genes for r.phil](https://www.ncbi.nlm.nih.gov/datasets/gene/GCF_026571515.1/), and all the ones that had NAs after joining had matches, so I still can't figure out why there are NAs when going the blast route. Steven says its "to be expected" with species like this, but I still don't really understand why.
+
+([relevant github issue](https://github.com/RobertsLab/resources/issues/1953))
+
+([relevant code file](https://github.com/meganewing/clamgonads-macsamples/blob/main/code/12.2-deg_annot_cds_gene_level.Rmd) ; blast code linked above, if needed)
+
+I revised the code to join the DEG data to a tsv of the [annotated genes from NCBI](https://www.ncbi.nlm.nih.gov/datasets/gene/GCF_026571515.1/), which paired data to all of my LOC (no NA's), but there's no SPID (uniprot accession numbers) associated with the data.
+
+I want to be able to move onto gene ontology, but not sure how to do so without uniprot accession numbers.
+
+To resolve this I tried two approaches:
+
+**FIRST:**
+
+While no SPID, there was however, protein accession numbers. Since this genome annotation was RefSeq, I changed the 'from database' and used the protein accession numbers. To no avail. It mapped to UniParc, which provided no GO information
+
+![](images/Screen Shot 2024-08-28 at 10.43.24 AM.png){width="270"}
+
+![](images/Screen Shot 2024-08-28 at 10.42.31 AM.png){width="232"}
+
+**SECOND**:
+
+I tried re joining my new DEG/annotation joined list to the full blast results by protein ID/accession number. This still left me with NAs, even for characterized proteins.
+
+![](images/Screen Shot 2024-08-28 at 10.48.02 AM.png)
+
+So I'm not sure where to go from here.
+
+**I want to be able to get GO information so I can get biological process information.**
