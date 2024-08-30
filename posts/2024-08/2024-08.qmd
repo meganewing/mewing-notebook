@@ -138,3 +138,17 @@ Also, a clear statement on what data you're starting with and what you want for 
 4.  *generated a dataframe that has the DEGs and corresponding stats (see above) & a dataframe that has DEGs and corresponding counts for each sample (not super relevant) -\>*
 
 5.  ***WANT:** to connect annotation information to DEG list that will allow me to get GO terms (whether through uniprot accession numbers/SPID or other methods unknown to me)*
+
+### August 29th
+
+The plan today was to update the rpub I had created and keep working on this issue. The plan got derailed for the WILDest reason.
+
+At approximately 9:30 am, I was driving with my roomate to seattle from Renton. As we pull up to a stoplight underneath a 405 overpass, we see a KITTEN FALL from the 25'+ overpass!!!
+
+We managed to pick her up as she tried to crawl under the car and into the engine bay, singeing her fur and whiskers in the attempt. We took her to the vet, and after hours of waiting, she is miraculously okay! Only some lacerations on her bum and one on her lip. They estimated her to be 6-7 weeks, and weighed in at 2.20 lbs 🥹
+
+We then took her home and set up a room for her (because of course we are keeping her). By the time we got back from the vet, it was 3:30 pm, and I had to go to work, so rpub will have to wait until friday.
+
+Anyways, meet OP! (short for overpass)
+
+![](images/IMG_0348.jpeg){width="236"}
