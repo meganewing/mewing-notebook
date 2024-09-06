@@ -55,11 +55,11 @@ Got the blast results and took a peak, still not getting all the matches (left h
 
 [blast code:](https://github.com/meganewing/clamgonads-macsamples/blob/main/code/10-blast_with_cds.Rmd)
 
-![](images/Screen Shot 2024-08-28 at 10.34.45 AM.png){width="394"}
+![](images/Screen%20Shot%202024-08-28%20at%2010.34.45%20AM.png){width="394"}
 
 output (after [joining](https://github.com/meganewing/clamgonads-macsamples/blob/main/code/12.2-deg_annot_cds_gene_level.Rmd)):
 
-![](images/Screen Shot 2024-08-28 at 10.31.56 AM.png)
+![](images/Screen%20Shot%202024-08-28%20at%2010.31.56%20AM.png)
 
 Not really sure what is going on and if this is expected or not.
 
@@ -83,15 +83,15 @@ To resolve this I tried two approaches:
 
 While no SPID, there was however, protein accession numbers. Since this genome annotation was RefSeq, I changed the 'from database' and used the protein accession numbers. To no avail. It mapped to UniParc, which provided no GO information
 
-![](images/Screen Shot 2024-08-28 at 10.43.24 AM.png){width="270"}
+![](images/Screen%20Shot%202024-08-28%20at%2010.43.24%20AM.png){width="270"}
 
-![](images/Screen Shot 2024-08-28 at 10.42.31 AM.png){width="232"}
+![](images/Screen%20Shot%202024-08-28%20at%2010.42.31%20AM.png){width="232"}
 
 **SECOND**:
 
 I tried re joining my new DEG/annotation joined list to the full blast results by protein ID/accession number. This still left me with NAs, even for characterized proteins.
 
-![](images/Screen Shot 2024-08-28 at 10.48.02 AM.png)
+![](images/Screen%20Shot%202024-08-28%20at%2010.48.02%20AM.png)
 
 So I'm not sure where to go from here.
 
@@ -101,7 +101,7 @@ So I'm not sure where to go from here.
 
 -   Provide preview (`head`) of BLAST output table.
 
-![](images/Screen Shot 2024-08-28 at 2.01.37 PM.png)
+![](images/Screen%20Shot%202024-08-28%20at%202.01.37%20PM.png)
 
 -   Provide preview of your query file(s) for BLASTing.
 
@@ -109,15 +109,15 @@ So I'm not sure where to go from here.
 
 -   Provide preview (`head`) of `0807-DEGstats_ToC_8ind23r.tab`.
 
-![](images/Screen Shot 2024-08-28 at 2.05.56 PM.png)
+![](images/Screen%20Shot%202024-08-28%20at%202.05.56%20PM.png)
 
 -   Provide preview (`head`) of `ncbi_dataset.tsv`.
 
-![](images/Screen Shot 2024-08-28 at 2.12.55 PM.png)
+![](images/Screen%20Shot%202024-08-28%20at%202.12.55%20PM.png)
 
 col 1-9
 
-![](images/Screen Shot 2024-08-28 at 2.13.17 PM.png)
+![](images/Screen%20Shot%202024-08-28%20at%202.13.17%20PM.png)
 
 col 9-15
 
@@ -151,4 +151,8 @@ We then took her home and set up a room for her (because of course we are keepin
 
 Anyways, meet OP! (short for overpass)
 
-![](images/IMG_0348.jpeg){width="236"}
+![](images/IMG_0348.jpeg){width="333"}
+
+### August 30th 
+
+More troubleshoot with the [github issue](https://github.com/RobertsLab/resources/issues/1953) and editing my rpub comments to be more clear. No resolution in regards to my blast issue, but was directed to just move forward to using literature to understand the physiology.

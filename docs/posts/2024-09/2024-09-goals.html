@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Megan Ewing">
-<meta name="dcterms.date" content="2024-08-07">
+<meta name="dcterms.date" content="2024-09-06">
 
-<title>mewing-notebook - August Daily Posts</title>
+<title>mewing-notebook - September Goals</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -108,9 +108,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">August Daily Posts</h1>
+      <h1 class="title">September Goals</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">daily</div>
+                <div class="quarto-category">goals</div>
               </div>
                   </div>
   </div>
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 7, 2024</p>
+        <p class="date">September 6, 2024</p>
       </div>
     </div>
     
@@ -139,136 +139,25 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#august-7th" id="toc-august-7th" class="nav-link active" data-scroll-target="#august-7th">August 7th</a></li>
-  <li><a href="#august-13th" id="toc-august-13th" class="nav-link" data-scroll-target="#august-13th">August 13th</a></li>
-  <li><a href="#august-14th" id="toc-august-14th" class="nav-link" data-scroll-target="#august-14th">August 14th</a></li>
-  <li><a href="#august-15th" id="toc-august-15th" class="nav-link" data-scroll-target="#august-15th">August 15th</a></li>
-  <li><a href="#august-17th" id="toc-august-17th" class="nav-link" data-scroll-target="#august-17th">August 17th</a></li>
-  <li><a href="#august-21st" id="toc-august-21st" class="nav-link" data-scroll-target="#august-21st">August 21st</a></li>
-  <li><a href="#august-26th" id="toc-august-26th" class="nav-link" data-scroll-target="#august-26th">August 26th</a></li>
-  <li><a href="#august-28th" id="toc-august-28th" class="nav-link" data-scroll-target="#august-28th">August 28th</a></li>
-  <li><a href="#august-29th" id="toc-august-29th" class="nav-link" data-scroll-target="#august-29th">August 29th</a></li>
-  <li><a href="#august-30th" id="toc-august-30th" class="nav-link" data-scroll-target="#august-30th">August 30th</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<section id="august-7th" class="level3">
-<h3 class="anchored" data-anchor-id="august-7th">August 7th</h3>
-<p>August goals, submitted masters committee milestone. Based off of what Mac and i discussed last week, I went back to trying different pre-filtering parameters and decided to take a different approach. Created histogram, boxplot, and generated summary stats for all of the count data to see how they were spread. We knew the rRNA was eating up a ton of the reads, so I wanted to visually see the spread a bit better, where I could ignore the rRNA interference and make a decision on what made sense as a cutoff for pre-filtering. Depending on if I set the cutoff for the histogram and boxplot counts ranging between 0-50, 0-100, 0-1000, 0-6000, or all counts, the median stayed between 20 to 30. When using all counts the median was 23.</p>
-<p><img src="images/0807-histogram_of_read_counts_1to100.png" class="img-fluid" width="340"><img src="images/boxplot_of_all_read_counts.png" class="img-fluid" width="341"></p>
-<p>I set the pre-filter parameters to at least 23 counts for at least 8 individuals (so, at least half) for control OR treatment group.</p>
-<p><img src="images/0807-DEG_heatmap_8ind23r_ToC.png" class="img-fluid" width="495"></p>
-<p>The control and treatment groups stayed together on the heatmap, even when clustered, which is promising.</p>
-<p><img src="images/0807-DEG_heatmap_8ind23r_ToC_clust.png" class="img-fluid" width="498"></p>
-<p>Waiting on egg quality / mother quality data to make some sense of the samples that still seem to not show super distinct differences in expression.</p>
-</section>
-<section id="august-13th" class="level3">
-<h3 class="anchored" data-anchor-id="august-13th">August 13th</h3>
-<p>Small day. Got the egg quality data and started to review it. Bit more info than anticipated. Also organized different degrees of “outliers” (not really outliers) of the samples that didn’t have super distinct expression, based off of the clustering in the heatmap from last week to give an idea what samples to keep an eye out for when diving into the egg data.</p>
-</section>
-<section id="august-14th" class="level3">
-<h3 class="anchored" data-anchor-id="august-14th">August 14th</h3>
-<p>Identifying patterns in egg quality data as it relates to the samples in the heatmap. But found that there wasn’t enough egg quality info about the samples that are the “outliers” since not all mothers had egg quality data measured. Results inconclusive.</p>
-<p><img src="images/Screen Shot 2024-08-17 at 5.36.54 PM.png" class="img-fluid" width="492"></p>
-</section>
-<section id="august-15th" class="level3">
-<h3 class="anchored" data-anchor-id="august-15th">August 15th</h3>
-<p>Switched to looking for patterns in read QC. ie, looking if total number of aligned reads explained any of the data in our heatmap (thinking, “maybe those with overall less reads are the ones that have less distinct expression compared to others in their treatment group”). no dice.</p>
-<p><img src="images/Screen Shot 2024-08-17 at 5.43.14 PM.png" class="img-fluid" width="478"></p>
-<p>Colors represent the clustering of samples, where more blue shows “cooler” expression on the heatmap for the chunk of genes that are generally “hotter” in the control group. More red bars = “hotter” on the heatmap.</p>
-</section>
-<section id="august-17th" class="level3">
-<h3 class="anchored" data-anchor-id="august-17th">August 17th</h3>
-<p>After talking to mac, going to proceed towards annotation with the latest gene list (from aug 7). Clustering looks good, pre filter parameters have sound biological reasoning, and nothing seems to be explaining the differences in expression (or lack of differences) that relates to egg or read quality.</p>
-<p>Had an issue previously with blast not having hits for all of my genes in my DEG list, which is odd since the genome is fully annotated. Mac suggested try running with less stringent e value. Went from E-20 to E-5 which feels drastic, but I do filter out for just the hit with the best e value for each LOC, and can use bit score to confirm integrity of the results later downstream.</p>
-</section>
-<section id="august-21st" class="level3">
-<h3 class="anchored" data-anchor-id="august-21st">August 21st</h3>
-<p>Got the blast results and took a peak, still not getting all the matches (left hand columns are DEG stats, right hand columns are from the blast output):</p>
-<p><a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/code/10-blast_with_cds.Rmd">blast code:</a></p>
-<p><img src="images/Screen Shot 2024-08-28 at 10.34.45 AM.png" class="img-fluid" width="394"></p>
-<p>output (after <a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/code/12.2-deg_annot_cds_gene_level.Rmd">joining</a>):</p>
-<p><img src="images/Screen Shot 2024-08-28 at 10.31.56 AM.png" class="img-fluid"></p>
-<p>Not really sure what is going on and if this is expected or not.</p>
-<p>Busy week with other jobs, didn’t really have time to do anything besides glance at this and give it one go.</p>
-</section>
-<section id="august-26th" class="level3">
-<h3 class="anchored" data-anchor-id="august-26th">August 26th</h3>
-<p>Per Mac’s advice, I went onto NCBI where I could manually search for each of the LOC (aka, “symbol”s) within the <a href="https://www.ncbi.nlm.nih.gov/datasets/gene/GCF_026571515.1/">list of annotated genes for r.phil</a>, and all the ones that had NAs after joining had matches, so I still can’t figure out why there are NAs when going the blast route. Steven says its “to be expected” with species like this, but I still don’t really understand why.</p>
-<p>(<a href="https://github.com/RobertsLab/resources/issues/1953">relevant github issue</a>)</p>
-<p>(<a href="https://github.com/meganewing/clamgonads-macsamples/blob/main/code/12.2-deg_annot_cds_gene_level.Rmd">relevant code file</a> ; blast code linked above, if needed)</p>
-<p>I revised the code to join the DEG data to a tsv of the <a href="https://www.ncbi.nlm.nih.gov/datasets/gene/GCF_026571515.1/">annotated genes from NCBI</a>, which paired data to all of my LOC (no NA’s), but there’s no SPID (uniprot accession numbers) associated with the data.</p>
-<p>I want to be able to move onto gene ontology, but not sure how to do so without uniprot accession numbers.</p>
-<p>To resolve this I tried two approaches:</p>
-<p><strong>FIRST:</strong></p>
-<p>While no SPID, there was however, protein accession numbers. Since this genome annotation was RefSeq, I changed the ‘from database’ and used the protein accession numbers. To no avail. It mapped to UniParc, which provided no GO information</p>
-<p><img src="images/Screen Shot 2024-08-28 at 10.43.24 AM.png" class="img-fluid" width="270"></p>
-<p><img src="images/Screen Shot 2024-08-28 at 10.42.31 AM.png" class="img-fluid" width="232"></p>
-<p><strong>SECOND</strong>:</p>
-<p>I tried re joining my new DEG/annotation joined list to the full blast results by protein ID/accession number. This still left me with NAs, even for characterized proteins.</p>
-<p><img src="images/Screen Shot 2024-08-28 at 10.48.02 AM.png" class="img-fluid"></p>
-<p>So I’m not sure where to go from here.</p>
-<p><strong>I want to be able to get GO information so I can get biological process information.</strong></p>
-</section>
-<section id="august-28th" class="level3">
-<h3 class="anchored" data-anchor-id="august-28th">August 28th</h3>
+<p>My goals this month carry over a little from last month:</p>
 <ul>
-<li>Provide preview (<code>head</code>) of BLAST output table.</li>
-</ul>
-<p><img src="images/Screen Shot 2024-08-28 at 2.01.37 PM.png" class="img-fluid"></p>
+<li><p>Review literature to understand physiology role of DEGs found for r.phil</p></li>
+<li><p>Continue write up for transcriptomics section of the r.phil MS</p>
 <ul>
-<li>Provide preview of your query file(s) for BLASTing.</li>
+<li><p>edit and update the methods and results for what there is so far</p></li>
+<li><p>outline intro and discussion</p></li>
+</ul></li>
+<li><p>2025 Aquaculture abstract</p></li>
 </ul>
-<p><em>I don’t have this right now because it’s too big to push and my computer doesn’t work with the VPN. Will update when I can go to the office tomorrow. It is on raven though and the relative path is</em> <code>../data/ncbi_dataset/data/GCF_026571515.1/cds_from_genomic.fna</code></p>
-<ul>
-<li>Provide preview (<code>head</code>) of <code>0807-DEGstats_ToC_8ind23r.tab</code>.</li>
-</ul>
-<p><img src="images/Screen Shot 2024-08-28 at 2.05.56 PM.png" class="img-fluid"></p>
-<ul>
-<li>Provide preview (<code>head</code>) of <code>ncbi_dataset.tsv</code>.</li>
-</ul>
-<p><img src="images/Screen Shot 2024-08-28 at 2.12.55 PM.png" class="img-fluid"></p>
-<p>col 1-9</p>
-<p><img src="images/Screen Shot 2024-08-28 at 2.13.17 PM.png" class="img-fluid"></p>
-<p>col 9-15</p>
-<p>Including step-wise previews of the various tables/files will greatly help.</p>
-<p><a href="https://rpubs.com/mewing0/1214571" class="uri">https://rpubs.com/mewing0/1214571</a></p>
-<p>Also, a clear statement on what data you’re starting with and what you want for an end result will help.</p>
-<p><em>the workflow, generally speaking, is as follows (starting from featurecounts)</em></p>
-<ol type="1">
-<li><p><em>featurecounts -&gt;</em></p></li>
-<li><p><em>filter out any genes that don’t meet the parameters (see aug. 7) -&gt;</em></p></li>
-<li><p><em>DESeq2 -&gt; filter for significant padj -&gt;</em></p></li>
-<li><p><em>generated a dataframe that has the DEGs and corresponding stats (see above) &amp; a dataframe that has DEGs and corresponding counts for each sample (not super relevant) -&gt;</em></p></li>
-<li><p><em><strong>WANT:</strong> to connect annotation information to DEG list that will allow me to get GO terms (whether through uniprot accession numbers/SPID or other methods unknown to me)</em></p></li>
-</ol>
-</section>
-<section id="august-29th" class="level3">
-<h3 class="anchored" data-anchor-id="august-29th">August 29th</h3>
-<p>The plan today was to update the rpub I had created and keep working on this issue. The plan got derailed for the WILDest reason.</p>
-<p>At approximately 9:30 am, I was driving with my roomate to seattle from Renton. As we pull up to a stoplight underneath a 405 overpass, we see a KITTEN FALL from the 25’+ overpass!!!</p>
-<p>We managed to pick her up as she tried to crawl under the car and into the engine bay, singeing her fur and whiskers in the attempt. We took her to the vet, and after hours of waiting, she is miraculously okay! Only some lacerations on her bum and one on her lip. They estimated her to be 6-7 weeks, and weighed in at 2.20 lbs 🥹</p>
-<p>We then took her home and set up a room for her (because of course we are keeping her). By the time we got back from the vet, it was 3:30 pm, and I had to go to work, so rpub will have to wait until friday.</p>
-<p>Anyways, meet OP! (short for overpass)</p>
-<p><img src="images/IMG_0348.jpeg" class="img-fluid" width="333"></p>
-</section>
-<section id="august-30th" class="level3">
-<h3 class="anchored" data-anchor-id="august-30th">August 30th</h3>
-<p>More troubleshoot with the <a href="https://github.com/RobertsLab/resources/issues/1953">github issue</a> and editing my rpub comments to be more clear. No resolution in regards to my blast issue, but was directed to just move forward to using literature to understand the physiology.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
