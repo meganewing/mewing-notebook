@@ -1,0 +1,18 @@
+---
+title: "October Goals"
+author: "Megan Ewing"
+date: "10-01-2024"
+categories: goals
+format: html
+editor: visual
+---
+
+-   Continue write up for transcriptomics section of the r.phil MS
+
+    -   edit and update the methods and results for what there is so far
+
+    -   outline intro and discussion
+
+-   Review literature to write methods for thesis proposal
+
+By mid november I want to send out my proposal and study plan to my committee, and want to send a draft of ch. 2 ideally by the end of the (calendar) year, so just trucking along towards those slightly longer term goals.

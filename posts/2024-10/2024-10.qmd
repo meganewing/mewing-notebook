@@ -1,0 +1,30 @@
+---
+title: "October Daily Posts"
+author: "Megan Ewing"
+date: "10-10-2024"
+categories: daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+Whoops haven't updated daily posts in awhile... here's what you missed in the last 3 weeks:
+
+-   submitted aquaculture 2025 abstract
+
+-   had first committee meeting
+
+-   met with individuals from NOAA, WDFW, King County, UW (both admin and profs), WSP and FHL to discuss career paths and opportunities to look out for
+
+-   GRFP workshop mentoring!
+
+-   got obscenely sick for a few days
+
+Okay, here's where we are now:
+
+### October 9th
+
+Added some of my DEG findings and methods to a comparison chart with Giles' outputs to see if our results are consistent. Once we can confirm everything looks good, I can full deep dive with the interpretation of the results.
+
+Last session of the GRFP workshop with the NSF style review. Really cool to see how diverse the applications are!
