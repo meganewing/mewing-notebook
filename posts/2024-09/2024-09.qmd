@@ -15,7 +15,7 @@ Worked on some personal administration stuff, registering for fall, going throug
 
 Meet with Mac tomorrow to go over latest ***r.phil*** results so did some work to prep for that: I went ahead and moved forward on joining the SPIDs for the DEG entries that had them (retrieved SPIDs from blast). Of the remaining \~12 DEGs, only 5 of which were characterized. For these 5, I used the annotated gene table on NCBI web interface to get the gene name which I manually entered into UniProt to get similar genes with GO, tissue, development, and induction information. Where possible, I also filtered the taxonomy for the UniProt results to include only bivalves or, where no bivalve genes showed as matches, mollusks. Genes that did not have hits for bivalves or mollusks had less than 35 total matches when no taxonomy filter was applied. The links to the results were then added to a 'notes' column in the [master dataframe](https://docs.google.com/spreadsheets/d/1aK4yKiUK8HCHGASqzDJo1MiTy3SEZvJG8g8T1DfJh_4/edit?usp=sharing) for reference come literature review.
 
-### September 4th 
+### September 4th
 
 Last we discussed, Mac and I also talked about the large number of reads that are being "sucked up" by ribosomal hits, so I went back to my full counts matrix to pull the stats and counts for all genes our samples mapped to to get a list of the ribosomal RNA.
 
