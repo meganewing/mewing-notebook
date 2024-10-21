@@ -29,7 +29,7 @@ Added some of my DEG findings and methods to a comparison chart with Giles' outp
 
 Last session of the GRFP workshop with the NSF style review. Really cool to see how diverse the applications are!
 
-### October 11th 
+### October 11th
 
 Met with mac to review the results. Seems like there are differences in Giles' findings with STAR alignment rates and my HiSAT alignment rates. He trimmed before aligning (I did not), so next step is to go back and trim and re align one sample with hisat to see if it improves alignment rate. If it doesn't, then we'll use the feature counts matrix that was generated from STAR alignmened samples to run downstream analysis from there. If it does, then I'll trim all the samples, re-align them with hisat, and then do the downstream analyis.
 
@@ -40,3 +40,25 @@ This will have to wait until next week though because the Col. of Env. travel fu
 Re writing the analysis as mentioned on Friday. Haven't run it yet as I'll need to go onto campus to get access to raven and my raw data files again without just re downloading it all.
 
 Starting to think about chapter 1 methods. Found the paper Luke talked about in my committee meeting: "T[he genetic basis of novel trait gain in walking fish](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10592820/)"
+
+### October 17th
+
+Read the sea robin paper about fish walking genes – super cool!!! The walking sea robins had 3 pectoral fin rays that are highly modified for walking and seperated from the rest of the fin once the sea robin is fully developed. They were able to identify the genes involved through RNA-seq before, during, and after development of these modifications (before/during after the 'seperation' of the modified rays). They then used crispr to turn off the gene they identified and then raised hybrid sea robins that had between 2 and 4 modified rays once fully developed! Super cool insights into not only the underlying genes, but how the phenotype is inherited!
+
+TGIT
+
+Was on campus and was able to execute the trim and hisat code. Trimming improved alignment for my selected sample from \~63% to \~67% mapping rate, but still substantially lower than Giles' mapping rate (\~ 75%). Next step to re-run
+
+### October 18th
+
+Started re-running deseq2 using Giles' STAR count data. Got done with the heatmaps and realized I had a sample mislabled which made the treatment vs. control for everything funky. need to edit and re run. Womp womp. Have work so, problem for another day.
+
+### October 20th
+
+Finished re running deseq2. Used original hisat parameters of excluding any genes that dont have: at least 8 individuals in treatment OR 8 individuals in control with at least 23 reads (hisat median non-zero read count for all genes).
+
+Re ran again with updated parameters of 27 reads (updated/star median non-zero read count for all genes).
+
+Updated comparison stats chart AND comparison DEG chart. results from comparison DEG chart:
+
+![](images/Screen Shot 2024-10-20 at 10.09.19 PM.png){width="407"}
