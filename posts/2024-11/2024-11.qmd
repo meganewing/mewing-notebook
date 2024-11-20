@@ -1,0 +1,58 @@
+---
+title: "November Goals AND Dailies"
+author: "Megan Ewing"
+date: "11-01-2024"
+categories: goals, daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## Goals
+
+My goals for this month are:
+
+-   Create and send proposal draft to committee
+
+-   Create and send study plan draft to committee
+
+-   Finish downstream (from deseq) analysis for r.phil
+
+-   Update r.phil methods and results
+
+## Daily
+
+### Nov. 4-8th
+
+Wanted to focus in on Ch. 1 of my proposal, since that was where the most questions were during my committee meeting. Wanted to get an idea of what my anticipated results/figures would be, thinking that would help guide the rest. This paper was particularly helpful: [**Bivalves as Emerging Model Systems to Study the Mechanisms and Evolution of Sex Determination: A Genomic Point of View**](https://academic.oup.com/gbe/article/15/10/evad181/7321078#421781889) **.** Notes and reflections below:
+
+![](images/Screen Shot 2024-11-20 at 3.38.03 PM.png){width="614"}
+
+![](images/Screen Shot 2024-11-20 at 3.38.27 PM.png){width="501"}
+
+![](images/Screen Shot 2024-11-20 at 3.40.01 PM.png){width="524"}
+
+### Nov. 11-15th
+
+Graded midterms for two classes this week. Was hoping to get some progress on the proposal draft, but had limited to no shellfish/thesis time. Got to help out with Rosalind's classes though!
+
+![](images/Screen Shot 2024-11-20 at 3.43.50 PM.png)
+
+### Nov. 18-20th
+
+Finally got to start writing on proposal draft and study plan! Should be sent out around (Wednesday?)
+
+### Nov. 21st-22nd (anticipated)
+
+-   Revisit r.phil workflow and run blast to get GO terms for DEGs
+
+### Nov. 25th-27th (anticipated) 
+
+-   Add in annotation info from NCBI where no blast hits
+
+-   Review literature and get summary list of affected biological proccesses
+
+### Nov. 30th-31st (anticipated) 
+
+-   update results and methods write up
