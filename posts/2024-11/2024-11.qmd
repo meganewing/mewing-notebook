@@ -27,32 +27,71 @@ My goals for this month are:
 
 Wanted to focus in on Ch. 1 of my proposal, since that was where the most questions were during my committee meeting. Wanted to get an idea of what my anticipated results/figures would be, thinking that would help guide the rest. This paper was particularly helpful: [**Bivalves as Emerging Model Systems to Study the Mechanisms and Evolution of Sex Determination: A Genomic Point of View**](https://academic.oup.com/gbe/article/15/10/evad181/7321078#421781889) **.** Notes and reflections below:
 
-![](images/Screen Shot 2024-11-20 at 3.38.03 PM.png){width="614"}
+![](images/Screen%20Shot%202024-11-20%20at%203.38.03%20PM.png){width="614"}
 
-![](images/Screen Shot 2024-11-20 at 3.38.27 PM.png){width="501"}
+![](images/Screen%20Shot%202024-11-20%20at%203.38.27%20PM.png){width="501"}
 
-![](images/Screen Shot 2024-11-20 at 3.40.01 PM.png){width="524"}
+![](images/Screen%20Shot%202024-11-20%20at%203.40.01%20PM.png){width="524"}
 
 ### Nov. 11-15th
 
 Graded midterms for two classes this week. Was hoping to get some progress on the proposal draft, but had limited to no shellfish/thesis time. Got to help out with Rosalind's classes though!
 
-![](images/Screen Shot 2024-11-20 at 3.43.50 PM.png)
+![](images/Screen%20Shot%202024-11-20%20at%203.43.50%20PM.png)
 
 ### Nov. 18-20th
 
 Finally got to start writing on proposal draft and study plan! Should be sent out around (Wednesday?)
 
-### Nov. 21st-22nd (anticipated)
+## Self-Review on Past Two Weeks
+
+Feel pretty good about my progress towards my monthy goals – sent in proposal draft and plan of study last night. Admittedly, the proposal took longer than expected (especially the identifying sexual systems for the 16 bivalves) and got sent a couple days later than I had initially hoped.
+
+Regarding the r.phil workflow, I've been keeping Mac in the loop with my anticipated timeline for sending updated results by the end of the month, and am on track to still have that be the case. Though the writeup for those might spill into Decemeber.
+
+## Next Two Weeks Goals (11/21 - 12/6)
+
+-   Update R.Phil Results
+
+-   Update results and methods write up
+
+-   Address proposal feedback
+
+##### Nov. 21st-22nd (anticipated)
 
 -   Revisit r.phil workflow and run blast to get GO terms for DEGs
 
-### Nov. 25th-27th (anticipated) 
+### Nov. 21st-22nd (actual)
+
+-   Got GO terms for DEGs where there were swissprot id's from blast!
+
+##### Nov. 25th-27th (anticipated)
 
 -   Add in annotation info from NCBI where no blast hits
 
--   Review literature and get summary list of affected biological proccesses
+-   Review literature and get summary list of affected biological processes
 
-### Nov. 30th-31st (anticipated) 
+### Nov. 25th-27th (actual)
+
+-   sick as a dog and partner had pneumonia. no progress
+
+##### Nov. 30th-31st (anticipated)
 
 -   update results and methods write up
+
+### Nov. 30th-31st (actual)
+
+-   got GOslims for blast hit entries
+
+-   added in info for entires with no blast hit (sunday)
+
+-   -\> review literature and get summary of affected biological processes
+
+### Dec. 1st-3rd (anticipated)
+
+-   grading
+-   -\> update results and methods write up
+
+### Dec. 4th-6th (anticipated)
+
+-   address proposal feedback
