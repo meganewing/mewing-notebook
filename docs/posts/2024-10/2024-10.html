@@ -147,6 +147,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#october-9th" id="toc-october-9th" class="nav-link active" data-scroll-target="#october-9th">October 9th</a></li>
   <li><a href="#october-11th" id="toc-october-11th" class="nav-link" data-scroll-target="#october-11th">October 11th</a></li>
   <li><a href="#october-16th" id="toc-october-16th" class="nav-link" data-scroll-target="#october-16th">October 16th</a></li>
+  <li><a href="#october-17th" id="toc-october-17th" class="nav-link" data-scroll-target="#october-17th">October 17th</a></li>
+  <li><a href="#october-18th" id="toc-october-18th" class="nav-link" data-scroll-target="#october-18th">October 18th</a></li>
+  <li><a href="#october-20th" id="toc-october-20th" class="nav-link" data-scroll-target="#october-20th">October 20th</a></li>
   </ul>
 </nav>
     </div>
@@ -179,6 +182,23 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="october-16th">October 16th</h3>
 <p>Re writing the analysis as mentioned on Friday. Haven’t run it yet as I’ll need to go onto campus to get access to raven and my raw data files again without just re downloading it all.</p>
 <p>Starting to think about chapter 1 methods. Found the paper Luke talked about in my committee meeting: “T<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10592820/">he genetic basis of novel trait gain in walking fish</a>”</p>
+</section>
+<section id="october-17th" class="level3">
+<h3 class="anchored" data-anchor-id="october-17th">October 17th</h3>
+<p>Read the sea robin paper about fish walking genes – super cool!!! The walking sea robins had 3 pectoral fin rays that are highly modified for walking and seperated from the rest of the fin once the sea robin is fully developed. They were able to identify the genes involved through RNA-seq before, during, and after development of these modifications (before/during after the ‘seperation’ of the modified rays). They then used crispr to turn off the gene they identified and then raised hybrid sea robins that had between 2 and 4 modified rays once fully developed! Super cool insights into not only the underlying genes, but how the phenotype is inherited!</p>
+<p>TGIT</p>
+<p>Was on campus and was able to execute the trim and hisat code. Trimming improved alignment for my selected sample from ~63% to ~67% mapping rate, but still substantially lower than Giles’ mapping rate (~ 75%). Next step to re-run</p>
+</section>
+<section id="october-18th" class="level3">
+<h3 class="anchored" data-anchor-id="october-18th">October 18th</h3>
+<p>Started re-running deseq2 using Giles’ STAR count data. Got done with the heatmaps and realized I had a sample mislabled which made the treatment vs.&nbsp;control for everything funky. need to edit and re run. Womp womp. Have work so, problem for another day.</p>
+</section>
+<section id="october-20th" class="level3">
+<h3 class="anchored" data-anchor-id="october-20th">October 20th</h3>
+<p>Finished re running deseq2. Used original hisat parameters of excluding any genes that dont have: at least 8 individuals in treatment OR 8 individuals in control with at least 23 reads (hisat median non-zero read count for all genes).</p>
+<p>Re ran again with updated parameters of 27 reads (updated/star median non-zero read count for all genes).</p>
+<p>Updated comparison stats chart AND comparison DEG chart. results from comparison DEG chart:</p>
+<p><img src="images/Screen Shot 2024-10-20 at 10.09.19 PM.png" class="img-fluid" width="407"></p>
 
 
 </section>

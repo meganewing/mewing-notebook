@@ -61,4 +61,4 @@ Re ran again with updated parameters of 27 reads (updated/star median non-zero r
 
 Updated comparison stats chart AND comparison DEG chart. results from comparison DEG chart:
 
-![](images/Screen Shot 2024-10-20 at 10.09.19 PM.png){width="407"}
+![](images/Screen%20Shot%202024-10-20%20at%2010.09.19%20PM.png){width="407"}
