@@ -1,0 +1,38 @@
+---
+title: "December Goals and Dailies"
+author: "Megan Ewing"
+date: "2024-12-09"
+categories: goals, daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Goals 
+
+-   Submit proposal and plan of study to committee
+
+-   Add into and methods to draft of Ch. 2 (pending amount of revisions required on results)
+
+### For 12/9 Meeting with Steven: 
+
+Past two weeks assessment:
+
+-   Feel good about finishing my November goals relatively on time. Getting a slightly late start to proposal edits but still on track to resubmit by end of quarter (Targeting Dec. 13th)
+
+Next two weeks projected activity
+
+-   12/8) Proposal edits
+
+-   12/9) Grading
+
+-   12/10 - 12/12) Proposal edits + Grading
+
+-   12/13) Send proposal + Grading
+
+-   12/16-12/20) Ch. 2 Intro + Discussion drafting

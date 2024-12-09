@@ -1,0 +1,14 @@
+{
+  "hash": "f991e04d649d08d6cdfa5c07c99b75ea",
+  "result": {
+    "markdown": "---\ntitle: \"December Goals and Dailies\"\nauthor: \"Megan Ewing\"\ndate: \"2024-12-09\"\ncategories: goals, daily\nformat: \n  html:\n    toc: true\neditor: visual\n---\n\n\n\n\n### Goals \n\n-   Submit proposal and plan of study to committee\n\n-   Add into and methods to draft of Ch. 2 (pending amount of revisions required on results)\n\n### \n\n## For 12/9 Meeting with Steven: \n\nPast two weeks assessment:\n\n-   Feel good about finishing my November goals relatively on time. Getting a slightly late start to proposal edits but still on track to resubmit by end of quarter (Targeting Dec. 13th)\n\nNext two weeks projected activity\n\n-   12/8) Proposal edits\n\n-   12/9) Grading\n\n-   12/10 - 12/12) Proposal edits + Grading\n\n-   12/13) Send proposal + Grading\n\n-   12/16-12/20) Ch. 2 Intro + Discussion drafting\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
