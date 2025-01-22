@@ -39,7 +39,11 @@ Readings for snow hydro class, first day of lecture
 
 270 meeting with jose and celeste
 
+GIS class
+
 Homework
+
+## Past Two Weeks (from 1/23 meeting) Starts Here 
 
 ### Jan 8.
 
@@ -182,3 +186,61 @@ Was taking too much of my time for a 3 credit class, and the topics for the clas
 Met with celeste to prep some of the 270 materials for the week and learn how to use the autoclave
 
 filled out travel pre-authorization request for aquaculture 2025 on treq
+
+GIS class
+
+## Next Two Weeks' Targets.... 
+
+Now that I'll have more time since no snow hydro lecture readings or homework, i'll have some time to get back to my own work :D
+
+Jan. 24:
+
+-   270 lab and TA meeting.
+
+-   grade 270 stuff
+
+Jan. 27-31:
+
+-   Address action items from meeting with Mac
+
+    -   protein domains – \[pFAM database for uncharacterized genes (n=16)
+
+    -   add in meaningful definition of log2fold change in results
+
+    -   indicate how many annotated, how many go terms, and (lack of) enrichment in results
+
+    -   include distribution of RNA type (stacked bar plot)
+
+    -   look at pvalue for rRNA between treatments
+
+        -   will need to re run chi square for this
+
+    -   add in mito, rRNA, and protein coding (similar to stacked bar plot, but pie chart)
+
+    -   move enrichment info to results instead pof methods
+
+    -   add in info on how mnay RNA egg samples we had egg size data for (will add in info about egg samples we did have to intro when summarizing / referencing Larken paper findings)
+
+-   TA stuff
+
+Feb 3-7:
+
+-   Now that rphil methods results are updated, will draft intro and discussion. some talking points:
+
+    -   summarize larken paper findings, “we found differences in larval between primed and unprimed differences. This begs the question of what is happening in these eggs that leads to these differences. I took the data from these eggs and looked at RNA seq analysis.”
+
+        	- why is knowing the mechanism important
+
+        	- figures (larval growth and survivorship, egg size)
+
+        	- what parental priming is and why it matters.
+
+        	- biological marker. Genes fro successful priming
+
+    -   dicussion: parental priming, OA on bivalves, offspring health, etc. also, if not transcriptional differences explaining the phenotype found in Larken MS, perhaps epi mechanisms?
+
+-   TA stuff
+
+Feb 10-14 (slight preview):
+
+-   Switching gears from rphil back to proposal – will be focusing this week on the phylogenomics stuff discussed with Luke to get an updated methods to discuss with him for our 2/14 meeting.
