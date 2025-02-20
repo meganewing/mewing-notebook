@@ -1,0 +1,194 @@
+---
+title: "February"
+author: "Megan Ewing"
+date: "02-19-2025"
+categories: goals, daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+# Past Two(ish) Weeks:
+
+### Feb. 3rd
+
+Addressing results and methods edits Mac suggested for rphil:
+
+\- \[x\] protein domains – \[pFAM database for uncharacterized genes (n=16)
+
+ - \[x\] Added to sheet
+
+ - \[x\] Added to results
+
+\- \[x\] add in meaningful definition of log2fold change in results
+
+\- \[x\] indicate how many annotated,
+
+\- \[x\] how many go terms,
+
+\- \[x\] and (lack of) enrichment in results
+
+\- \[ \] include distribution of RNA type (stacked bar plot)
+
+\- \[x\] look at pvalue for rRNA between treatments
+
+**\* will need to re run chi square for this**
+
+\- \[x\] add in mito, rRNA, and protein coding (similar to stacked bar plot, but pie chart)
+
+\- \[x\] move enrichment info to results instead pof methods
+
+\- \[ \] add in info on how mnay RNA egg samples we had egg size data for (will add in info about egg samples we did have to intro when summarizing / referencing Larken paper findings)
+
+### Feb. 4th
+
+Continue addressing action items/feedback from mac above, as well as addressing Steven's comments. Specifically, the chi square and t tests for RNA analysis
+
+GIS class
+
+Grading 270 lab assingments
+
+### Feb. 5th
+
+Grading 270 lab assignments
+
+lab prep and lab
+
+### Feb. 6th
+
+finalizing results and methods edits as well as prepping/summarizing chi square output for meeting
+
+meeting with Mac, Steven, and Emma to discuss results
+
+### Feb. 7th
+
+Grading 270 lab assignments
+
+lab prep and lab
+
+### Feb. 10th 
+
+Had some doctors appointments and was out first half of day.
+
+Started presentation outline for AQ25 practice talk
+
+Some admin work – emails, setting meetings, planning classes for next q.
+
+### Feb. 11th 
+
+Worked on presentation for AQ25, primarily going through each biological process gene and reviewing NCBI info, UniProt info, GO ancestry, and literature to parse out general 'umbrella' functions
+
+### Feb. 12th 
+
+Further presentation prep. Filling in content to outline I made Monday. Decided to scrap most of the individual gene slides and put instead just 1 example one and 1 summary slide due to time limits on how long the presentation is. Womp womp :/ Those slides were so pretty too.
+
+Lab prep and lab. Incubator problems and 3 tears shed.
+
+### Feb. 13th
+
+Finalizing presentation and presented to lab group. Not so bad
+
+### Feb. 14th 
+
+Light day. TA meeting and some more admin work (sorting out TA stuff for next Q)
+
+### Feb. 17th
+
+Meeting prep for Phylo methods meeting with Luke tuesday. Reading R documentation for different packages and some use cases of Robinson foulds distance for identifying genes of interest. Rough procedure outlined [here](https://docs.google.com/document/d/1cTWECuGD_J2NsYfZuoF2DyMfI2oNXEwYhQAzu2baZSA/edit?usp=sharing).
+
+### Feb. 18th
+
+morning: finished meeting prep for methods meeting with Luke
+
+noon: meeting with luke – ran long and we set a date for next week to finish up. balancing going in depth with the phylogenetics side of things without getting too into the weeds with it. going to create a plan on what methods will be best suited for my overall goal, and feasible for my timeline.
+
+afternoon: 270 grading
+
+### Feb. 19th
+
+270 grading and office hours
+
+270 lab prep and lab
+
+# Anticipated Next Two Weeks:
+
+### 2/20
+
+finish 270 grading,
+
+meeting with kerry,
+
+lab meeting,
+
+steven meeting,
+
+and meeting with undergrad in Lukes lab to go over isotope protocols and show iso room in FSH
+
+### 2/21
+
+TA meeting
+
+write letter of rec for Zoey (270 student)
+
+fill out pre-authorization paperwork for AQ25 travel funding (WSU workday)
+
+start working on presentation edits
+
+### 2/22
+
+presentation edits
+
+### 2/24 
+
+doctors appointment
+
+presentation edits
+
+### 2/25
+
+presentation edits and practice
+
+practice talk with steven and mac
+
+### 2/26
+
+update/part 2 methods meeting with Luke
+
+270 office hours
+
+270 lab
+
+### 2/27
+
+rphil writing (intro and disc.)
+
+GIS homework
+
+### 2/28
+
+TA meeting
+
+rphil writing (intro and disc)
+
+### 3/3
+
+doctors appointment
+
+more rphil writing (intro and disc)
+
+### 3/4
+
+practice presentation more
+
+270 grading
+
+### 3/5
+
+270 grading and office hours
+
+270 lab prep and lab
+
+### 3/6
+
+leave for AQ25!

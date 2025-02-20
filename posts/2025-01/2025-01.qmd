@@ -43,7 +43,7 @@ GIS class
 
 Homework
 
-## Past Two Weeks (from 1/23 meeting) Starts Here 
+## Past Two Weeks (from 1/23 meeting) Starts Here
 
 ### Jan 8.
 
@@ -171,7 +171,7 @@ Theres this thing called a robinson-foulds tree distance which I can use to iden
 
 So I end up with a gene list with 20,000+ genes (or even 200), I can find which genes are meaningful evolutionary and can select those to map onto a known phylogeny of bivalves (like the figures in [Nicolini et al. 2023](https://academic.oup.com/gbe/article/15/10/evad181/7321078))
 
-![](images/Fish Lab Meeting 1_20_2025, 10_35_17 AM Page-1-[1737398778146].png)
+![](images/Fish%20Lab%20Meeting%201_20_2025,%2010_35_17%20AM%20Page-1-%5B1737398778146%5D.png)
 
 Going to use these to redraft / revise my methods in my proposal and have set a date to revisit with luke by Feb. 14
 
@@ -189,7 +189,7 @@ filled out travel pre-authorization request for aquaculture 2025 on treq
 
 GIS class
 
-## Next Two Weeks' Targets.... 
+## Next Two Weeks' Targets....
 
 Now that I'll have more time since no snow hydro lecture readings or homework, i'll have some time to get back to my own work :D
 
@@ -229,13 +229,15 @@ Feb 3-7:
 
     -   summarize larken paper findings, “we found differences in larval between primed and unprimed differences. This begs the question of what is happening in these eggs that leads to these differences. I took the data from these eggs and looked at RNA seq analysis.”
 
-        	- why is knowing the mechanism important
+        ```         
+        - why is knowing the mechanism important
 
-        	- figures (larval growth and survivorship, egg size)
+        - figures (larval growth and survivorship, egg size)
 
-        	- what parental priming is and why it matters.
+        - what parental priming is and why it matters.
 
-        	- biological marker. Genes fro successful priming
+        - biological marker. Genes fro successful priming
+        ```
 
     -   dicussion: parental priming, OA on bivalves, offspring health, etc. also, if not transcriptional differences explaining the phenotype found in Larken MS, perhaps epi mechanisms?
 
