@@ -1,0 +1,12 @@
+---
+title: "Aquaculture 2025 Presentation"
+author: "Megan Ewing"
+date: "02-19-2025"
+format: revealjs
+categories: projects
+editor: visual
+---
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDV5g51n10SV9cWc03tsbsPS7WEtxrQaJCtFiRha9x-hfd87obPClXt6X4bzpIytUka0wgPc5d9Tmz/embed?start=false&amp;loop=false&amp;delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
