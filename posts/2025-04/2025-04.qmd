@@ -17,7 +17,7 @@ editor: visual
 
 -   Get gametogenesis gene list for bivalve species of interest
 
-### Recap of March 
+### Recap of March
 
 I didn't really (at all, actually) in March. Here's generally what went down:
 
@@ -33,7 +33,7 @@ I didn't really (at all, actually) in March. Here's generally what went down:
 
 -   March 31 was first day of the quarter – had 370 lecture, 370 teaching team meeting, and 370 lab prep for the week (fin clipping and DNeasy kit prep).
 
-## [April!]{.underline} 
+## [April!]{.underline}
 
 ### April 1
 
@@ -66,3 +66,31 @@ lab meeting
 370 lab one
 
 maybe TGIT seminar ? we'll see how I feel :P
+
+### April 4
+
+370 lecture, lab prep & lab
+
+emails
+
+### April 7th
+
+370 lecture & planning meeting
+
+reviewed GRFP update slides sent out to fellows
+
+brief meeting with luke about phylo stuff
+
+bivalve gametogenesis (BG) stuff:
+
+-   created [repo](https://github.com/meganewing/bivalve_gametogenesis) on GH
+
+-   pulled the cds files for all the refseq annotated genomes
+
+    -   [code here](https://github.com/meganewing/bivalve_gametogenesis/blob/main/code/01-retrievegenomes.Rmd)
+
+-   made the blast DB for the GO term of interest – [GO:007276 Gamete Generation](https://www.ebi.ac.uk/QuickGO/term/GO:0007276). Next steps I want to find a way to loop the query file / actual blast steps now that I have a sub directory containing all my genomes (cds) of interest.
+
+    -   [code here](https://github.com/meganewing/bivalve_gametogenesis/blob/main/code/02-blastoncds.Rmd)
+
+![](images/GO0007276_ancestorchart.png){fig-align="center"}
