@@ -73,7 +73,7 @@ maybe TGIT seminar ? we'll see how I feel :P
 
 emails
 
-### April 7th
+### April 7
 
 370 lecture & planning meeting
 
@@ -94,3 +94,13 @@ bivalve gametogenesis (BG) stuff:
     -   [code here](https://github.com/meganewing/bivalve_gametogenesis/blob/main/code/02-blastoncds.Rmd)
 
 ![](images/GO0007276_ancestorchart.png){fig-align="center"}
+
+### April 8
+
+447 lecture and lab – lab went 1h45m over time.... BUT learned some pretty siic stuff about hydrology and estimating flood event probabilities.
+
+### April 9
+
+370 lecture
+
+Lit review
