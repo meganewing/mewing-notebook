@@ -4,6 +4,7 @@ project:
 
 website:
   title: "mewing-notebook"
+  site-url: https://meganewing.github.io/mewing-notebook
   navbar:
     right:
       - about.qmd
