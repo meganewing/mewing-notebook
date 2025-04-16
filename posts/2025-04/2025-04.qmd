@@ -132,3 +132,35 @@ some admin-type work (emails, mostly) and preparing handouts for 370 week 3 labs
 Also updated my [functional annotation sheet](https://docs.google.com/spreadsheets/d/1rlJuEZH8cDyV6r7QpWYUu54C5h25DTrpW4ugFV3t2EA/edit?usp=sharing) for clam stuff and revisited a couple of the comments / mac's suggestions.
 
 ![![](images/C722D28A-4A8F-482A-B045-6DCD522AD82A_1_102_o.jpeg){width="359"}![](images/2DE5C746-4A32-49C5-ABC0-5424298674F6_1_102_o.jpeg){width="361"}](images/E5A1809A-54C9-4759-9FF9-CC0C8EDFB5FC_1_102_o.jpeg){width="358"}
+
+### April 16
+
+370 class, office hours, and lab prep
+
+did enzyme comparison for lipid metabolism enzymes in a [paper](https://www.sciencedirect.com/science/article/pii/S0166445X18301462) Emma sent vs. [DEG functional annotation list](https://docs.google.com/spreadsheets/d/1rlJuEZH8cDyV6r7QpWYUu54C5h25DTrpW4ugFV3t2EA/edit?usp=sharing). None of the enzymes were shared explicitly, but other genes associated with lipid metabolism are on our list including none of the enzymes in those sections are on the DEG list, but we do have some DEGs associated with lipid metabolism: acyl-CoA dehydrogenase family member 10-like (LOC132737163), phospholipase D1-like (LOC132746792).
+
+[light lit review](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2020.0162) that really pushed my memory of biochem.
+
+## Anticipated 4/17-4/30
+
+4/17: 447 class, lab meeting, 370 lab, lit review
+
+4/18: 370 lecture and lab, lit review
+
+4/19: grading
+
+4/21: lecture, planning meeting, lit review / revisit methods and results (goal is to revise these sections this week in such a way that is consistent with other literature in terms of phrasing, detail, etc)
+
+4/22: 447 lecture and lab, continue on clam stuff
+
+4/23: 370 lecture, office hours, lab prep, more clam stuff & check on code for gametogenesis workflow. Last week I got it to the point where I could run blast with variables, but I want to see if I can set it up as a loop in a way that is worth overcoming the initial work of learning/setting that up. Perhaps I'll make a debut appearance at science hour depending on how this goes.
+
+4/24: 447 lecture, lab meeting, 370 lab, lit review if brain is not mush
+
+4/25: 370 lecture and lab, science hour (?), more reading :D
+
+4/28: same stuff. lecture, planning meeting, lit review and addressing any of the MS comments.
+
+4/29: 447 lecture and lab. See where I'm at with clam revisions, work on those if still more, if not, go back to code for gametogenesis and pushing that forward.
+
+4/30: 370 lecture, office hours, and lab prep. Suppose I should change those clam intro and discussion bullet points to paragraphs at some point....
