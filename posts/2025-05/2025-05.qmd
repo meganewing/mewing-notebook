@@ -1,0 +1,164 @@
+---
+title: "May Goals and Dailies"
+author: "Megan Ewing"
+date: "05-15-2025"
+categories: goals, daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## May Goals:
+
+-   **rphil paper:** This month we're trying to get the rphil paper out. So wrapping up edits for that and getting a discussion in
+
+-   **outreach:** Open house is this month, planning and prep for that
+
+-   **dont skip class:** Just finished midterm! So just keep chuggin along with coursework
+
+-   **be a good TA:** Get grades out to 370 students within reasonable timeframe & be prepared to help students with their methods
+
+-   **slight dream goal: run blast for my bivalves to get a gene list before summer**
+
+## Daily Updates
+
+### May 1
+
+447 lecture
+
+Started grading gel writeups for 370 and run 370 lab
+
+addressed remaining comments in rphil MS and updated tables/figures and reran enrichment with updated background
+
+created [clean GH repo](https://github.com/meganewing/rphil-oa) for rphil work that excludes unused files and analyses
+
+### May 2 
+
+370 lecture & lab
+
+Continued/finished grading gel writeups for 370 and run 370 lab
+
+worked on some lit review for papers emma sent and started drafting part of discussion
+
+### May 7
+
+370 lecture & office hours
+
+continued lit review and discussion drafting
+
+created folder for 2025 open house & updated activity
+
+447 homework
+
+### May 8
+
+447 homework
+
+447 lecture
+
+open house prep meeting + lab meeting
+
+447 lab
+
+### May 9
+
+370 lecture
+
+meeting with mac and emma to discuss methods/results updates and discussion draft 1
+
+started updated discussion outline
+
+back to lit review
+
+### May 12 
+
+370 lecture & planning meeting
+
+finished additional methods/results update
+
+updated rphil figure / tables, and created/added supp table (GO info) to folder
+
+finished (minus one sub section) updated discussion draft and added to MS
+
+### May 13
+
+447 lecture
+
+worked on addressing initial comments on updated discussion for rphil
+
+personal errand which took a little bit of time (related to last months personal emergency situation)
+
+short meeting with Andy to get everything squared away for open house / lobster tank
+
+back to lit review
+
+447 lab
+
+### May 14
+
+370 lecture and extra planning meeting because course organization post week 7 is f\*\*\*\*d with little to no documentation from previous quarters....
+
+370 office hours – ran long. had \~7 students with long form questions. office hour? more like office 3 hour
+
+sent out open house info
+
+went back to lit review for last part of day to continue progress towards addressing Mac & Emmas discussion comments
+
+### May 15
+
+gathered open house materials
+
+447 lecture
+
+brief follow up meeting with callum and andy on live clam 'disposal' instructions + ensuring access to aquarium roon
+
+update lab notebook for the month so far (oopsies)
+
+lab meeting
+
+370 lab
+
+rest of day: lit review & keep chippin away at discussion comments if time (not optimistic)
+
+## Who's Lit is it Anyways? 
+
+![](images/IMG_3374.jpeg)
+
+This month has been a lot of paper hunting. Here's a list of some of the papers from the last two weeks I've been digging through. A big thing I've been looking for is to get a general understanding of what might be typical differences in egg gene expression. Whether its as a results of parental priming to OA, spawn timing, immune system stimulation, etc. How much of an impact is parental contributions really having on egg expression?
+
+A lot of the lit out there seems to be looking at priming within a generation, which seems to yield somewhat substantial differences between control and treatment groups (lots of DEGs). But when looking at eggs from treated vs control parents, there is less of a difference (few DEGs).
+
+My shift now (5/15) is to find literature to continue fleshing out these different responses as a result of different life stages, different tissue types being analyzed, different types of stressors, etc. And also to dive deeper into the functional interpretation of the genes to see what kind of impact our DEGs have been having in other bivalves, and if they have been observed as DEGs in similar studies to ours.
+
+-   https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172805
+
+-   Yaamini - https://academic.oup.com/eep/article/10/1/dvae018/7764574#498950252
+
+-   Func. groups (drosophila) - https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrd.1080260310
+
+-   Goby - https://link.springer.com/article/10.1186/s12862-018-1132-2#Sec3
+
+-   Pco2 c. virginica - https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2020.566419/full
+
+-   McNally EM, Downey-Wall AM, Titmuss FD et al. Parental exposure of Eastern oysters (Crassostrea virginica) to elevated pCO 2 mitigates its negative effects on early larval shell growth and morphology.
+
+-   Strader. OA responses in bivalves review -- https://frontiersinzoology.biomedcentral.com/articles/10.1186/s12983-020-0350-9
+
+-   Gurr 2022 -- single generation exposure, 429 DEGs \@ 14 days
+
+-   Kelly -- Kelly MW, Padilla-Gamiño JL, Hofmann GE. High pCO 2 affects body size, but not gene expression in larvae of the California mussel (Mytilus californianus).
+
+-   Transcriptomic features of Pecten maximus oocyte quality and maturation https://pmc.ncbi.nlm.nih.gov/articles/PMC5333834/
+
+-   Growth -- Differential gene expression identified by RNA-Seq and qPCR in two sizes of pearl oyster (Pinctada fucata) https://www.sciencedirect.com/science/article/pii/S0378111914000523
+
+-   Maternal patterns of inheritance alter transcript expression in eggs https://pmc.ncbi.nlm.nih.gov/articles/PMC10084599/
+
+-   Immune function -- Priming European Sea Bass Female Broodstock Improves the Antimicrobial Immunity of Their Offspring https://pmc.ncbi.nlm.nih.gov/articles/PMC9913748/#sec3-animals-13-00415
+
+-   Immune -- Primed for success: Oyster parents treated with poly(I:C) produce offspring with enhanced protection against Ostreid herpesvirus type I infection https://www.sciencedirect.com/science/article/pii/S0161589016301754
+
+-   Gene Expression and Phenotypic Assessment of Egg Quality across Developmental Stages of Atlantic Cod throughout the Spawning Season -- https://pmc.ncbi.nlm.nih.gov/articles/PMC11242223/#sec2-ijms-25-07488
+
+-   Epigenetics -- Epigenetic considerations in aquaculture https://pmc.ncbi.nlm.nih.gov/articles/PMC5723431/
