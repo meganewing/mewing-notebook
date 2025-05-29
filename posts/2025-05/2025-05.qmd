@@ -33,7 +33,7 @@ addressed remaining comments in rphil MS and updated tables/figures and reran en
 
 created [clean GH repo](https://github.com/meganewing/rphil-oa) for rphil work that excludes unused files and analyses
 
-### May 2 
+### May 2
 
 370 lecture & lab
 
@@ -71,7 +71,7 @@ started updated discussion outline
 
 back to lit review
 
-### May 12 
+### May 12
 
 370 lecture & planning meeting
 
@@ -121,7 +121,25 @@ lab meeting
 
 rest of day: lit review & keep chippin away at discussion comments if time (not optimistic)
 
-## Who's Lit is it Anyways? 
+### May 16
+
+370 lecture
+
+finalized open house prep (got clams!)
+
+![](images/IMG_3385.jpeg){width="199"}
+
+370 lab
+
+continued lit review to address rphil MS comments
+
+### May 17
+
+field trip for 447 (watershed ecology) —
+
+### May 19
+
+## Who's Lit is it Anyways?
 
 ![](images/IMG_3374.jpeg)
 
@@ -131,34 +149,60 @@ A lot of the lit out there seems to be looking at priming within a generation, w
 
 My shift now (5/15) is to find literature to continue fleshing out these different responses as a result of different life stages, different tissue types being analyzed, different types of stressors, etc. And also to dive deeper into the functional interpretation of the genes to see what kind of impact our DEGs have been having in other bivalves, and if they have been observed as DEGs in similar studies to ours.
 
--   https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172805
-
--   Yaamini - https://academic.oup.com/eep/article/10/1/dvae018/7764574#498950252
-
--   Func. groups (drosophila) - https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrd.1080260310
-
--   Goby - https://link.springer.com/article/10.1186/s12862-018-1132-2#Sec3
-
--   Pco2 c. virginica - https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2020.566419/full
-
--   McNally EM, Downey-Wall AM, Titmuss FD et al. Parental exposure of Eastern oysters (Crassostrea virginica) to elevated pCO 2 mitigates its negative effects on early larval shell growth and morphology.
-
--   Strader. OA responses in bivalves review -- https://frontiersinzoology.biomedcentral.com/articles/10.1186/s12983-020-0350-9
-
--   Gurr 2022 -- single generation exposure, 429 DEGs \@ 14 days
-
--   Kelly -- Kelly MW, Padilla-Gamiño JL, Hofmann GE. High pCO 2 affects body size, but not gene expression in larvae of the California mussel (Mytilus californianus).
-
--   Transcriptomic features of Pecten maximus oocyte quality and maturation https://pmc.ncbi.nlm.nih.gov/articles/PMC5333834/
-
--   Growth -- Differential gene expression identified by RNA-Seq and qPCR in two sizes of pearl oyster (Pinctada fucata) https://www.sciencedirect.com/science/article/pii/S0378111914000523
-
--   Maternal patterns of inheritance alter transcript expression in eggs https://pmc.ncbi.nlm.nih.gov/articles/PMC10084599/
-
--   Immune function -- Priming European Sea Bass Female Broodstock Improves the Antimicrobial Immunity of Their Offspring https://pmc.ncbi.nlm.nih.gov/articles/PMC9913748/#sec3-animals-13-00415
-
--   Immune -- Primed for success: Oyster parents treated with poly(I:C) produce offspring with enhanced protection against Ostreid herpesvirus type I infection https://www.sciencedirect.com/science/article/pii/S0161589016301754
-
--   Gene Expression and Phenotypic Assessment of Egg Quality across Developmental Stages of Atlantic Cod throughout the Spawning Season -- https://pmc.ncbi.nlm.nih.gov/articles/PMC11242223/#sec2-ijms-25-07488
-
--   Epigenetics -- Epigenetic considerations in aquaculture https://pmc.ncbi.nlm.nih.gov/articles/PMC5723431/
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| **author**                      | **year** | **title**                                                                                                                                                  | **link**                                                                                     |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Pauletto                        | 2017     | Transcriptomic features of Pecten maximus oocyte quality and maturation                                                                                    | <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172805>                  |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Cheung                          | 2019     | What makes a bad egg? Egg transcriptome reveals dysregulation of translational\                                                                            | <https://pubmed.ncbi.nlm.nih.gov/31307377/>                                                  |
+|                                 |          | machinery and novel fertility genes\                                                                                                                       |                                                                                              |
+|                                 |          | important for fertilization                                                                                                                                |                                                                                              |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Venkataraman                    | 2024     | DNA methylation correlates with transcriptional noise in response to elevated pCO2 in the eastern oyster (Crassostrea virginica)                           | <https://academic.oup.com/eep/article/10/1/dvae018/7764574#498950252>                        |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Adrian-Kalchhauser              | 2018     | RNA sequencing of early round goby embryos reveals that maternal experiences can shape the maternal RNA contribution in a wild vertebrate                  | <https://link.springer.com/article/10.1186/s12862-018-1132-2#Sec3>                           |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Downey-Wall                     | 2020     | Ocean Acidification Induces Subtle Shifts in Gene Expression and DNA Methylation in Mantle Tissue of the Eastern Oyster (Crassostrea virginica)            |                                                                                              |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| McNally                         | 2022     | Parental exposure of Eastern oysters (Crassostrea virginica) to elevated pCO 2 mitigates its negative effects on early larval shell growth and morphology  | <https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lno.12162>                             |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Strader                         | 2020     | Ocean acidification promotes broad transcriptomic responses in marine metazoans: a literature survey                                                       | <https://frontiersinzoology.biomedcentral.com/articles/10.1186/s12983-020-0350-9>            |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Gurr                            | 2022     | Acclimatory gene expression of primed clams enhances robustness to elevated pCO2                                                                           | <https://pubmed.ncbi.nlm.nih.gov/35947503/>                                                  |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Kelly                           | 2016     | High pCO2 affects body size, but not gene expression in larvae of the California mussel (Mytilus californianus)                                            | <https://academic.oup.com/icesjms/article/73/3/962/2458759>                                  |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Barbosa                         | 2022     | A Transcriptomic Analysis of Phenotypic Plasticity in Crassostrea virginica Larvae under Experimental Acidification                                        | <https://pubmed.ncbi.nlm.nih.gov/36140697/>                                                  |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Kim                             | 2020     | Transcriptome Analysis of Maternal Gene Transcripts in Unfertilized Eggs of Misgurnus anguillicaudatus and Identification of Immune-Related Maternal Genes | <https://pmc.ncbi.nlm.nih.gov/articles/PMC7312655/>                                          |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+|                                 |          |                                                                                                                                                            |                                                                                              |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+|                                 |          |                                                                                                                                                            |                                                                                              |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| **Skimmed / not yet annotated** |          |                                                                                                                                                            |                                                                                              |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Shi                             | 2014     | Differential gene expression identified by RNA-Seq and qPCR in two sizes of pearl oyster (Pinctada fucata)                                                 |                                                                                              |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Waite                           | 2025     | Characteristics of positive parental effects under exposure to climate change in marine invertebrates                                                      | <https://link.springer.com/article/10.1007/s10452-025-10177-y>                               |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Zhang                           | 2022     | Comparative transcriptomic analysis revealed dynamic changes of distinct classes of genes during development of the Manila clam (Ruditapes philippinarum)  | <https://pmc.ncbi.nlm.nih.gov/articles/PMC9524096/#Sec17>                                    |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Zhao                            | 2018     | Transgenerational acclimation to seawater acidification in the Manila clam Ruditapes philippinarum: Preferential uptake of metabolic carbon                |                                                                                              |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Castets                         | 2012     | Combined analysis of Perca fluviatilis reproductive performance and oocyte proteomic profile                                                               | <https://www.sciencedirect.com/science/article/abs/pii/S0093691X12001331>                    |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Harry                           | 2023     | Maternal patterns of inheritance alter transcript expression in eggs                                                                                       | <https://pmc.ncbi.nlm.nih.gov/articles/PMC10084599/>                                         |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Valero                          | 2023     | Priming European Sea Bass Female Broodstock Improves the Antimicrobial Immunity of Their Offspring                                                         | <https://pmc.ncbi.nlm.nih.gov/articles/PMC9913748/#sec3-animals-13-00415>                    |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Green                           | 2016     | Primed for success: Oyster parents treated with poly(I:C) produce offspring with enhanced protection against Ostreid herpesvirus type I infection          | <https://www.sciencedirect.com/science/article/abs/pii/S0161589016301754>                    |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Miguez                          | 2024     | Gene Expression and Phenotypic Assessment of Egg Quality across Developmental Stages of Atlantic Cod throughout the Spawning Season                        |                                                                                              |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Vihtakari                       | 2016     | Variable Individual- and Population- Level Responses to Ocean Acidification                                                                                | <https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2016.00051/full> |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Padilla-Gamino                  | 2022     | Ocean acidification does not overlook sex: Review of understudied effects and implications of low pH on marine invertebrate sexual reproduction            |                                                                                              |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| Lymbery                         | 2019     | Ocean acidification during prefertilization chemical communication affects sperm success                                                                   | <https://onlinelibrary.wiley.com/doi/10.1002/ece3.5720>                                      |
++---------------------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+

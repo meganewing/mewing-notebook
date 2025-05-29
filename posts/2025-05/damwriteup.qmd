@@ -1,0 +1,44 @@
+---
+title: "Dam-ed if you do, Dam-ed if you don't"
+author: "Megan Ewing"
+date: "05-17-2025"
+categories: 
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+### Is it better to have green energy or increased salmon habitat? Issues facing dam relicensing processes in the Upper Skagit watershed:
+
+Saturday, May 17th, the 447 (watershed ecology) group went to Ross Dam, Diablo Dam overlook, Gorge Dam, Newhalem, Baker Lake Dam, Oso, Skagit River, Swinomish River, and Sauk River.
+
+Were looking at the different functions of each dam, which are all run by Seattle City Light. Ross dam is primarily for flood control / water retention and can store 9 days to 9 weeks worth of water above it. Diablo Dam is primarily for hydropower. Interestingly, Gorge Dam is a "fish-first" dam. Its primary function is to moderate water levels in a way that will benefit fish. While it also will use the power it generates in doing so, changes in flow rates are strictly determined by fish:
+
+\- how much water in river — never de-water / dry out reds
+
+\- lower the river when salmon/steelhead come in to spawn, to ensure redds get built more center of river, rather than edges, to ensure they stay in channel w fluctuating water levels
+
+\- ensure that even the highest elevation redd gets covered / stays wet and adjust dam operations to do so
+
+\- ensure the power balancing flows don’t interfere w fish activity — ramping rate slowed down to not freak out or strand fish
+
+![](images/IMG_3399.jpeg)
+
+\^ Gorge Dam ("fish first")
+
+We also talked about current FERC re-licensing processes and the engineering approaches being developed to improve fish passage. Baker Lake uses a "trap and truck" approach which traps sockeye below the dam using a salmon lock ("elevator") system that allows them to be loaded into trucks without human handling. They then get trucked and released above the dam along a reach with "redd beaches"-- ie., reaches with amble spawning habitat. The loading, trucking, and releasing process takes about 30 minutes.
+
+Ross lake dam (below) had it FERC license expire this year and is in the process of renewing this licence, which will be valid for 30-50 years. There has been a lot of discussion about what the future of this dam will be, specifically with regards to fish. Recall that these dams are operated by Seattle City Light, which means that the environments that are being impacted by the dam presence are not receiving the benefits. This has led to a lot of pressure for dam removals from locals, particularly tribes. Traditional knowledge asserts that there were historic salmon runs above this while western science points to lack of isotope or molecular evidence to support this. This has led to a contentious re-licencing process as SCL works to find a solution that will satisfy all licensing partners.
+
+With Ross Lake dam towering at 590 ft tall (30 feet shorter than its initially intended height), traditional fish passage methods present a challenge should licensing partners agree to return salmon to above the highest of the 3 dams on the upper skagit river.
+
+One such solution looks towards Baker Lake's approach of trap and trucking. It now becomes important to note that Ross Lake Dam is not accessible via road. You can only get to the dam by hiking the 1.5mi trail from the road, or by driving to Diablo Dam and boarding a barge. The barge can boat you from Diablo Dam to the base of Ross Lake Dam, and from there you can take a steep gravel access road to the top of the dam. A stark different from the infrastructure present below and above Baker Lake's dam.
+
+![](images/IMG_3406.jpeg)
+
+Ross Lake Dam. 590 ft tall.
+
+![](images/IMG_3432.jpeg)
+
+De-watered reach downstream of Gorge Dam
