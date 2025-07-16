@@ -1,0 +1,44 @@
+---
+title: "July Goals + Dailies"
+author: "Megan Ewing"
+date: "07-16-2025"
+categories: goals, daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+# July Goals
+
+-   Finish clam chapter intro + discussion, send to committee
+
+-   Get gene lists for all bivalve species
+
+-   Get consensus tree (or get UCEs mapped for at least 2 species)
+
+# July Daily Updates
+
+Note, once Spring quarter and finals finished, I was moving so didn't get much done aside from a little bit of outlining for clam chapter.
+
+### July 1-9th
+
+Lumping this swath of days together as it was pretty much one continuous effort of putting together the clam chapter. I pulled the methods and results from the shared MS and added in the extra contextualizing details as needed (eg., experimental setup info). I also pulled the last discussion draft I had worked on with Mac and Emma before Emma did the final push and revision for the MS draft. There was still a little bit of work to be done on that, including concluding statements, tying back in some more sources to support my interpretations and compare the results to similar studies, and tying in the DEGs to carryover effects (ie., can these results really indicate the parent conditions primed the offspring). The intro I wrote from scratch. Much of this time was me sifting through literature (incl. many maternal RNA papers), outlining, and staring at my screen trying to figure out what I wanted to say. Eventually got a draft and then spent a day or two refining it before sending it out to the committee on the 10th.
+
+There was also a day in here where I stepped away from the writing and worked some more on the workflow for the other chapter. Started w the C. gigas genome. Ran blast using tblastn with the genome as the database and the genes under the GO term as the query. Set e value to 1e-10 which returned around \~3000, with some sequence IDs in the genome having multiple hits for different species versions of the same gene (eg., MOUSE_TEST1, HUMAN_TEST1). [Code here.](https://github.com/meganewing/bivalve_gametogenesis/blob/main/code/02-blastoncds.Rmd)
+
+### July 10th 
+
+Final lookover of clam chapter, double checking all sources were sited (and hunting down some of them that seemed to elude my paperpile folders — which was mostly just the methods/code package related sources). Sent to committee (first july goal done!). Shifting gears to bivalve chapter.
+
+(was out of town july 11th-14th)
+
+### July 15th 
+
+Continued with the gmt chapter workflow. Got the GO:bp info from uniprot and finished the annotation. Since there was multiple hits I also filtered by out the top hit by highest bitscore (so if MOUSE_TEST1 had bitscore of 98, and HUMAN_TEST1 had a bitscore of 87, the mouse version of the gene was the one was kept). A potential issue with this may be that there could be different genes mapped to the same sequence like TEST1 vs. some other gene that both had lets say 30% match to. One solution to this might be to redo my filtering for top hits based on % identity, so the protein version that has a higher % match is the one that is kept, but I'm also not sure if I want to filter down further to say 'anything less than 30% match gets excluded' for example. Currently, the lowest % post filter is \~17%
+
+Luke is at a conference currently but I've emailed him to set a time to meet and discuss some of this. My goal is to get this example workflow finalized with an output that sets me up nicely for the Robinson-foulds mapping. I want my gene list to be filtered but need guidance on which way might be the most justified. [Code here](https://github.com/meganewing/bivalve_gametogenesis/blob/main/code/02-blastoncds.Rmd). [Outputs here](https://github.com/meganewing/bivalve_gametogenesis/blob/main/output/genelist_GCF_963853765.1.csv) (note that the gene list is filtered for top bitscore hit but does not include pident, while the annotation file does include pident but is not filtered for top bitscore hit).
+
+### Looking forward
+
+By early next week I'd like to get the code running for the other 16 bivalve species and have all of my gene lists by the end of next week. Concurrently, I may start working on creating my consensus tree workflow, but since I'm very unfamiliar with this methodology, I'm not sure what the timeline or procedure is for that. So between coding things, it'll be a little bit of looking through forums and literature about building trees using UCEs and I'll look into the bitscore vs. pident filter debate a bit as well in the more immediate meantime (aka this week).
