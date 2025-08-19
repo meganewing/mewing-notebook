@@ -1,0 +1,42 @@
+---
+title: "August Goals + Dailies"
+author: "Megan Ewing"
+date: "08-19-2025"
+categories: goals, daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## Goals
+
+As a recap – july goals were:
+
+-   ✅ Finish clam chapter intro + discussion, send to committee
+
+-   ✅ Get gene lists for all bivalve species
+
+-   Get consensus tree (or ✅ get UCEs mapped for ~~at least 2~~ ***ALL*** species)
+
+August goals are then to:
+
+-   Get consensus tree
+
+-   Make gene trees to run robinson foulds and identify genes of interest
+
+Which should then put me in a good place for mapping genes of interest onto the tree and having results (or at the very least, solid tentative results) by end of summer, keeping me right on schedule with the plan I presented at my committee meeting :D
+
+## Dailies
+
+### Aug 1
+
+Previewed some of my outputs to see if they looked as expected. The 2 bait files I was using each had 10,000 sequences that are ultraconserved throughout mollusca (bait v1) and bivalvia (bait v2), yet some of the species had very few hits, some (zebra mussel) with 0 total hits. Not sure why this is happening so spent some time reading previous issues on the phyluce github page and troubleshooting to see why some uce's weren't found in some genomes. Another issue was that the samples were losing sequences when converting from lastz to fasta (see below). spent some time troubleshooting that as well. Luke and I are going to meet to talk about it but we're both out of the office for the next \~two weeks so it'll have to wait.
+
+![](images/Screenshot 2025-08-19 at 4.44.21 PM.png){width="364"}
+
+### Aug 19
+
+Back in town! Met with Luke this morning to review outputs and troubleshoot together. It seems that the reduction from lastz to fasta sequences is expected as the conversion only keeps the UCE sequence (DB) that the genome sequence (query) had the strongest match to.
+
+The issue regarding some of the samples not having any hits seems to be with the significance or identiy match specification default for phyluce. There was an ommitted argument in the phyluce alignment (was omitted in the tutorial I was following) but I was able to find it in a different phyluce and re ran the alignment with `--identity 50` and `--identity 80` with much more success. The average for 50 identity was \~860 (v1) and \~740 (v2), and for 80 identity was \~500 (v1) and \~550 (v2). (v1 is bait for mollusca more generally, and v2 is the bait for bivalvia more specifically). This is on par with the \~850 average UCE matches found by [Li et al., 2024](https://datadryad.org/dataset/doi:10.5061/dryad.m63xsj48g#readme) (who provided the bait sequences used).
