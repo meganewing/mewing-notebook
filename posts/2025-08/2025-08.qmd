@@ -57,7 +57,7 @@ the general workflow for all this is then:
 
 so today I took the outputs from tutorial III and started working on the data matrices to proccess UCEs.
 
-### Aug 22 
+### Aug 22
 
 finished with the daily use tutorial and got UCE fastas for all the UCEs found within my bivavles. next step is to continue onto tutorial I and align and trim them to prep for IQ tree.
 

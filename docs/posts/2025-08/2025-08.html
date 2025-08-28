@@ -156,6 +156,11 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#aug-1" id="toc-aug-1" class="nav-link" data-scroll-target="#aug-1">Aug 1</a></li>
   <li><a href="#aug-19" id="toc-aug-19" class="nav-link" data-scroll-target="#aug-19">Aug 19</a></li>
+  <li><a href="#aug-21" id="toc-aug-21" class="nav-link" data-scroll-target="#aug-21">Aug 21</a></li>
+  <li><a href="#aug-22" id="toc-aug-22" class="nav-link" data-scroll-target="#aug-22">Aug 22</a></li>
+  <li><a href="#aug-25" id="toc-aug-25" class="nav-link" data-scroll-target="#aug-25">Aug 25</a></li>
+  <li><a href="#aug-26" id="toc-aug-26" class="nav-link" data-scroll-target="#aug-26">Aug 26</a></li>
+  <li><a href="#aug-27" id="toc-aug-27" class="nav-link" data-scroll-target="#aug-27">Aug 27</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -193,6 +198,36 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="aug-19">Aug 19</h3>
 <p>Back in town! Met with Luke this morning to review outputs and troubleshoot together. It seems that the reduction from lastz to fasta sequences is expected as the conversion only keeps the UCE sequence (DB) that the genome sequence (query) had the strongest match to.</p>
 <p>The issue regarding some of the samples not having any hits seems to be with the significance or identiy match specification default for phyluce. There was an ommitted argument in the phyluce alignment (was omitted in the tutorial I was following) but I was able to find it in a different phyluce and re ran the alignment with <code>--identity 50</code> and <code>--identity 80</code> with much more success. The average for 50 identity was ~860 (v1) and ~740 (v2), and for 80 identity was ~500 (v1) and ~550 (v2). (v1 is bait for mollusca more generally, and v2 is the bait for bivalvia more specifically). This is on par with the ~850 average UCE matches found by <a href="https://datadryad.org/dataset/doi:10.5061/dryad.m63xsj48g#readme">Li et al., 2024</a> (who provided the bait sequences used).</p>
+<p>Oh and here’s the <a href="https://github.com/meganewing/bivalve_gametogenesis">repo</a>. Phyluce stuff is in <code>data/phyluce/</code></p>
+</section>
+<section id="aug-21" class="level3">
+<h3 class="anchored" data-anchor-id="aug-21">Aug 21</h3>
+<p>now that I had my UCEs successfully harvested, I had to switch to a different phyluce tutorial. Eventually I want to have folders with fastas of UCEs that map to 50%, 75%, and 95% of the taxa, and matrixes in proper format representing these so that they can be input into IQ tree for the species consensus tree I want to build. The species consensus tree will then be what I use to run robinson foulds distance for the (repro) gene trees to identify reproductive genes of interest.</p>
+<p>the general workflow for all this is then:</p>
+<ul>
+<li><p>harvest UCEs (identifying which UCEs are present in each of the 17 bivalves) (<a href="https://phyluce.readthedocs.io/en/latest/tutorials/tutorial-3.html">Tutorial III</a>) –&gt;</p></li>
+<li><p>create two data matrixes – one with complete representation (UCEs in all samples) and one with incomplete (UCEs in at least 3 samples). treat the UCE outputs from tutorial III as contigs (<a href="https://phyluce.readthedocs.io/en/latest/daily-use/daily-use-3-uce-processing.html#extracting-fasta-data-using-the-data-matrix-configuration-file">daily use phyluce tutorial</a>) –&gt;</p></li>
+<li><p>use these matrixes to then extract, align, and trim UCEs of interest and generate fasta files for them (<a href="https://phyluce.readthedocs.io/en/latest/tutorials/tutorial-1.html#aligning-uce-loci">tutorial I, starting with the aligning UCE loci</a>)</p></li>
+</ul>
+<p>so today I took the outputs from tutorial III and started working on the data matrices to proccess UCEs.</p>
+</section>
+<section id="aug-22" class="level3">
+<h3 class="anchored" data-anchor-id="aug-22">Aug 22</h3>
+<p>finished with the daily use tutorial and got UCE fastas for all the UCEs found within my bivavles. next step is to continue onto tutorial I and align and trim them to prep for IQ tree.</p>
+</section>
+<section id="aug-25" class="level3">
+<h3 class="anchored" data-anchor-id="aug-25">Aug 25</h3>
+<p>raven down…womp womp</p>
+<p>started reviewing some of the comments on my proposal draft from like 9 months ago lol. realized a common theme was that i needed more sources and a bit more explanation regarding 1) how gametogenesis in bivalves works, and 2) why it matters. So started some lit review for that. mostly reading chapters 1, 2, 4, and 6 in “Reproduction in Aquatic Animals”: (Yoshida M, Asturiano JF (eds) (2020) Reproduction in aquatic animals, 2020th ed.&nbsp;Springer, Singapore, Singapore.) which covered spermatogenesis, oogenesis, fertilization, etc.</p>
+</section>
+<section id="aug-26" class="level3">
+<h3 class="anchored" data-anchor-id="aug-26">Aug 26</h3>
+<p>Raven was still down in the morning so I continued with some of my lit review in the morning looking at parental effects on offspring (specifically looking for paternal impacts since the manila clam stuff gave a decent dive into maternal influence).</p>
+<p>Then started work on tutorial I</p>
+</section>
+<section id="aug-27" class="level3">
+<h3 class="anchored" data-anchor-id="aug-27">Aug 27</h3>
+<p>continued and concluded work on tutorial I. aligned and trimmed the uce loci using mafft alignment and internal trimming (due to potential evolutionary distance of some of the bivalve species) and cleaned alignments. then was able to generate data folders of 50%, 75% and 95% representation (folder contained the fasta files of UCEs present for each % of taxa and stated uce and corresponding taxa sequence) and matrices that concatenated these files. Then converted the concatenated files into phyllip format for use in IQ tree.</p>
 
 
 </section>
