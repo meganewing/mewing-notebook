@@ -80,7 +80,7 @@ continued phyluce tutorial. First run at aligning genomes to bait sequences. Kep
 
 troubleshooting continues and was able to successfully align all genomes to the bait sequences (probe files) and extract UCEs
 
-### July 30th 
+### July 30th
 
 continued UCE extraction and file conversion. ran into issue where the output UCE matches for each genome (which come as a lastz output format) was struggling to get converted to fasta. was a naming scheme issue – had to go upstream and remove the `lcl|` from sequence names, re run phyluce alignment, and was able to solve the issue.
 
