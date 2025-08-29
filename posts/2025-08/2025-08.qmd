@@ -76,3 +76,7 @@ Then started work on tutorial I
 ### Aug 27
 
 continued and concluded work on tutorial I. aligned and trimmed the uce loci using mafft alignment and internal trimming (due to potential evolutionary distance of some of the bivalve species) and cleaned alignments. then was able to generate data folders of 50%, 75% and 95% representation (folder contained the fasta files of UCEs present for each % of taxa and stated uce and corresponding taxa sequence) and matrices that concatenated these files. Then converted the concatenated files into phyllip format for use in IQ tree.
+
+### Aug 28
+
+Created the IQ trees and visualized with FigTree. Noticed an error fairly upstream in the UCE/phyluce code so went back and edited that and re ran all downstream analyses. Wrote up methods to date for whole consensus tree process.

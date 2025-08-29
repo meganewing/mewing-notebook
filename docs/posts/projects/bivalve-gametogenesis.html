@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Megan Ewing">
-<meta name="dcterms.date" content="2025-08-19">
+<meta name="dcterms.date" content="2025-08-28">
 
-<title>August Goals + Dailies – mewing-notebook</title>
+<title>Bivalve Gametogenesis Updates – mewing-notebook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,9 +115,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">August Goals + Dailies</h1>
+      <h1 class="title">Bivalve Gametogenesis Updates</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">goals, daily</div>
+                <div class="quarto-category">projects</div>
               </div>
                   </div>
   </div>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 19, 2025</p>
+        <p class="date">August 28, 2025</p>
       </div>
     </div>
     
@@ -151,18 +151,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#goals" id="toc-goals" class="nav-link active" data-scroll-target="#goals">Goals</a></li>
-  <li><a href="#dailies" id="toc-dailies" class="nav-link" data-scroll-target="#dailies">Dailies</a>
-  <ul class="collapse">
-  <li><a href="#aug-1" id="toc-aug-1" class="nav-link" data-scroll-target="#aug-1">Aug 1</a></li>
-  <li><a href="#aug-19" id="toc-aug-19" class="nav-link" data-scroll-target="#aug-19">Aug 19</a></li>
-  <li><a href="#aug-21" id="toc-aug-21" class="nav-link" data-scroll-target="#aug-21">Aug 21</a></li>
-  <li><a href="#aug-22" id="toc-aug-22" class="nav-link" data-scroll-target="#aug-22">Aug 22</a></li>
-  <li><a href="#aug-25" id="toc-aug-25" class="nav-link" data-scroll-target="#aug-25">Aug 25</a></li>
-  <li><a href="#aug-26" id="toc-aug-26" class="nav-link" data-scroll-target="#aug-26">Aug 26</a></li>
-  <li><a href="#aug-27" id="toc-aug-27" class="nav-link" data-scroll-target="#aug-27">Aug 27</a></li>
-  <li><a href="#aug-28" id="toc-aug-28" class="nav-link" data-scroll-target="#aug-28">Aug 28</a></li>
-  </ul></li>
+  <li><a href="#consensus-tree-methods-prelim-results" id="toc-consensus-tree-methods-prelim-results" class="nav-link active" data-scroll-target="#consensus-tree-methods-prelim-results">Consensus Tree Methods &amp; Prelim Results</a></li>
   </ul>
 </nav>
     </div>
@@ -173,69 +162,170 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="goals" class="level2">
-<h2 class="anchored" data-anchor-id="goals">Goals</h2>
-<p>As a recap – july goals were:</p>
-<ul>
-<li><p>✅ Finish clam chapter intro + discussion, send to committee</p></li>
-<li><p>✅ Get gene lists for all bivalve species</p></li>
-<li><p>Get consensus tree (or ✅ get UCEs mapped for <del>at least 2</del> <strong><em>ALL</em></strong> species)</p></li>
-</ul>
-<p>August goals are then to:</p>
-<ul>
-<li><p>Get consensus tree</p></li>
-<li><p>Make gene trees to run robinson foulds and identify genes of interest</p></li>
-</ul>
-<p>Which should then put me in a good place for mapping genes of interest onto the tree and having results (or at the very least, solid tentative results) by end of summer, keeping me right on schedule with the plan I presented at my committee meeting :D</p>
-</section>
-<section id="dailies" class="level2">
-<h2 class="anchored" data-anchor-id="dailies">Dailies</h2>
-<section id="aug-1" class="level3">
-<h3 class="anchored" data-anchor-id="aug-1">Aug 1</h3>
-<p>Previewed some of my outputs to see if they looked as expected. The 2 bait files I was using each had 10,000 sequences that are ultraconserved throughout mollusca (bait v1) and bivalvia (bait v2), yet some of the species had very few hits, some (zebra mussel) with 0 total hits. Not sure why this is happening so spent some time reading previous issues on the phyluce github page and troubleshooting to see why some uce’s weren’t found in some genomes. Another issue was that the samples were losing sequences when converting from lastz to fasta (see below). spent some time troubleshooting that as well. Luke and I are going to meet to talk about it but we’re both out of the office for the next ~two weeks so it’ll have to wait.</p>
-<p><img src="images/Screenshot 2025-08-19 at 4.44.21 PM.png" class="img-fluid" width="364"></p>
-</section>
-<section id="aug-19" class="level3">
-<h3 class="anchored" data-anchor-id="aug-19">Aug 19</h3>
-<p>Back in town! Met with Luke this morning to review outputs and troubleshoot together. It seems that the reduction from lastz to fasta sequences is expected as the conversion only keeps the UCE sequence (DB) that the genome sequence (query) had the strongest match to.</p>
-<p>The issue regarding some of the samples not having any hits seems to be with the significance or identiy match specification default for phyluce. There was an ommitted argument in the phyluce alignment (was omitted in the tutorial I was following) but I was able to find it in a different phyluce and re ran the alignment with <code>--identity 50</code> and <code>--identity 80</code> with much more success. The average for 50 identity was ~860 (v1) and ~740 (v2), and for 80 identity was ~500 (v1) and ~550 (v2). (v1 is bait for mollusca more generally, and v2 is the bait for bivalvia more specifically). This is on par with the ~850 average UCE matches found by <a href="https://datadryad.org/dataset/doi:10.5061/dryad.m63xsj48g#readme">Li et al., 2024</a> (who provided the bait sequences used).</p>
-<p>Oh and here’s the <a href="https://github.com/meganewing/bivalve_gametogenesis">repo</a>. Phyluce stuff is in <code>data/phyluce/</code></p>
-</section>
-<section id="aug-21" class="level3">
-<h3 class="anchored" data-anchor-id="aug-21">Aug 21</h3>
-<p>now that I had my UCEs successfully harvested, I had to switch to a different phyluce tutorial. Eventually I want to have folders with fastas of UCEs that map to 50%, 75%, and 95% of the taxa, and matrixes in proper format representing these so that they can be input into IQ tree for the species consensus tree I want to build. The species consensus tree will then be what I use to run robinson foulds distance for the (repro) gene trees to identify reproductive genes of interest.</p>
-<p>the general workflow for all this is then:</p>
-<ul>
-<li><p>harvest UCEs (identifying which UCEs are present in each of the 17 bivalves) (<a href="https://phyluce.readthedocs.io/en/latest/tutorials/tutorial-3.html">Tutorial III</a>) –&gt;</p></li>
-<li><p>create two data matrixes – one with complete representation (UCEs in all samples) and one with incomplete (UCEs in at least 3 samples). treat the UCE outputs from tutorial III as contigs (<a href="https://phyluce.readthedocs.io/en/latest/daily-use/daily-use-3-uce-processing.html#extracting-fasta-data-using-the-data-matrix-configuration-file">daily use phyluce tutorial</a>) –&gt;</p></li>
-<li><p>use these matrixes to then extract, align, and trim UCEs of interest and generate fasta files for them (<a href="https://phyluce.readthedocs.io/en/latest/tutorials/tutorial-1.html#aligning-uce-loci">tutorial I, starting with the aligning UCE loci</a>)</p></li>
-</ul>
-<p>so today I took the outputs from tutorial III and started working on the data matrices to proccess UCEs.</p>
-</section>
-<section id="aug-22" class="level3">
-<h3 class="anchored" data-anchor-id="aug-22">Aug 22</h3>
-<p>finished with the daily use tutorial and got UCE fastas for all the UCEs found within my bivavles. next step is to continue onto tutorial I and align and trim them to prep for IQ tree.</p>
-</section>
-<section id="aug-25" class="level3">
-<h3 class="anchored" data-anchor-id="aug-25">Aug 25</h3>
-<p>raven down…womp womp</p>
-<p>started reviewing some of the comments on my proposal draft from like 9 months ago lol. realized a common theme was that i needed more sources and a bit more explanation regarding 1) how gametogenesis in bivalves works, and 2) why it matters. So started some lit review for that. mostly reading chapters 1, 2, 4, and 6 in “Reproduction in Aquatic Animals”: (Yoshida M, Asturiano JF (eds) (2020) Reproduction in aquatic animals, 2020th ed.&nbsp;Springer, Singapore, Singapore.) which covered spermatogenesis, oogenesis, fertilization, etc.</p>
-</section>
-<section id="aug-26" class="level3">
-<h3 class="anchored" data-anchor-id="aug-26">Aug 26</h3>
-<p>Raven was still down in the morning so I continued with some of my lit review in the morning looking at parental effects on offspring (specifically looking for paternal impacts since the manila clam stuff gave a decent dive into maternal influence).</p>
-<p>Then started work on tutorial I</p>
-</section>
-<section id="aug-27" class="level3">
-<h3 class="anchored" data-anchor-id="aug-27">Aug 27</h3>
-<p>continued and concluded work on tutorial I. aligned and trimmed the uce loci using mafft alignment and internal trimming (due to potential evolutionary distance of some of the bivalve species) and cleaned alignments. then was able to generate data folders of 50%, 75% and 95% representation (folder contained the fasta files of UCEs present for each % of taxa and stated uce and corresponding taxa sequence) and matrices that concatenated these files. Then converted the concatenated files into phyllip format for use in IQ tree.</p>
-</section>
-<section id="aug-28" class="level3">
-<h3 class="anchored" data-anchor-id="aug-28">Aug 28</h3>
-<p>Created the IQ trees and visualized with FigTree. Noticed an error fairly upstream in the UCE/phyluce code so went back and edited that and re ran all downstream analyses. Wrote up methods to date for whole consensus tree process.</p>
+<section id="consensus-tree-methods-prelim-results" class="level3">
+<h3 class="anchored" data-anchor-id="consensus-tree-methods-prelim-results">Consensus Tree Methods &amp; Prelim Results</h3>
+<p>Genomes from 17 bivalves with RefSeq annotations were retrieved from NCBI (Table 1).</p>
+<p><strong>Table 1.</strong> Species with RefSeq annotated genomes pulled from NCBI and genome size.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Assembly Accession</strong></td>
+<td><strong>Organism Name</strong></td>
+<td><strong>Common Name</strong></td>
+<td><strong>Gbp</strong></td>
+<td><strong># Seq in DB (genome)</strong></td>
+</tr>
+<tr class="even">
+<td>GCF_002022765.2</td>
+<td>Crassostrea virginica</td>
+<td>Eastern Oyster</td>
+<td>0.118</td>
+<td>60213</td>
+</tr>
+<tr class="odd">
+<td>GCF_026914265.1</td>
+<td>Mya arenaria</td>
+<td>Soft Shell Clam</td>
+<td>0.126</td>
+<td>61919</td>
+</tr>
+<tr class="even">
+<td>GCF_963853765.1</td>
+<td>Magallana gigas</td>
+<td>Pacific Oyster</td>
+<td>0.110</td>
+<td>51045</td>
+</tr>
+<tr class="odd">
+<td>GCF_041381155.1</td>
+<td>Argopecten irradians</td>
+<td>Bay Scallop</td>
+<td>0.085</td>
+<td>41903</td>
+</tr>
+<tr class="even">
+<td>GCF_963676685.1</td>
+<td>Mytilus edulis</td>
+<td>Blue Mussel</td>
+<td>0.134</td>
+<td>62345</td>
+</tr>
+<tr class="odd">
+<td>GCF_902652985.1</td>
+<td>Pecten maximus</td>
+<td>Great Scallop</td>
+<td>0.072</td>
+<td>39918</td>
+</tr>
+<tr class="even">
+<td>GCF_025612915.1</td>
+<td>Magallana angulata</td>
+<td>Portugese Oyster</td>
+<td>0.102</td>
+<td>49950</td>
+</tr>
+<tr class="odd">
+<td>GCF_947568905.1</td>
+<td>Ostrea edulis</td>
+<td>European Flat Oyster</td>
+<td>0.117</td>
+<td>57349</td>
+</tr>
+<tr class="even">
+<td>GCF_021730395.1</td>
+<td>Mercenaria mercenaria</td>
+<td>Hard Clam</td>
+<td>0.121</td>
+<td>63247</td>
+</tr>
+<tr class="odd">
+<td>GCF_020536995.1</td>
+<td>Dreissena polymorpha</td>
+<td>Zebra Mussel</td>
+<td>0.140</td>
+<td>75288</td>
+</tr>
+<tr class="even">
+<td>GCF_036588685.1</td>
+<td>Mytilus trossulus</td>
+<td>Pacific Blue Mussel</td>
+<td>0.099</td>
+<td>53269</td>
+</tr>
+<tr class="odd">
+<td>GCF_026571515.1</td>
+<td>Ruditapes philippinarum</td>
+<td>Manila Clam</td>
+<td>0.097</td>
+<td>57637</td>
+</tr>
+<tr class="even">
+<td>GCF_002113885.1</td>
+<td>Mizuhopecten yessoensis</td>
+<td>Yesso Scallop</td>
+<td>0.082</td>
+<td>41567</td>
+</tr>
+<tr class="odd">
+<td>GCF_021869535.1</td>
+<td>Mytilus californianus</td>
+<td>California Mussel</td>
+<td>0.104</td>
+<td>49739</td>
+</tr>
+<tr class="even">
+<td>GCF_033153115.1</td>
+<td>Saccostrea echinata</td>
+<td>Blacklip Rock Oyster</td>
+<td>0.065</td>
+<td>36217</td>
+</tr>
+<tr class="odd">
+<td>GCF_032062105.1</td>
+<td>Saccostrea cuccullata</td>
+<td>Natal Rock Oyster</td>
+<td>0.091</td>
+<td>56432</td>
+</tr>
+<tr class="even">
+<td>GCF_031769215.1</td>
+<td>Ylistrum balloti</td>
+<td>Ballot Saucer Scallop</td>
+<td>0.042</td>
+<td>24047</td>
+</tr>
+</tbody>
+</table>
+<p>I created a consensus tree using ultraconserved elements (UCEs) present within my selected bivalves.</p>
+<p>To identify and harvest I used two sets of 10,000 bait sequences, designed for molluscan (v1) and bivalves (v2) by Yi-Xuan et al.&nbsp;(2024) using Phyluce (v1.7.3). Bivalve genomes were aligned to each bait file using `phyluce_probe_run_multiple_lastzs_sqlite` with a cutoff of 80% identity for sequences to be kept. Aligned sequences were extracted as FASTA using `phyluce_proble_slice_sequence_from_genomes` with a 500 bp flanking sequence included with matched bait loci to retain additional sequence information (and therefore potential variation) outside of the UCE core itself. Extracted sequences were then matched to bait sequences for downstream analysis using `phyluce_assembly_match_contigs_to_probes`.</p>
+<p>Two data sets were created for each bait version: a complete set which contains only the UCEs present in all taxa, and an incomplete set which contains the UCEs present in any of the taxa, using `phyluce_assembly_get_match_counts`, resulting in a total of four data sets (complete v1, complete v2, incomplete v1, incomplete v2). FASTA sequences were extracted from these datasets using `phyluce_assembly_get_fastas_from_match_counts`, aligned, and trimmed.</p>
+<p>Alignment and edge trimming was done using `phyluce_align_seqcap_align` with arguments for 17 taxa and MAFFT muti-sequence alignment. [megan note: edge trimmed outputs were not used for downstream analyses, but were done as part of the phyluce tutorial for learning. internal trimming was done next and the outputs from those were used for downstream analyses].</p>
+<p>Alignment was done using `phyluce_align_seqcap_align` for 17 taxa using MAFFT multi-sequence alignment, `–incomplete-matrix argument`, and `–no-trim` (to skip edge trimming). For internal trimming, `phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed` was used to trim the aligned FASTAs. Aligned and trimmed sequences were cleaned using `phyluce_align_remove_locus_name_from_files` to remove taxon and locus names.</p>
+<p>Aligned, cleaned, and trimmed sequences could then be used to generate data matrices with varying degrees of coverage. Matrices were created for the incomplete datasets (both v1 and v2) with specified 50%, 75%, or 95% coverage of the 17 taxa using `phyluce_align_get_only_loci_with_min_taxa`. Matrices were concatenated and converted to phylip data type to be used in IQtree using `phyluce_align_concatenate_alignments` with `–phylip` argument specified.</p>
+<p>IQtree (v3.0.1) was used to generate consensus trees using the 50% and 75% coverage taxa [megan note: the 75% has 100 (v2) or 66 (v1) loci. The 50% has 283 (v2) or 222 (v1). The 95% was 14 (v2) or 7 (v1)]. Tree model was determined using ModelFinder Plus (MFP) argument within IQtree, and then a treefile was generated within IQtree using the determined best fitting model and 1000 bootstraps. Trees were visualized using FigTree (v1.4.4).</p>
+<p><img src="images/tree-50p_v1-02.png" class="img-fluid"></p>
+<p>50% coverage (v1 baits) ^</p>
+<p><img src="images/tree-50p_v2-03.png" class="img-fluid"></p>
+<p>50% coverage (v2 baits) ^</p>
+<p><img src="images/tree-75p_v1.png" class="img-fluid"></p>
+<p>75% coverage (v1 baits) ^<br>
+<br>
+<img src="images/tree-75p_v2.png" class="img-fluid"></p>
+<p>75% coverage (v2 baits) ^</p>
+<p>[megan note]:</p>
+<p>75_v1 model: TVM+F+I+R3</p>
+<p>75_v2 model: GTR+F+I+R3</p>
+<p>50_v1 model: TVM+F+R3</p>
+<p>50_v2 model: GTR+F+R3</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

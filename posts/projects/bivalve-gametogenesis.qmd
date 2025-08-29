@@ -1,0 +1,77 @@
+---
+title: "Bivalve Gametogenesis Updates"
+author: "Megan Ewing"
+date: "08-28-2025"
+categories: projects
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+### Consensus Tree Methods & Prelim Results
+
+Genomes from 17 bivalves with RefSeq annotations were retrieved from NCBI (Table 1).
+
+**Table 1.** Species with RefSeq annotated genomes pulled from NCBI and genome size.
+
+|  |  |  |  |  |
+|----|----|----|----|----|
+| **Assembly Accession** | **Organism Name** | **Common Name** | **Gbp** | **\# Seq in DB (genome)** |
+| GCF_002022765.2 | Crassostrea virginica | Eastern Oyster | 0.118 | 60213 |
+| GCF_026914265.1 | Mya arenaria | Soft Shell Clam | 0.126 | 61919 |
+| GCF_963853765.1 | Magallana gigas | Pacific Oyster | 0.110 | 51045 |
+| GCF_041381155.1 | Argopecten irradians | Bay Scallop | 0.085 | 41903 |
+| GCF_963676685.1 | Mytilus edulis | Blue Mussel | 0.134 | 62345 |
+| GCF_902652985.1 | Pecten maximus | Great Scallop | 0.072 | 39918 |
+| GCF_025612915.1 | Magallana angulata | Portugese Oyster | 0.102 | 49950 |
+| GCF_947568905.1 | Ostrea edulis | European Flat Oyster | 0.117 | 57349 |
+| GCF_021730395.1 | Mercenaria mercenaria | Hard Clam | 0.121 | 63247 |
+| GCF_020536995.1 | Dreissena polymorpha | Zebra Mussel | 0.140 | 75288 |
+| GCF_036588685.1 | Mytilus trossulus | Pacific Blue Mussel | 0.099 | 53269 |
+| GCF_026571515.1 | Ruditapes philippinarum | Manila Clam | 0.097 | 57637 |
+| GCF_002113885.1 | Mizuhopecten yessoensis | Yesso Scallop | 0.082 | 41567 |
+| GCF_021869535.1 | Mytilus californianus | California Mussel | 0.104 | 49739 |
+| GCF_033153115.1 | Saccostrea echinata | Blacklip Rock Oyster | 0.065 | 36217 |
+| GCF_032062105.1 | Saccostrea cuccullata | Natal Rock Oyster | 0.091 | 56432 |
+| GCF_031769215.1 | Ylistrum balloti | Ballot Saucer Scallop | 0.042 | 24047 |
+
+I created a consensus tree using ultraconserved elements (UCEs) present within my selected bivalves.
+
+To identify and harvest I used two sets of 10,000 bait sequences, designed for molluscan (v1) and bivalves (v2) by Yi-Xuan et al. (2024) using Phyluce (v1.7.3). Bivalve genomes were aligned to each bait file using \`phyluce_probe_run_multiple_lastzs_sqlite\` with a cutoff of 80% identity for sequences to be kept. Aligned sequences were extracted as FASTA using \`phyluce_proble_slice_sequence_from_genomes\` with a 500 bp flanking sequence included with matched bait loci to retain additional sequence information (and therefore potential variation) outside of the UCE core itself. Extracted sequences were then matched to bait sequences for downstream analysis using \`phyluce_assembly_match_contigs_to_probes\`.
+
+Two data sets were created for each bait version: a complete set which contains only the UCEs present in all taxa, and an incomplete set which contains the UCEs present in any of the taxa, using \`phyluce_assembly_get_match_counts\`, resulting in a total of four data sets (complete v1, complete v2, incomplete v1, incomplete v2). FASTA sequences were extracted from these datasets using \`phyluce_assembly_get_fastas_from_match_counts\`, aligned, and trimmed.
+
+Alignment and edge trimming was done using \`phyluce_align_seqcap_align\` with arguments for 17 taxa and MAFFT muti-sequence alignment. \[megan note: edge trimmed outputs were not used for downstream analyses, but were done as part of the phyluce tutorial for learning. internal trimming was done next and the outputs from those were used for downstream analyses\].
+
+Alignment was done using \`phyluce_align_seqcap_align\` for 17 taxa using MAFFT multi-sequence alignment, \`--incomplete-matrix argument\`, and \`--no-trim\` (to skip edge trimming). For internal trimming, \`phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed\` was used to trim the aligned FASTAs. Aligned and trimmed sequences were cleaned using \`phyluce_align_remove_locus_name_from_files\` to remove taxon and locus names.
+
+Aligned, cleaned, and trimmed sequences could then be used to generate data matrices with varying degrees of coverage. Matrices were created for the incomplete datasets (both v1 and v2) with specified 50%, 75%, or 95% coverage of the 17 taxa using \`phyluce_align_get_only_loci_with_min_taxa\`. Matrices were concatenated and converted to phylip data type to be used in IQtree using \`phyluce_align_concatenate_alignments\` with \`--phylip\` argument specified.
+
+IQtree (v3.0.1) was used to generate consensus trees using the 50% and 75% coverage taxa \[megan note: the 75% has 100 (v2) or 66 (v1) loci. The 50% has 283 (v2) or 222 (v1). The 95% was 14 (v2) or 7 (v1)\]. Tree model was determined using ModelFinder Plus (MFP) argument within IQtree, and then a treefile was generated within IQtree using the determined best fitting model and 1000 bootstraps. Trees were visualized using FigTree (v1.4.4).
+
+![](images/tree-50p_v1-02.png)
+
+50% coverage (v1 baits) \^
+
+![](images/tree-50p_v2-03.png)
+
+50% coverage (v2 baits) \^
+
+![](images/tree-75p_v1.png)
+
+75% coverage (v1 baits) \^\
+\
+![](images/tree-75p_v2.png)
+
+75% coverage (v2 baits) \^
+
+\[megan note\]:
+
+75_v1 model: TVM+F+I+R3
+
+75_v2 model: GTR+F+I+R3
+
+50_v1 model: TVM+F+R3
+
+50_v2 model: GTR+F+R3
