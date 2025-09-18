@@ -1,5 +1,5 @@
 ---
-title: "August Goals + Dailies"
+title: "August / Sept Goals + Dailies"
 author: "Megan Ewing"
 date: "08-19-2025"
 categories: goals, daily
@@ -19,13 +19,13 @@ As a recap – july goals were:
 
 -   Get consensus tree (or ✅ get UCEs mapped for ~~at least 2~~ ***ALL*** species)
 
-August goals are then to:
+August / September goals are then to:
 
 -   Get consensus tree
 
 -   Make gene trees to run robinson foulds and identify genes of interest
 
-Which should then put me in a good place for mapping genes of interest onto the tree and having results (or at the very least, solid tentative results) by end of summer, keeping me right on schedule with the plan I presented at my committee meeting :D
+Which should then put me in a good place for mapping genes of interest onto the tree and having results (or at the very least, solid tentative results) by start of the fall quarter, keeping me right on schedule with the plan I presented at my committee meeting :D
 
 ## Dailies
 
@@ -79,4 +79,18 @@ continued and concluded work on tutorial I. aligned and trimmed the uce loci usi
 
 ### Aug 28
 
-Created the IQ trees and visualized with FigTree. Noticed an error fairly upstream in the UCE/phyluce code so went back and edited that and re ran all downstream analyses. Wrote up methods to date for whole consensus tree process.
+Created the IQ trees and visualized with FigTree. Noticed an error fairly upstream in the UCE/phyluce code so went back and edited that and re ran all downstream analyses. Wrote up methods to date for whole consensus tree process. Will meet with luke after long weekend to review.
+
+### Sept 2
+
+Reviewed consensus tree outputs with Luke. There is still some disagreeement among certain relationships between trees. Need to re run the trees and add outgroups this time to help resolve.
+
+### Sept 3
+
+Added outgroups and it seemed to not resolve some of the issues with disagreement among trees. changing to just 1 outgroup to more firmly root the tree. (the processes of re running to do so takes about 6hours so this is pretty much all i did today and yesterday).
+
+### Sept 4
+
+Single outgroup trees still disagreeing, but with aide from literature, could find support for one of the trees (50p coverage of v1 baits). See [methods](https://meganewing.github.io/mewing-notebook/posts/projects/bivalve-gametogenesis.html) for more details.
+
+Going out of town again for the next two weeks with limited access to wifi or cell service.
