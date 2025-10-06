@@ -1,0 +1,46 @@
+---
+title: "October Goals + Dailies"
+author: "Megan Ewing"
+date: "10-06-2025"
+categories: goals, daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## Goals
+
+As a recap – august/sept goals were:
+
+-   ✅ Get consensus tree
+
+-   ✅ Make gene trees *so I can run robinson foulds and identify genes of interest*
+
+I was able to get my consensus trees and decide which one I'm going to use! I settled on the 50% coverage tree (meaning at least 50% of taxa are represented in each bait sequence) using the v1 bait file (10k mollusc UCEs). There was still some discordance among the trees, but the 50v1 tree had 1) the highest number of sequences used in tree generation and 2) had relationships most supported by literature. I also ended up with a gene tree file for each gene, so this month will be about comparing the two and starting interpretation. Thus, my goals are
+
+-   Run Phangorn to generate tree distance (gene trees vs. consensus trees)
+
+-   Plot tree distance matrix and identify cuttoff/threshold for genes of interest
+
+-   Have list of genes of interest that I can start interpretation on
+
+-   Update methods to-date
+
+![](images/50v1.png)
+
+## Dailies
+
+### Oct 1
+
+Mostly just homework & class for pubpol. Lot of reading and had to finish a case study writeup before class.
+
+GRFP workshop in the evening
+
+### Oct 2
+
+Thursdays are fully 311 lab days. I teach both sections (AM and PM) and there can be 30-60 min ish for prep.
+
+Met with Isaiah (Luke's undergrad who I'm assisting with SIA work) to go over isotope sample prep
+
+### 

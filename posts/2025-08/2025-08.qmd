@@ -1,7 +1,7 @@
 ---
 title: "August / Sept Goals + Dailies"
 author: "Megan Ewing"
-date: "08-19-2025"
+date: "09-01-2025"
 categories: goals, daily
 format: 
   html:

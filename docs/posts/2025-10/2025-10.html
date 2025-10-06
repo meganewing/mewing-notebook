@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Megan Ewing">
-<meta name="dcterms.date" content="2025-09-01">
+<meta name="dcterms.date" content="2025-10-06">
 
-<title>August / Sept Goals + Dailies – mewing-notebook</title>
+<title>October Goals + Dailies – mewing-notebook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">August / Sept Goals + Dailies</h1>
+      <h1 class="title">October Goals + Dailies</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">goals, daily</div>
               </div>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 1, 2025</p>
+        <p class="date">October 6, 2025</p>
       </div>
     </div>
     
@@ -154,24 +154,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#goals" id="toc-goals" class="nav-link active" data-scroll-target="#goals">Goals</a></li>
   <li><a href="#dailies" id="toc-dailies" class="nav-link" data-scroll-target="#dailies">Dailies</a>
   <ul class="collapse">
-  <li><a href="#aug-1" id="toc-aug-1" class="nav-link" data-scroll-target="#aug-1">Aug 1</a></li>
-  <li><a href="#aug-19" id="toc-aug-19" class="nav-link" data-scroll-target="#aug-19">Aug 19</a></li>
-  <li><a href="#aug-21" id="toc-aug-21" class="nav-link" data-scroll-target="#aug-21">Aug 21</a></li>
-  <li><a href="#aug-22" id="toc-aug-22" class="nav-link" data-scroll-target="#aug-22">Aug 22</a></li>
-  <li><a href="#aug-25" id="toc-aug-25" class="nav-link" data-scroll-target="#aug-25">Aug 25</a></li>
-  <li><a href="#aug-26" id="toc-aug-26" class="nav-link" data-scroll-target="#aug-26">Aug 26</a></li>
-  <li><a href="#aug-27" id="toc-aug-27" class="nav-link" data-scroll-target="#aug-27">Aug 27</a></li>
-  <li><a href="#aug-28" id="toc-aug-28" class="nav-link" data-scroll-target="#aug-28">Aug 28</a></li>
-  <li><a href="#sept-2" id="toc-sept-2" class="nav-link" data-scroll-target="#sept-2">Sept 2</a></li>
-  <li><a href="#sept-3" id="toc-sept-3" class="nav-link" data-scroll-target="#sept-3">Sept 3</a></li>
-  <li><a href="#sept-4" id="toc-sept-4" class="nav-link" data-scroll-target="#sept-4">Sept 4</a></li>
-  <li><a href="#sept-10" id="toc-sept-10" class="nav-link" data-scroll-target="#sept-10">Sept 10</a></li>
-  <li><a href="#sept-17" id="toc-sept-17" class="nav-link" data-scroll-target="#sept-17">Sept 17</a></li>
-  <li><a href="#sept-22" id="toc-sept-22" class="nav-link" data-scroll-target="#sept-22">Sept 22</a></li>
-  <li><a href="#sept-23" id="toc-sept-23" class="nav-link" data-scroll-target="#sept-23">Sept 23</a></li>
-  <li><a href="#sept-24" id="toc-sept-24" class="nav-link" data-scroll-target="#sept-24">Sept 24</a></li>
-  <li><a href="#sept-25-29" id="toc-sept-25-29" class="nav-link" data-scroll-target="#sept-25-29">Sept 25-29</a></li>
-  <li><a href="#sept-30" id="toc-sept-30" class="nav-link" data-scroll-target="#sept-30">Sept 30</a></li>
+  <li><a href="#oct-1" id="toc-oct-1" class="nav-link" data-scroll-target="#oct-1">Oct 1</a></li>
+  <li><a href="#oct-2" id="toc-oct-2" class="nav-link" data-scroll-target="#oct-2">Oct 2</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -185,109 +170,34 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="goals" class="level2">
 <h2 class="anchored" data-anchor-id="goals">Goals</h2>
-<p>As a recap – july goals were:</p>
+<p>As a recap – august/sept goals were:</p>
 <ul>
-<li><p>✅ Finish clam chapter intro + discussion, send to committee</p></li>
-<li><p>✅ Get gene lists for all bivalve species</p></li>
-<li><p>Get consensus tree (or ✅ get UCEs mapped for <del>at least 2</del> <strong><em>ALL</em></strong> species)</p></li>
+<li><p>✅ Get consensus tree</p></li>
+<li><p>✅ Make gene trees <em>so I can run robinson foulds and identify genes of interest</em></p></li>
 </ul>
-<p>August / September goals are then to:</p>
+<p>I was able to get my consensus trees and decide which one I’m going to use! I settled on the 50% coverage tree (meaning at least 50% of taxa are represented in each bait sequence) using the v1 bait file (10k mollusc UCEs). There was still some discordance among the trees, but the 50v1 tree had 1) the highest number of sequences used in tree generation and 2) had relationships most supported by literature. I also ended up with a gene tree file for each gene, so this month will be about comparing the two and starting interpretation. Thus, my goals are</p>
 <ul>
-<li><p>Get consensus tree</p></li>
-<li><p>Make gene trees to run robinson foulds and identify genes of interest</p></li>
+<li><p>Run Phangorn to generate tree distance (gene trees vs.&nbsp;consensus trees)</p></li>
+<li><p>Plot tree distance matrix and identify cuttoff/threshold for genes of interest</p></li>
+<li><p>Have list of genes of interest that I can start interpretation on</p></li>
+<li><p>Update methods to-date</p></li>
 </ul>
-<p>Which should then put me in a good place for mapping genes of interest onto the tree and having results (or at the very least, solid tentative results) by start of the fall quarter, keeping me right on schedule with the plan I presented at my committee meeting :D</p>
+<p><img src="images/50v1.png" class="img-fluid"></p>
 </section>
 <section id="dailies" class="level2">
 <h2 class="anchored" data-anchor-id="dailies">Dailies</h2>
-<section id="aug-1" class="level3">
-<h3 class="anchored" data-anchor-id="aug-1">Aug 1</h3>
-<p>Previewed some of my outputs to see if they looked as expected. The 2 bait files I was using each had 10,000 sequences that are ultraconserved throughout mollusca (bait v1) and bivalvia (bait v2), yet some of the species had very few hits, some (zebra mussel) with 0 total hits. Not sure why this is happening so spent some time reading previous issues on the phyluce github page and troubleshooting to see why some uce’s weren’t found in some genomes. Another issue was that the samples were losing sequences when converting from lastz to fasta (see below). spent some time troubleshooting that as well. Luke and I are going to meet to talk about it but we’re both out of the office for the next ~two weeks so it’ll have to wait.</p>
-<p><img src="images/Screenshot 2025-08-19 at 4.44.21 PM.png" class="img-fluid" width="364"></p>
+<section id="oct-1" class="level3">
+<h3 class="anchored" data-anchor-id="oct-1">Oct 1</h3>
+<p>Mostly just homework &amp; class for pubpol. Lot of reading and had to finish a case study writeup before class.</p>
+<p>GRFP workshop in the evening</p>
 </section>
-<section id="aug-19" class="level3">
-<h3 class="anchored" data-anchor-id="aug-19">Aug 19</h3>
-<p>Back in town! Met with Luke this morning to review outputs and troubleshoot together. It seems that the reduction from lastz to fasta sequences is expected as the conversion only keeps the UCE sequence (DB) that the genome sequence (query) had the strongest match to.</p>
-<p>The issue regarding some of the samples not having any hits seems to be with the significance or identiy match specification default for phyluce. There was an ommitted argument in the phyluce alignment (was omitted in the tutorial I was following) but I was able to find it in a different phyluce and re ran the alignment with <code>--identity 50</code> and <code>--identity 80</code> with much more success. The average for 50 identity was ~860 (v1) and ~740 (v2), and for 80 identity was ~500 (v1) and ~550 (v2). (v1 is bait for mollusca more generally, and v2 is the bait for bivalvia more specifically). This is on par with the ~850 average UCE matches found by <a href="https://datadryad.org/dataset/doi:10.5061/dryad.m63xsj48g#readme">Li et al., 2024</a> (who provided the bait sequences used).</p>
-<p>Oh and here’s the <a href="https://github.com/meganewing/bivalve_gametogenesis">repo</a>. Phyluce stuff is in <code>data/phyluce/</code></p>
+<section id="oct-2" class="level3">
+<h3 class="anchored" data-anchor-id="oct-2">Oct 2</h3>
+<p>Thursdays are fully 311 lab days. I teach both sections (AM and PM) and there can be 30-60 min ish for prep.</p>
+<p>Met with Isaiah (Luke’s undergrad who I’m assisting with SIA work) to go over isotope sample prep</p>
 </section>
-<section id="aug-21" class="level3">
-<h3 class="anchored" data-anchor-id="aug-21">Aug 21</h3>
-<p>now that I had my UCEs successfully harvested, I had to switch to a different phyluce tutorial. Eventually I want to have folders with fastas of UCEs that map to 50%, 75%, and 95% of the taxa, and matrixes in proper format representing these so that they can be input into IQ tree for the species consensus tree I want to build. The species consensus tree will then be what I use to run robinson foulds distance for the (repro) gene trees to identify reproductive genes of interest.</p>
-<p>the general workflow for all this is then:</p>
-<ul>
-<li><p>harvest UCEs (identifying which UCEs are present in each of the 17 bivalves) (<a href="https://phyluce.readthedocs.io/en/latest/tutorials/tutorial-3.html">Tutorial III</a>) –&gt;</p></li>
-<li><p>create two data matrixes – one with complete representation (UCEs in all samples) and one with incomplete (UCEs in at least 3 samples). treat the UCE outputs from tutorial III as contigs (<a href="https://phyluce.readthedocs.io/en/latest/daily-use/daily-use-3-uce-processing.html#extracting-fasta-data-using-the-data-matrix-configuration-file">daily use phyluce tutorial</a>) –&gt;</p></li>
-<li><p>use these matrixes to then extract, align, and trim UCEs of interest and generate fasta files for them (<a href="https://phyluce.readthedocs.io/en/latest/tutorials/tutorial-1.html#aligning-uce-loci">tutorial I, starting with the aligning UCE loci</a>)</p></li>
-</ul>
-<p>so today I took the outputs from tutorial III and started working on the data matrices to proccess UCEs.</p>
-</section>
-<section id="aug-22" class="level3">
-<h3 class="anchored" data-anchor-id="aug-22">Aug 22</h3>
-<p>finished with the daily use tutorial and got UCE fastas for all the UCEs found within my bivavles. next step is to continue onto tutorial I and align and trim them to prep for IQ tree.</p>
-</section>
-<section id="aug-25" class="level3">
-<h3 class="anchored" data-anchor-id="aug-25">Aug 25</h3>
-<p>raven down…womp womp</p>
-<p>started reviewing some of the comments on my proposal draft from like 9 months ago lol. realized a common theme was that i needed more sources and a bit more explanation regarding 1) how gametogenesis in bivalves works, and 2) why it matters. So started some lit review for that. mostly reading chapters 1, 2, 4, and 6 in “Reproduction in Aquatic Animals”: (Yoshida M, Asturiano JF (eds) (2020) Reproduction in aquatic animals, 2020th ed.&nbsp;Springer, Singapore, Singapore.) which covered spermatogenesis, oogenesis, fertilization, etc.</p>
-</section>
-<section id="aug-26" class="level3">
-<h3 class="anchored" data-anchor-id="aug-26">Aug 26</h3>
-<p>Raven was still down in the morning so I continued with some of my lit review in the morning looking at parental effects on offspring (specifically looking for paternal impacts since the manila clam stuff gave a decent dive into maternal influence).</p>
-<p>Then started work on tutorial I</p>
-</section>
-<section id="aug-27" class="level3">
-<h3 class="anchored" data-anchor-id="aug-27">Aug 27</h3>
-<p>continued and concluded work on tutorial I. aligned and trimmed the uce loci using mafft alignment and internal trimming (due to potential evolutionary distance of some of the bivalve species) and cleaned alignments. then was able to generate data folders of 50%, 75% and 95% representation (folder contained the fasta files of UCEs present for each % of taxa and stated uce and corresponding taxa sequence) and matrices that concatenated these files. Then converted the concatenated files into phyllip format for use in IQ tree.</p>
-</section>
-<section id="aug-28" class="level3">
-<h3 class="anchored" data-anchor-id="aug-28">Aug 28</h3>
-<p>Created the IQ trees and visualized with FigTree. Noticed an error fairly upstream in the UCE/phyluce code so went back and edited that and re ran all downstream analyses. Wrote up methods to date for whole consensus tree process. Will meet with luke after long weekend to review.</p>
-</section>
-<section id="sept-2" class="level3">
-<h3 class="anchored" data-anchor-id="sept-2">Sept 2</h3>
-<p>Reviewed consensus tree outputs with Luke. There is still some disagreeement among certain relationships between trees. Need to re run the trees and add outgroups this time to help resolve.</p>
-</section>
-<section id="sept-3" class="level3">
-<h3 class="anchored" data-anchor-id="sept-3">Sept 3</h3>
-<p>Added outgroups and it seemed to not resolve some of the issues with disagreement among trees. changing to just 1 outgroup to more firmly root the tree. (the processes of re running to do so takes about 6hours so this is pretty much all i did today and yesterday).</p>
-</section>
-<section id="sept-4" class="level3">
-<h3 class="anchored" data-anchor-id="sept-4">Sept 4</h3>
-<p>Single outgroup trees still disagreeing, but with aide from literature, could find support for one of the trees (50p coverage of v1 baits). See <a href="https://meganewing.github.io/mewing-notebook/posts/projects/bivalve-gametogenesis.html">methods</a> for more details.</p>
-<p>Going out of town again for the next two weeks with limited access to wifi or cell service.</p>
-</section>
-<section id="sept-10" class="level3">
-<h3 class="anchored" data-anchor-id="sept-10">Sept 10</h3>
-<p>Created a list of all non-duplicate SPIDs found across all of the genomes and then used a loop to go through and pull the associated sequence ID for each taxa from their blast output, and then extract their sequence for that gene and add it to a fasta file. Resulted in ~3200 unique SPIDs and now have a fasta file for each that I can use to create gene trees.</p>
-<p>Tonight is also the first night of the GRFP workshop that I’m mentoring for</p>
-</section>
-<section id="sept-17" class="level3">
-<h3 class="anchored" data-anchor-id="sept-17">Sept 17</h3>
-<p>still “out of office” but attended GRFP workshop virtually</p>
-</section>
-<section id="sept-22" class="level3">
-<h3 class="anchored" data-anchor-id="sept-22">Sept 22</h3>
-<p>First day back on campus (though classes haven’t started yet). did the CPR training since mine expires this month and its required for TAing.</p>
-<p>When I initially ran IQ tree for the consensus trees, I did it locally just to make sure it worked before going through the process of adding it to raven and doing all the mamba stuff again. Today I went in and added it to raven and updated the code accordingly. Finally, I went in and checked the outputs from my gene treefile loops. All looking good.</p>
-</section>
-<section id="sept-23" class="level3">
-<h3 class="anchored" data-anchor-id="sept-23">Sept 23</h3>
-<p>Doing some final edits on the consensus trees (I want to make sure everything is good in that department before I run the RF distance loop). Since I settled on using one outgroup, needed to go in and adjust the retrieve genomes file to only retrieve the one outgroup (instead of the initial 3) and then needed to adjust the taxa parameters to account for using a single outgroup. (ICYW: need to just use 1 out group as that is all IQ tree will accept. Use of multiple out groups will result in unresolved nodes in the tree). Used GGtree to visualize the tree (not as pretty as figtree, but able to do in a more reproducible way and visuals will come with time I’m sure).</p>
-</section>
-<section id="sept-24" class="level3">
-<h3 class="anchored" data-anchor-id="sept-24">Sept 24</h3>
-<p>First TA meeting for 311 &amp; first day of class</p>
-<p>First day of class for the natural resource policy course I’m taking, and had a few chapters of reading due before so most of today was spent in class or reading.</p>
-<p>GRFP workshop</p>
-</section>
-<section id="sept-25-29" class="level3">
-<h3 class="anchored" data-anchor-id="sept-25-29">Sept 25-29</h3>
-<p>Out of town for a family commitment, last excursion for awhile thank goodness. Really only had time to keep up with homework while out.</p>
-</section>
-<section id="sept-30" class="level3">
-<h3 class="anchored" data-anchor-id="sept-30">Sept 30</h3>
-<p>The treefiles created last week look good, but there was a difference in the number of output files vs the number of input ‘entries’ – 30 genes unaccounted for. IQ tree will not generate a tree if there are less than 3 species represented (which is self explanatory as the tree would just look like <strong>[</strong> ). But I want to double check nonetheless. So from my big SPID list I created a couple weeks ago (which I had the foresight to create a ‘count’ column associated with when created) to determine how many genes had less than 3 taxa representatives. Sure enough, 30. To check if these were the same, I saved names of the 30 to a dataframe, and then used a loop to identify which directories in the genefiles output subdir had no <code>.treefile</code> , and saved those to a dataframe. Then compared using <code>all_equal()</code> and they were! Gene trees lookin good to proceed to next step! Just want to do one final check on consensus first….</p>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section"></h3>
 
 
 </section>
