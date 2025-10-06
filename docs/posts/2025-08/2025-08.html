@@ -165,6 +165,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sept-2" id="toc-sept-2" class="nav-link" data-scroll-target="#sept-2">Sept 2</a></li>
   <li><a href="#sept-3" id="toc-sept-3" class="nav-link" data-scroll-target="#sept-3">Sept 3</a></li>
   <li><a href="#sept-4" id="toc-sept-4" class="nav-link" data-scroll-target="#sept-4">Sept 4</a></li>
+  <li><a href="#sept-10" id="toc-sept-10" class="nav-link" data-scroll-target="#sept-10">Sept 10</a></li>
+  <li><a href="#sept-17" id="toc-sept-17" class="nav-link" data-scroll-target="#sept-17">Sept 17</a></li>
+  <li><a href="#sept-22" id="toc-sept-22" class="nav-link" data-scroll-target="#sept-22">Sept 22</a></li>
+  <li><a href="#sept-23" id="toc-sept-23" class="nav-link" data-scroll-target="#sept-23">Sept 23</a></li>
+  <li><a href="#sept-24" id="toc-sept-24" class="nav-link" data-scroll-target="#sept-24">Sept 24</a></li>
+  <li><a href="#sept-25-29" id="toc-sept-25-29" class="nav-link" data-scroll-target="#sept-25-29">Sept 25-29</a></li>
+  <li><a href="#sept-30" id="toc-sept-30" class="nav-link" data-scroll-target="#sept-30">Sept 30</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -249,6 +256,38 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="sept-4">Sept 4</h3>
 <p>Single outgroup trees still disagreeing, but with aide from literature, could find support for one of the trees (50p coverage of v1 baits). See <a href="https://meganewing.github.io/mewing-notebook/posts/projects/bivalve-gametogenesis.html">methods</a> for more details.</p>
 <p>Going out of town again for the next two weeks with limited access to wifi or cell service.</p>
+</section>
+<section id="sept-10" class="level3">
+<h3 class="anchored" data-anchor-id="sept-10">Sept 10</h3>
+<p>Created a list of all non-duplicate SPIDs found across all of the genomes and then used a loop to go through and pull the associated sequence ID for each taxa from their blast output, and then extract their sequence for that gene and add it to a fasta file. Resulted in ~3200 unique SPIDs and now have a fasta file for each that I can use to create gene trees.</p>
+<p>Tonight is also the first night of the GRFP workshop that I’m mentoring for</p>
+</section>
+<section id="sept-17" class="level3">
+<h3 class="anchored" data-anchor-id="sept-17">Sept 17</h3>
+<p>still “out of office” but attended GRFP workshop virtually</p>
+</section>
+<section id="sept-22" class="level3">
+<h3 class="anchored" data-anchor-id="sept-22">Sept 22</h3>
+<p>First day back on campus (though classes haven’t started yet). did the CPR training since mine expires this month and its required for TAing.</p>
+<p>When I initially ran IQ tree for the consensus trees, I did it locally just to make sure it worked before going through the process of adding it to raven and doing all the mamba stuff again. Today I went in and added it to raven and updated the code accordingly. Finally, I went in and checked the outputs from my gene treefile loops. All looking good.</p>
+</section>
+<section id="sept-23" class="level3">
+<h3 class="anchored" data-anchor-id="sept-23">Sept 23</h3>
+<p>Doing some final edits on the consensus trees (I want to make sure everything is good in that department before I run the RF distance loop). Since I settled on using one outgroup, needed to go in and adjust the retrieve genomes file to only retrieve the one outgroup (instead of the initial 3) and then needed to adjust the taxa parameters to account for using a single outgroup. (ICYW: need to just use 1 out group as that is all IQ tree will accept. Use of multiple out groups will result in unresolved nodes in the tree). Used GGtree to visualize the tree (not as pretty as figtree, but able to do in a more reproducible way and visuals will come with time I’m sure).</p>
+</section>
+<section id="sept-24" class="level3">
+<h3 class="anchored" data-anchor-id="sept-24">Sept 24</h3>
+<p>First TA meeting for 311 &amp; first day of class</p>
+<p>First day of class for the natural resource policy course I’m taking, and had a few chapters of reading due before so most of today was spent in class or reading.</p>
+<p>GRFP workshop</p>
+</section>
+<section id="sept-25-29" class="level3">
+<h3 class="anchored" data-anchor-id="sept-25-29">Sept 25-29</h3>
+<p>Out of town for a family commitment, last excursion for awhile thank goodness. Really only had time to keep up with homework while out.</p>
+</section>
+<section id="sept-30" class="level3">
+<h3 class="anchored" data-anchor-id="sept-30">Sept 30</h3>
+<p>The treefiles created last week look good, but there was a difference in the number of output files vs the number of input ‘entries’ – 30 genes unaccounted for. IQ tree will not generate a tree if there are less than 3 species represented (which is self explanatory as the tree would just look like <strong>[</strong> ). But I want to double check nonetheless. So from my big SPID list I created a couple weeks ago (which I had the foresight to create a ‘count’ column associated with when created) to determine how many genes had less than 3 taxa representatives. Sure enough, 30. To check if these were the same, I saved names of the 30 to a dataframe, and then used a loop to identify which directories in the genefiles output subdir had no <code>.treefile</code> , and saved those to a dataframe. Then compared using <code>all_equal()</code> and they were! Gene trees lookin good to proceed to next step! Just want to do one final check on consensus first….</p>
 
 
 </section>
