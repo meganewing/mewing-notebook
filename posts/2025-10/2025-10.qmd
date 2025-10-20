@@ -19,13 +19,13 @@ As a recap – august/sept goals were:
 
 I was able to get my consensus trees and decide which one I'm going to use! I settled on the 50% coverage tree (meaning at least 50% of taxa are represented in each bait sequence) using the v1 bait file (10k mollusc UCEs). There was still some discordance among the trees, but the 50v1 tree had 1) the highest number of sequences used in tree generation and 2) had relationships most supported by literature. I also ended up with a gene tree file for each gene, so this month will be about comparing the two and starting interpretation. Thus, my goals are
 
--   Run Phangorn to generate tree distance (gene trees vs. consensus trees)
+-   ✅(10/18) Run Phangorn to generate tree distance (gene trees vs. consensus trees)
 
--   Plot tree distance matrix and identify cuttoff/threshold for genes of interest
+-   ✅(10/18) Plot tree distance matrix and 🔲 identify cuttoff/threshold for genes of interest
 
--   Have list of genes of interest that I can start interpretation on
+-   🔲 Have list of genes of interest that I can start interpretation on
 
--   Update methods to-date
+-   🔲 Update methods to-date
 
 ![](images/50v1.png)
 
@@ -73,7 +73,7 @@ Office hours
 
 555 class
 
-### Oct 8 
+### Oct 8
 
 311 grading
 
@@ -101,21 +101,55 @@ short WFH day – just worked on the visual abstract
 
 599 class
 
-## *Next two weeks* 
+### Oct 14
 
-10/14 - today I mostly just have class, meetings, an errand to run for 311, and some grading.
+today I mostly just have class, meetings, an errand to run for 311, and some grading
 
-10/15 - no 599 homework! will be using pre-class time (which is basically the entire first half of the day) to work on my tree loop and get that running, class, group project meetup after class.
+### Oct 15
 
-10/16 - lab day
+did case study prep work for 599, class, meeting with group project after class, grading
 
-10/17 - since the way my schedule has shaken out this quarter has led me to being on campus \~10hrs/day or so and then often doing more homework once I get home from campus, I'm trying to take fridays easy and reserve them for if there's any super pressing issues (like the visual abstract). My plan for 10/17 is to go rock climb :)
+### Oct 16
 
-10/20 - 311 planning meeting, and a meeting with Marta about me guest lecturing one day this quarter for 311 – likely the lecture covering reproductive strategies. 599 stuff
+lab day
+
+### Oct 17
+
+Amirah had some questions about a proposal shes working on with shellfish stuff, so read up some stuff for that, started working on my code a little bit
+
+### Oct 18
+
+phangorn tree loop and scatter plot ran :D
+
+meeting with luke this week to talk about identifying a meaningful cutoff and then should be able to start some interpretation :D
+
+![](images/clipboard-1981360780.png){width="688"}
+
+### Oct 20
+
+311 planning meeting, 599 stuff, 511 homework
+
+***lab meeting goals from last meeting***
+
+-   ✅ rename tips on consensus tree
+
+-   ✅ run tree distance loop
+
+-   ✅ create data frame of gene tree distances
+
+***new goals***
+
+-   update tree methods
+
+-   have my "genes of interest" list I can start interpreting
+
+-   spend 2 hours addressing proposal draft comments
+
+### planned next few days
 
 10/21 - office hours, class, homework/grading/coding (as needed), class
 
-10/22 - homework/grading/coding, class, group project meetup after class
+10/22 - homework/grading/coding, class, group project meetup after class. meeting with luke about treedist results and bypass stuff, meeting with marta about guest lecture
 
 10/23 - lab day
 
@@ -123,6 +157,6 @@ short WFH day – just worked on the visual abstract
 
 10/27 -311 planning meeting, homework, class
 
-## *Goals for meeting with Steven*
+### *Goals for meeting with Steven 10/14*
 
 I've been starting to play with the idea of bypassing and going for the full thing. I feel like I've really settled into a good groove with all the grad school stuff (okay, except writing) and have really been enjoying working on the phylogeny chapter and TAing. I do want to get my phd eventually, and it seems like it may be a good time to just keep on going since I'm already here and I'm still at a point in my life where I have the freedom from responsibility to be in school & not have to make very much money. But I don't want to keep going just for the piece of paper at the end (even though that is definitely part of the motivation) – I would want my additional chapters to help forward some of my long term goals in terms of careers: more field work, some surveying experience maybe, some more applied science application maybe. Ideally, something incorporating ecology would be huge and I think would help me walk out as a very well rounded aquatic scientist when i graduate. But I know funding stuff is super funky right now, so I mostly want to discuss if there are even any projects possible in that realm, and what other options may be.
