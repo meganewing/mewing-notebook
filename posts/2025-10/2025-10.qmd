@@ -145,17 +145,103 @@ meeting with luke this week to talk about identifying a meaningful cutoff and th
 
 -   spend 2 hours addressing proposal draft comments
 
+### Oct 21
+
+office hours, 511 class, homework for 599, 555 homework & class, grading after class
+
+### Oct 22
+
+grading, meeting with luke to go over tree updates & bypass potential, grading, meeting with marta about the lecture I'm leading next week, 599 lecture, grading
+
+### Oct 23
+
+fish 311 lab prep & lab
+
+### Oct 24
+
+311 midterm proctor, material prep for labs next week
+
+### Oct 26
+
+Amirah and I are leading the 511 discussion this upcoming week so did some reading and prep for that. 599 readings & homework, finished prepping and published the 311 materials for the week
+
+### Oct 27
+
+met with amirah to go over discussion points and start working on slides, 311 planning meeting, meeting with marta to review the lecture slides for wednesday, 311 lecture (to assess classroom dynamics, see what material got covered, and adjust my lecture as needed), work on 511 slides, 599 lecture, 511 slides, update notebook so I can send to steven (woah, meta)
+
 ### planned next few days
 
-10/21 - office hours, class, homework/grading/coding (as needed), class
+10/28 - office hours, prep for 311 wednseday lecture, 511 discussion lead, theoretically have a 2.5 hour break before meeting with steven where I can cram some coding/writing in so I have something to talk about in our meeting. (Luke gave me some direction for prelim tree analyses that would be cool to show ya if I can get it done in time.) I have 555 on tuesday afternoons. after that I'll try and hang around and grade
 
-10/22 - homework/grading/coding, class, group project meetup after class. meeting with luke about treedist results and bypass stuff, meeting with marta about guest lecture
+10/29 - morning will be me practicing the 311 lecture and then I'll be giving the lecture at 1130. After that 599 homework and class. Grading after class
 
-10/23 - lab day
+10/30 - 311 lab. grading midterms
 
-10/24 - will likely use this friday to catch up on some writing (proposal edits, clam chapter edits). But if it's dry and I'm caught up on homework/grading, I might sneak off to go rock climb again before the season ends for good...
+10/31 - grading midterms & tree methods updates + prelim results
 
-10/27 -311 planning meeting, homework, class
+11/2 - 599 rulemaking analyis paper work (rule chosen: 'revised definition of Waters of the United States' put out by the EPA) & homework
+
+11/3 - 311 planning meeting, proposal edits (convenient two hour chunk in my schedule to hit that goal), lab meeting, 599 class
+
+11/4 - office hours, 511, grading/rulemaking homwork, 555 class, 599 homework
+
+11/5 – halleluja a wendesday with no meetings, continue on tree analyses, send out committee meeting whenisgood poll, and then 599 class. rulemaking assignment due at midnight so if any leftover work on that, do after class
+
+11/6 - lab. email jen rusenik (to ask about clams) & jose (to get his take on me bypassing)
+
+11/7 - 599 office hours & topic selection for final paper. continue tree analyes and update prelim results as needed
+
+11/10 - 311 planning, course observation for 555, 599 homework & class
+
+### *Goals for meeting with Steven 10/27*
+
+Should be fairly brief. Mainly want to update on what Luke and I talked about with regard to tree analyses and bypassing. Pitch additional ideas.
+
+#### Here is the notes from my meeting with Luke: 
+
+[**Bypass stuff:**]{.underline}
+
+\- Look at genetics of different size clams from spat to adults
+
+\- Pelagic eggs are the crux
+
+\- If we would expect that parents from ‘pre exposed’ regions in the sound would yield more successful offspring, then we would expect selection against the unprimed larvae, resulting in a genetic bottleneck as they grow. Would measure morphometrics and survival AND if genetic diversity is decreasing with size
+
+ - Could collect spat for 2 locations and do transplants
+
+ - Loc1 Larvae —\> Loc 1 rearing , + Loc 2 rearing
+
+ - Loc2 Larvae —\> Loc 2 rearing, + Loc 1 rearing
+
+\- Could also rear in laboratory setting and then out plant spat to low ph, high ph, and mixed locations throughout the sound and compare morphometrics
+
+Things to do
+
+\- \[ \] Jen rusenik
+
+\- \[ \] Look at if there are current studies out on the genetics of bivalves in the puget sound
+
+\- \[ \] Deepen my understanding of mania clam life history & reproduction
+
+[**Tree Stuff:**]{.underline}
+
+\- Plot Tree Distance Score vs:
+
+ - \# of taxa for each gene (are low tip #’s influencing score?)
+
+ - Size of the gene (in bp) (are shorter genes more volatile?)
+
+ - Male vs female gamete associated genes
+
+\- Generate and plot tree distance score for the UCE genes
+
+ - Give us a little bit of a ‘control’ to compare to since the UCE’s are “neutral”
+
+ - Note that UCEs are not a random subset of genes and should not be interpreted as random subset
+
+ - Note that comparing UCEs to a tree generated with the UCEs is circular
+
+\- Plot the outlier trees (can even just start with the extreme outliers)
 
 ### *Goals for meeting with Steven 10/14*
 
