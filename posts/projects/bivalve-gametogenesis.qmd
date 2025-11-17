@@ -1,7 +1,7 @@
 ---
 title: "Bivalve Gametogenesis Updates"
 author: "Megan Ewing"
-date: "08-28-2025"
+date: "11-17-2025"
 categories: projects
 format: 
   html:
