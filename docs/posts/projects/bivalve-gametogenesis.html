@@ -154,7 +154,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#methods" id="toc-methods" class="nav-link active" data-scroll-target="#methods">Methods</a>
   <ul class="collapse">
   <li><a href="#identifying-gamete-generation-genes-in-bivalve-genomes" id="toc-identifying-gamete-generation-genes-in-bivalve-genomes" class="nav-link" data-scroll-target="#identifying-gamete-generation-genes-in-bivalve-genomes">Identifying Gamete Generation Genes in Bivalve Genomes</a></li>
-  <li><a href="#generating-a-species-tree-to-map-gene-evolution" id="toc-generating-a-species-tree-to-map-gene-evolution" class="nav-link" data-scroll-target="#generating-a-species-tree-to-map-gene-evolution">Generating a Species Tree to Map Gene Evolution</a></li>
+  <li><a href="#generating-species-and-gene-tree-to-map-gene-evolution" id="toc-generating-species-and-gene-tree-to-map-gene-evolution" class="nav-link" data-scroll-target="#generating-species-and-gene-tree-to-map-gene-evolution">Generating Species and Gene Tree to Map Gene Evolution</a></li>
+  <li><a href="#quantifying-evolutionary-divergence-and-trends" id="toc-quantifying-evolutionary-divergence-and-trends" class="nav-link" data-scroll-target="#quantifying-evolutionary-divergence-and-trends">Quantifying Evolutionary Divergence and Trends</a></li>
   </ul></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
   </ul>
@@ -171,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
 <section id="identifying-gamete-generation-genes-in-bivalve-genomes" class="level3">
 <h3 class="anchored" data-anchor-id="identifying-gamete-generation-genes-in-bivalve-genomes">Identifying Gamete Generation Genes in Bivalve Genomes</h3>
-<p>I retrieved all RefSeq annotated genomes for bivalve species available on NCBI as of February 2025 (Table 1). To identify genes associated with gametogenesis present in these genomes, I retrieved all sequences under the Gamete Generation (GMT) gene ontology (GO) term (GO:0007276) and used it as this query file in a series of BLAST (vX.XX) alignments, using the bivalve genomes as the databases. Once a list of matching sequences were identified for each genome, I identified associated GO terms and swiss-prot accession numbers (SPID) for each gene using UniProt ID mapping. The source database used in mapping was UniProtKB AC/ID and the target database was UniProtKB. Mapped gene columns were customized to include biological proccess GO information, GO ID, and general GO, excluding cellular component and molecular processes).</p>
+<p>I retrieved all RefSeq annotated genomes for bivalve species available on NCBI as of February 2025 (Table 1). To identify genes associated with gametogenesis present in these genomes, I retrieved all sequences under the Gamete Generation (GMT) gene ontology (GO) term (GO:0007276; Figure 1) and used it as this query file in a series of BLAST (vX.XX) alignments, using the bivalve genomes as the databases. Once a list of matching sequences were identified for each genome, I identified associated GO terms and swiss-prot accession numbers (SPID) for each gene using UniProt ID mapping. The source database used in mapping was UniProtKB AC/ID and the target database was UniProtKB. Mapped gene columns were customized to include biological proccess GO information, GO ID, and general GO, excluding cellular component and molecular processes).</p>
 <p>Matching sequences for GMT genes for each species were used to abridge genome fastas into fastas only containing GMT sequences. From this, a fasta for each sequence was created where the sequences for any of the 18 taxa were represented (eg., if GeneA was present in all taxa, the corresponding sequence for each taxa would be added to a fasta called GeneA along with a header indicating genome accession and sequence ID within that genome for each sequence).</p>
 <p><strong>Table 1.</strong> NCBI genome information for 17 RefSeq annotated bivalve genomes and 1 RefSeq annotated outgroup taxa (indicated by *).</p>
 <table class="caption-top table">
@@ -419,20 +420,27 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="generating-a-species-tree-to-map-gene-evolution" class="level3">
-<h3 class="anchored" data-anchor-id="generating-a-species-tree-to-map-gene-evolution">Generating a Species Tree to Map Gene Evolution</h3>
+<section id="generating-species-and-gene-tree-to-map-gene-evolution" class="level3">
+<h3 class="anchored" data-anchor-id="generating-species-and-gene-tree-to-map-gene-evolution">Generating Species and Gene Tree to Map Gene Evolution</h3>
 <p>I created a consensus tree using ultraconserved elements (UCEs) present within my selected bivalves.</p>
 <p>To identify and harvest I used two sets of 10,000 bait sequences, designed for molluscan (v1) and bivalves (v2) by Yi-Xuan et al.&nbsp;(2024) using Phyluce (v1.7.3). Bivalve and outgroup genomes were aligned to each bait file using `phyluce_probe_run_multiple_lastzs_sqlite` with a cutoff of 80% identity for sequences to be kept. Aligned sequences were extracted as FASTA using `phyluce_proble_slice_sequence_from_genomes` with a 500 bp flanking sequence included with matched bait loci to retain additional sequence information (and therefore potential variation) outside of the UCE core itself. Extracted sequences were then matched to bait sequences for downstream analysis using phyluce_assembly_match_contigs_to_probes`.</p>
 <p>Two data sets were created for each bait version: a complete set which contains only the UCEs present in all taxa, and an incomplete set which contains the UCEs present in any of the taxa, using `phyluce_assembly_get_match_counts`, resulting in a total of four data sets (complete v1, complete v2, incomplete v1, incomplete v2). FASTA sequences were extracted from these datasets using `phyluce_assembly_get_fastas_from_match_counts`, aligned, and trimmed.</p>
 <p>Alignment and edge trimming was done using `phyluce_align_seqcap_align` with arguments for 18 taxa (17 bivalves + 1 outgroup) and MAFFT muti-sequence alignment. [megan note: edge trimmed outputs were not used for downstream analyses, but were done as part of the phyluce tutorial for learning. internal trimming was done next and the outputs from those were used for downstream analyses].</p>
 <p>Alignment was done using `phyluce_align_seqcap_align` for 18 taxa using MAFFT multi-sequence alignment, `–incomplete-matrix argument`, and `–no-trim` (to skip edge trimming). For internal trimming, `phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed` was used to trim the aligned FASTAs. Aligned and trimmed sequences were cleaned using `phyluce_align_remove_locus_name_from_files` to remove taxon and locus names.</p>
 <p>Aligned, cleaned, and trimmed sequences could then be used to generate data matrices with varying degrees of coverage. Matrices were created for the incomplete datasets (both v1 and v2) with specified 50%, 75%, or 95% coverage of the 17 taxa using `phyluce_align_get_only_loci_with_min_taxa`. Matrices were concatenated and converted to phylip data type to be used in IQtree using `phyluce_align_concatenate_alignments` with `–phylip` argument specified.</p>
-<p>IQtree (v3.0.1) was used to generate consensus trees using the 50% and 75% coverage taxa [megan note: the 75% has 100 (v2) or 66 (v1) loci. The 50% has 283 (v2) or 222 (v1). The 95% was 14 (v2) or 7 (v1)]. Tree model was determined using ModelFinder Plus (MFP) argument within IQtree, and then a treefile was generated within IQtree using the determined best fitting model and 10000 bootstraps and 10000 . Trees were visualized using FigTree (v1.4.4).</p>
-<p>IQtree was also used to generate gene trees….</p>
+<p>IQtree (v3.0.1) was used to generate consensus trees using the 50% and 75% coverage taxa. Tree model was determined using ModelFinder Plus (MFP) argument within IQtree. Best-fit model as determined by MFP was passed to IQtree to generate a tree using 10000 bootstraps and 10000 ALRT iterations with <code>-bnni</code> specified to optimize bootstraps via nearest neighbor interchange, with outgroup specified as GCF_000327385.1 (owl limpet). This process was repeated with each individual gene fasta file as well to create gene trees for downstream tree distance comparisons. Consensus trees were visualized using FigTree (v1.4.4) and ggtree (vX.XX).</p>
+</section>
+<section id="quantifying-evolutionary-divergence-and-trends" class="level3">
+<h3 class="anchored" data-anchor-id="quantifying-evolutionary-divergence-and-trends">Quantifying Evolutionary Divergence and Trends</h3>
+<p>To quantify evolutionary differences in taxa relationships represented between the consensus tree and individual genes, <code>treedist()</code> from the R package Phangorn (vX.X) was used. Gene trees and the chosen consensus tree were pruned, as needed, to ensure same species coverage for each comparison. Branch score difference, which takes into account tree topology and branch length, was the primary distance metric analyzed.</p>
+<p>To identify genes that show significant evolutionary divergence from the species relationships as a whole, outliers were identified for all gene trees with full taxa coverage (ie., all 18 taxa present) if they had a Z score of &lt;-3 or &gt;3. Genes with &lt;18 taxa coverage had a heatmap generated for absence (value 0) presence (value 1) with genes clustered by similar species coverage patterns, and species grouped by taxonomic groups to visualize relationships between gene presence and taxon groups.</p>
+<p><em>Next steps in analysis: Add hermaphoriditism vs gonochorism and pelagic eggs vs demersal eggs to my absense/presense matrix and run <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14190">“evo-scope”</a> a correlative evolution analyses to determine correlation between life history traits and genes, independent of phylogenetic relationships, to start making sense of the genes with less than 18 taxa present.</em></p>
 </section>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Across consensus trees (50 and 75 v1 and v2 trees) there unresolved relationships in the mussel and clam clade (Figure 2). The 50% coverage tree using v1 baits was chosen as clade relationships were in better agreement with trees created in previous studies (Yi et al.; Chen et al.).</p>
+<p>In total, there were 3235 genes found in my bivalves associated with GMT. Of these, 2758 genes (85%) were present in all 18 taxa and 27 genes present in only one taxa (Figure 3). Branch score distance was highest in full coverage trees, as expected (Figure 4). Preliminary patterns are emerging in gene coverage for the non full pattern trees and require further analyses (Figure 5).</p>
 <p><strong>Table 2.</strong> Species with RefSeq annotated genomes, genome size and number of sequences in genome, number of sequences in the query (from gamete generation GO), and number of query matches to the database.</p>
 <table class="caption-top table">
 <colgroup>
@@ -627,6 +635,12 @@ ul.task-list li input[type="checkbox"] {
 <br>
 <img src="images/tree-75p_v2.png" class="img-fluid"></p>
 <p><strong>Fig 2d.</strong> 75% coverage (v2 baits).</p>
+<p><img src="images/clipboard-3697257908.png" class="img-fluid" width="798"></p>
+<p><strong>Figure 3.</strong> Histogram showing taxa coverage (y axis) for various genes (y axis).</p>
+<p><img src="images/clipboard-4236407978.png" class="img-fluid"></p>
+<p><strong>Figure 4</strong>. Branch score distance of gene trees vs species trees, grouped my taxa coverage.</p>
+<p><img src="images/Screenshot 2025-11-17 at 11.22.36 AM.png" class="img-fluid"></p>
+<p><strong>Figure 5</strong>. Gene presence and absence by taxon group</p>
 
 
 </section>

@@ -197,7 +197,7 @@ met with amirah to go over discussion points and start working on slides, 311 pl
 
 Should be fairly brief. Mainly want to update on what Luke and I talked about with regard to tree analyses and bypassing. Pitch additional ideas.
 
-#### Here is the notes from my meeting with Luke: 
+#### Here is the notes from my meeting with Luke:
 
 [**Bypass stuff:**]{.underline}
 
@@ -207,11 +207,11 @@ Should be fairly brief. Mainly want to update on what Luke and I talked about wi
 
 \- If we would expect that parents from ‘pre exposed’ regions in the sound would yield more successful offspring, then we would expect selection against the unprimed larvae, resulting in a genetic bottleneck as they grow. Would measure morphometrics and survival AND if genetic diversity is decreasing with size
 
- - Could collect spat for 2 locations and do transplants
+-   Could collect spat for 2 locations and do transplants
 
- - Loc1 Larvae —\> Loc 1 rearing , + Loc 2 rearing
+-   Loc1 Larvae —\> Loc 1 rearing , + Loc 2 rearing
 
- - Loc2 Larvae —\> Loc 2 rearing, + Loc 1 rearing
+-   Loc2 Larvae —\> Loc 2 rearing, + Loc 1 rearing
 
 \- Could also rear in laboratory setting and then out plant spat to low ph, high ph, and mixed locations throughout the sound and compare morphometrics
 
@@ -227,19 +227,19 @@ Things to do
 
 \- Plot Tree Distance Score vs:
 
- - \# of taxa for each gene (are low tip #’s influencing score?)
+-   \# of taxa for each gene (are low tip #’s influencing score?)
 
- - Size of the gene (in bp) (are shorter genes more volatile?)
+-   Size of the gene (in bp) (are shorter genes more volatile?)
 
- - Male vs female gamete associated genes
+-   Male vs female gamete associated genes
 
 \- Generate and plot tree distance score for the UCE genes
 
- - Give us a little bit of a ‘control’ to compare to since the UCE’s are “neutral”
+-   Give us a little bit of a ‘control’ to compare to since the UCE’s are “neutral”
 
- - Note that UCEs are not a random subset of genes and should not be interpreted as random subset
+-   Note that UCEs are not a random subset of genes and should not be interpreted as random subset
 
- - Note that comparing UCEs to a tree generated with the UCEs is circular
+-   Note that comparing UCEs to a tree generated with the UCEs is circular
 
 \- Plot the outlier trees (can even just start with the extreme outliers)
 
