@@ -95,19 +95,19 @@ In total, there were 3235 genes found in my bivalves associated with GMT. Of the
 | GCF_963676685.1 | Mytilus edulis | Blue Mussel | 0.134 | 62345 | 4234 | 3128 |
 | GCF_963853765.1 | Magallana gigas | Pacific Oyster | 0.110 | 51045 | 4234 | 3127 |
 
-![](images/tree-50p_v1-02.png)
+![](images/50v1.png)
 
 **Fig 2a.** 50% coverage (v1 baits)
 
-![](images/tree-50p_v2-03.png)
+![](images/50v2.png)
 
 **Fig 2b.** 50% coverage (v2 baits)
 
-![](images/tree-75p_v1.png)
+![](images/75v1.png)
 
 **Fig 2c.** 75% coverage (v1 baits)\
 \
-![](images/tree-75p_v2.png)
+![](images/75v2.png)
 
 **Fig 2d.** 75% coverage (v2 baits).
 
