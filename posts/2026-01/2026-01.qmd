@@ -1,0 +1,24 @@
+---
+title: "January Goals + Dailies"
+author: "Megan Ewing"
+date: "01-05-2026"
+categories: goals, daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## January Goals
+
+-   Finish revisions on Ch 2 (clam chapter)
+
+-   Have near-finalized results for Ch 1 (gmt)
+
+-   Develop a more concrete plan for bypass project
+
+## January Dailies
+
+### Jan 5
+
+First day of 270, 270 planning meeting. Get meeting w steven in the books and churn through some of the clam chapter comments.

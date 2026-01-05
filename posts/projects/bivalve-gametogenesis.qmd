@@ -119,6 +119,6 @@ In total, there were 3235 genes found in my bivalves associated with GMT. Of the
 
 **Figure 4**. Branch score distance of gene trees vs species trees, grouped my taxa coverage.
 
-![](images/Screenshot 2025-11-17 at 11.22.36 AM.png)
+![](images/Screenshot%202025-11-17%20at%2011.22.36%20AM.png)
 
 **Figure 5**. Gene presence and absence by taxon group

@@ -1,0 +1,12 @@
+---
+title: "Prelim results update for GMT"
+author: "Megan Ewing"
+date: "12-12-2025"
+format: revealjs
+categories: projects
+editor: visual
+---
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSSVjSwAZoNMq6GeRwuzWxKWwV42YlYQywg9oSNtgIsYycGcDJHVUsNr_XxU3uHhmQZ1OJVJ4pl8XD0/pubembed?start=false&amp;loop=false&amp;delayms=5000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
