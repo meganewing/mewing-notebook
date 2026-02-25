@@ -1,0 +1,12 @@
+---
+title: "FISH 270 Guest Lecture"
+author: "Megan Ewing"
+date: "02-18-2026"
+format: revealjs
+categories: projects
+editor: visual
+---
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRLjFcy1LqOhE_XjVpZhbYk-63E6uF_Uv-0HDHAGq1hAP-Bf67x6gc4xJIpjAcONKZTjDWBFAEnvFWZ/pubembed?start=false&amp;loop=false&amp;delayms=10000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
