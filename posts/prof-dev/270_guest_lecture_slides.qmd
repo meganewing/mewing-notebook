@@ -3,7 +3,7 @@ title: "FISH 270 Guest Lecture"
 author: "Megan Ewing"
 date: "02-18-2026"
 format: revealjs
-categories: projects
+categories: professional development
 editor: visual
 ---
 
