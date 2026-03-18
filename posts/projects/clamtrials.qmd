@@ -33,7 +33,7 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
 
 -   20 min following transfer to recovery: 6/6 feet and siphons partially extended, shells slightly open and moving occasionally
 
-{{< video https://youtube.com/shorts/4a9hVH0ZsNA?si=Jyv2GKeWxZzhR5IG >}}
+{{< video https://youtube.com/embed/4a9hVH0ZsNA?si=Jyv2GKeWxZzhR5IG >}}
 
 *36C (n=6)*
 
@@ -47,7 +47,7 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
 
 -   20 min following transfer to recovery: 6/6 feet and siphons partially extended and moving occasionally, shells slightly open
 
-{{< video https://youtube.com/shorts/H9a35rwwnkM?si=NfMvhyQlPHBeUBf4 >}}
+{{< video https://youtube.com/embed/H9a35rwwnkM?si=NfMvhyQlPHBeUBf4 >}}
 
 *42C (n=7)*
 
@@ -61,4 +61,4 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
 
 -   20 min following transfer to recovery: same as above
 
-{{< video https://youtube.com/shorts/iH2C4wkNAT0?si=09pc6QbFrB2VIagV >}}
+{{< video https://youtube.com/embed/iH2C4wkNAT0?si=09pc6QbFrB2VIagV >}}
