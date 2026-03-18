@@ -1,0 +1,64 @@
+---
+title: "Clam Trials"
+author: "Megan Ewing"
+date: "03-17-2026"
+categories: goals, daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+Preliminary trials to determine what temp manila seed can take for acute priming.
+
+3/17 tested \~30C, \~36C, \~40C with n=6-7 clams each for 2 hours
+
+Seed were held in 12C, 20ppt prior to elevated temp exposure
+
+Water temps measured with infared thermometer
+
+Clams were placed in plastic cups (1 per treatment) with 12C for recovery after exposure
+
+**Observations:**
+
+*30C (n=6)*
+
+-   actual water temp upon removal from incubator: 30.2C
+
+-   Upon removal from incubator (prior to transfer to recovery): 3/6 had slightly opened shells. 3/6 had closed shells
+
+-   Immediately following transfer to recovery: 6/6 closed shells
+
+-   5 min following transfer to recovery: 5/6 feet and siphons partially extended, shells slightly open and moving occasionally. 1/6 closed
+
+-   20 min following transfer to recovery: 6/6 feet and siphons partially extended, shells slightly open and moving occasionally
+
+{{< video https://youtube.com/shorts/4a9hVH0ZsNA?si=Jyv2GKeWxZzhR5IG >}}
+
+*36C (n=6)*
+
+-   actual water temp upon removal from incubator: 33.4C
+
+-   Upon removal from incubator (prior to transfer to recovery): 3/6 had slightly opened shells. 3/6 had closed shells
+
+-   Immediately following transfer to recovery: 6/6 closed shells
+
+-   5 min following transfer to recovery: 6/6 feet and siphons partially extended and moving occasionally, shells slightly open
+
+-   20 min following transfer to recovery: 6/6 feet and siphons partially extended and moving occasionally, shells slightly open
+
+{{< video https://youtube.com/shorts/H9a35rwwnkM?si=NfMvhyQlPHBeUBf4 >}}
+
+*42C (n=7)*
+
+-   actual water temp upon removal from incubator: 40.9C
+
+-   Upon removal from incubator (prior to transfer to recovery): 6/6 had slightly opened shells with feet and siphons partially extruded
+
+-   Immediately following transfer to recovery: 6/6 had slightly opened shells with feet and siphons partially extruded, no change from before. When prodded with dissecting probe, no response from any individuals. Indicates 100% mortality
+
+-   5 min following transfer to recovery: same as above
+
+-   20 min following transfer to recovery: same as above
+
+{{< video https://youtube.com/shorts/iH2C4wkNAT0?si=09pc6QbFrB2VIagV >}}
