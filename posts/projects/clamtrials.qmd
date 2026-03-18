@@ -33,6 +33,8 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
 
 -   20 min following transfer to recovery: 6/6 feet and siphons partially extended, shells slightly open and moving occasionally
 
+-   90 min following transfer to recovery: 6/6 feet and siphons partially extended, shells slightly open, some occasional movement. Responds to contact w dissection probe along mantle (closing shell, retracting foot or siphon)
+
 ```{=html}
 <div style="text-align:center;">
   <iframe width="315" height="560"
@@ -54,6 +56,7 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
 
 -   20 min following transfer to recovery: 6/6 feet and siphons partially extended and moving occasionally, shells slightly open
 
+-   90 min following transfer to recovery: 6/6 feet and siphons partially extended, shells slightly open, some occasional movement. Responds to contact w dissection probe along mantle (closing shell, retracting foot or siphon)
 
 ```{=html}
 <div style="text-align:center;">
@@ -72,9 +75,11 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
 
 -   Immediately following transfer to recovery: 6/6 had slightly opened shells with feet and siphons partially extruded, no change from before. When prodded with dissecting probe, no response from any individuals. Indicates 100% mortality
 
--   5 min following transfer to recovery: same as above
+-   5 min following transfer to recovery: same as previous
 
--   20 min following transfer to recovery: same as above
+-   20 min following transfer to recovery: same as previous
+
+-   90 min following transfer to recovery: same as previous. No response to contact w dissection probe along mantle, feet, or siphon
 
 ```{=html}
 <div style="text-align:center;">
