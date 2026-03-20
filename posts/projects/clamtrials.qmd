@@ -11,6 +11,8 @@ editor: visual
 
 Preliminary trials to determine what temp manila seed can take for acute priming.
 
+### Trial 1
+
 3/17 tested \~30C, \~36C, \~40C with n=6-7 clams each for 2 hours
 
 Seed were held in 12C, 20ppt prior to elevated temp exposure
@@ -20,6 +22,8 @@ Water temps measured with infared thermometer
 Clams were placed in plastic cups (1 per treatment) with 12C for recovery after exposure
 
 **Observations:**
+
+#### 30.2C
 
 *30C (n=6)*
 
@@ -37,6 +41,10 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
 
 -   18 hr: 3/6 slightly open shells with siphons out and responsive to contact with dissection probe. 3/6 shells closed
 
+-   24 hr: all slightly open and responsive
+
+-   48 hr: all slightly open and responsive
+
 ```{=html}
 <div style="text-align:center;">
   <iframe width="315" height="560"
@@ -45,6 +53,8 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
   allowfullscreen></iframe>
 </div>
 ```
+
+#### 33.4C
 
 *36C (n=6)*
 
@@ -62,6 +72,10 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
 
 -   18 hr: 5/6 slightly open shells with siphons out and responsive to contact with dissection probe. 1/6 shells closed
 
+-   24 hr: all slightly open and responsive
+
+-   48 hr: all slightly open and responsive
+
 ```{=html}
 <div style="text-align:center;">
   <iframe width="315" height="560"
@@ -70,6 +84,8 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
   allowfullscreen></iframe>
 </div>
 ```
+
+#### 40.9C
 
 *42C (n=7)*
 
@@ -87,6 +103,10 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
 
 -   18 hr: same as previous / no change
 
+-   24 hr: same as previous / no change
+
+-   48 hr: same as previous / no change
+
 ```{=html}
 <div style="text-align:center;">
   <iframe width="315" height="560"
@@ -95,3 +115,45 @@ Clams were placed in plastic cups (1 per treatment) with 12C for recovery after 
   allowfullscreen></iframe>
 </div>
 ```
+
+### Trial 2
+
+#### 34.5C
+
+36C target temp. 2 hr exposure then moved to 12C for recovery.
+
+-   actual water temp upon removal from incubator: 34.5C
+
+-   Upon removal from incubator (prior to transfer to recovery): 2/6 had slightly opened shells with siphons out. 2/6 had closed shells
+
+-   Immediately following transfer to recovery: 6/6 closed shells
+
+-   5 min following transfer to recovery: 6/6 feet closed shells
+
+-   20 min following transfer to recovery: 6/6 feet and siphons partially extended and moving occasionally, shells slightly open and responds to contact w dissection probe along mantle (closing shell, retracting foot or siphon)
+
+-   18 hr: 6/6 closed shells
+
+-   24 hr: all slightly open and responsive
+
+-   48 hr: \_\_\_\_\_
+
+#### 37.1C
+
+38C target temp. 2 hr exposure then moved to 12C for recovery.
+
+-   actual water temp upon removal from incubator: 37.1C
+
+-   Upon removal from incubator (prior to transfer to recovery): 3/6 had slightly opened shells with siphons out. 3/6 had closed shells
+
+-   Immediately following transfer to recovery: 2/6 open with foot + siphon out, and non responsive to dissection probe contact. 4/6 closed
+
+-   5 min following transfer to recovery: 2/6 feet open and non responsive. 4/6 closed shells
+
+-   20 min following transfer to recovery: 5/6 feet and siphons partially extended and moving occasionally, shells slightly open and responds to contact w dissection probe along mantle (closing shell, retracting foot or siphon). 1/6 closed
+
+-   18 hr: 6/6 closed shells
+
+-   24 hr: 5/6 slightly open and responsive. 1/6 closed
+
+-   48 hr: \_\_\_\_\_
