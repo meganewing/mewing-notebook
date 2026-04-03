@@ -2,7 +2,7 @@
 title: "Clam Trials"
 author: "Megan Ewing"
 date: "03-17-2026"
-categories: goals, daily
+categories: daily, projects
 format: 
   html:
     toc: true
