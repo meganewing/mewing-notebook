@@ -35,7 +35,7 @@ Cockle broodstock spawned naturally (ie., no reproductive conditioning) sometime
 
 There are 8 of these setups: 2 replicates for each of the 4 broodstock groups (16 tanks total)
 
-![](images/Screenshot 2026-04-03 at 9.56.48 AM.png)
+![](images/larvaltanksetup_manchester.png)
 
 To limit "clogging" of the banjo screens, an additional 5 um seawater filter in added to the water source for the building. Both the 20 um and the 5 um filters are washed daily with freshwater and fully replaced approximately 1x weekly.
 
@@ -77,7 +77,7 @@ There was a reduction in larval quantity enough to where replicate tank setups 1
 
 & 460 class prep
 
-### April 3: 
+### April 3: Admin and Lecutre
 
 Administrative catch up morning (responding to emails). Reached out to Jen Ruesink about beta regarding clam outplanting materials and got some strong recommendations.
 
@@ -85,19 +85,19 @@ Administrative catch up morning (responding to emails). Reached out to Jen Ruesi
 
 & 460 lecture followed by weekly planning meeting with Sarah and Jose
 
-### April 4: 
+### April 4: Building Clam Boxes
 
-Home depot run! Got some PetScreen and put together some sample clam boxes sewn together with fishing line. First one was definitely a little rough but with the help of a cardboard jig, subsequent boxes went a bit smoother. Once Jesse brings in the wider-diameter mesh samples, I should be able to make the lid just fine.
+Home depot run! Got some PetScreen and put together some sample clam boxes sewn together with fishing line. First one was definitely a little rough but with the help of a cardboard jig, subsequent boxes went a bit smoother. Once Jesse brings in the wider-diameter mesh samples, I should be able to make the lid just fine. Stay tuned for building video :)
 
-### April 5:
+### April 5: Site Check at Fidalgo Bay
 
 Went out to weaverling spit in Fidalgo Bay to assess substrate suitability for a second field site. It was a shell-sand mix, with a bit more mud in spots than I was hoping for. It seems the manilas that are already at that site are a bit further up tidal elevation (closer to 10' above MLLW) and were 2-6" deep.
 
-![](images/Screenshot 2026-04-06 at 5.51.54 PM.png){width="284"}
+![](images/fidalgobay.png){width="284"}
 
-![](images/Screenshot 2026-04-06 at 6.26.25 PM.png){width="284"}
+![](images/fidalgo_substrate.png){width="284"}
 
-### April 6
+### April 6: Clam Trials for 34C 
 
 460 lecture prep & lecture
 
