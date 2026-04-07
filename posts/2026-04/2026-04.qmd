@@ -35,7 +35,9 @@ Cockle broodstock spawned naturally (ie., no reproductive conditioning) sometime
 
 There are 8 of these setups: 2 replicates for each of the 4 broodstock groups (16 tanks total)
 
-![](images/Screenshot 2026-04-03 at 9.56.48 AM.png)To limit "clogging" of the banjo screens, an additional 5 um seawater filter in added to the water source for the building. Both the 20 um and the 5 um filters are washed daily with freshwater and fully replaced approximately 1x weekly.
+![](images/Screenshot 2026-04-03 at 9.56.48 AM.png)
+
+To limit "clogging" of the banjo screens, an additional 5 um seawater filter in added to the water source for the building. Both the 20 um and the 5 um filters are washed daily with freshwater and fully replaced approximately 1x weekly.
 
 ### **March 31: Cockle Larvae Husbandry**
 
@@ -61,7 +63,7 @@ Re-exposure trials week 1: [See clam-trails specific notebook entries](https://m
 
 & researching nursery methods for clam seed & outplant methods for up to 1 yr
 
-& Outplant project & footprint description @ Fidalgo Bay write up for Samish Tribe
+& Outplant project & footprint description \@ Fidalgo Bay write up for Samish Tribe
 
 & 460 class
 
@@ -74,3 +76,29 @@ There was a reduction in larval quantity enough to where replicate tank setups 1
 & hatchery meeting
 
 & 460 class prep
+
+### April 3: 
+
+Administrative catch up morning (responding to emails). Reached out to Jen Ruesink about beta regarding clam outplanting materials and got some strong recommendations.
+
+& 460 prep (checking week 2 materials and student submissions for week 1 quizzes, reviewing lecture notes)
+
+& 460 lecture followed by weekly planning meeting with Sarah and Jose
+
+### April 4: 
+
+Home depot run! Got some PetScreen and put together some sample clam boxes sewn together with fishing line. First one was definitely a little rough but with the help of a cardboard jig, subsequent boxes went a bit smoother. Once Jesse brings in the wider-diameter mesh samples, I should be able to make the lid just fine.
+
+### April 5:
+
+Went out to weaverling spit in Fidalgo Bay to assess substrate suitability for a second field site. It was a shell-sand mix, with a bit more mud in spots than I was hoping for. It seems the manilas that are already at that site are a bit further up tidal elevation (closer to 10' above MLLW) and were 2-6" deep.
+
+![](images/Screenshot 2026-04-06 at 5.51.54 PM.png){width="284"}
+
+![](images/Screenshot 2026-04-06 at 6.26.25 PM.png){width="284"}
+
+### April 6
+
+460 lecture prep & lecture
+
+clam trial for repeat exposure to 34C, week 1. [notebook post here](https://meganewing.github.io/mewing-notebook/posts/projects/clamtrials.html)

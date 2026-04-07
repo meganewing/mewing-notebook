@@ -11,9 +11,9 @@ editor: visual
 
 Preliminary trials to determine what temp manila seed can take for **repeated** acute thermal challenge
 
-### Repeat Challenge - Exposure 1
+### Repeat Challenges
 
-#### **36C** 
+#### **36C - Exposure 1**
 
 4/1/26
 
@@ -37,13 +37,45 @@ Clams (n=15) were placed in 36C for 2 hrs
 
 -   20 min following transfer to recovery: 12/15 slightly open shells or open with siphon/foot extended. 3/15 closed
 
+-   18 hr: 15/15 closed shells
+
+-   24 hr: 7/15 had closed shell, 8/15 had open shells with only siphons extended - responsive to dissection probe contact
+
+-   48 hr: 1/15 had a closed shell. 14/15 had open shells with siphons extended and responsive to touch
+
+#### **34C - Exposure 1**
+
+4/6/26
+
+Seed were held in 12C, 20ppt prior to elevated temp exposure
+
+Water temp measured with glass thermometer
+
+Water temp was set to 34C using a water bath (glass beaker with 20ppt for clams; surrounding bath was DI water)
+
+Clams (n=15) were placed in 34C for 2 hrs
+
+***Observations***
+
+-   actual water temp upon removal from incubator: 33.5C
+
+-   Upon removal from incubator (prior to transfer to recovery): 15/15 had closed shells
+
+-   Immediately following transfer to recovery: 15/15 closed shells
+
+-   5 min following transfer to recovery: 15/15 closed shells
+
+-   20 min following transfer to recovery: 10/15 closed shells. 5/15 open shells with feet extended and siphons visible - all responded to contact with dissection probe
+
 -   18 hr:
 
 -   24 hr:
 
 -   48 hr:
 
-Preliminary trials to determine what temp manila seed can take for acute priming.
+------------------------------------------------------------------------
+
+**Preliminary trials to determine what temp manila seed can take for acute priming.**
 
 ### Trial 1
 
