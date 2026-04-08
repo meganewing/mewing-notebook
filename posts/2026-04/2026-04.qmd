@@ -97,8 +97,24 @@ Went out to weaverling spit in Fidalgo Bay to assess substrate suitability for a
 
 ![](images/fidalgo_substrate.png){width="284"}
 
-### April 6: Clam Trials for 34C 
+### April 6: Clam Trials for 34C
 
 460 lecture prep & lecture
 
 clam trial for repeat exposure to 34C, week 1. [notebook post here](https://meganewing.github.io/mewing-notebook/posts/projects/clamtrials.html)
+
+reading on additional nursery setups for clam rearing in cold room
+
+### April 7: Cockle Larvae Husbandry + Clam Crash Troubleshooting + Lit Review
+
+@ manchester doing tank cleanings and feedings (finally got key card access woohoo!)
+
+talked with mac and ryan a bit about suggestions for husbandry setup @ UW considering manila silo crash. They strongly emphasized the need to feed the manila seed frequently - batch feedings daily recommended. I think this will require isolating the manilas from the rest of the tanks. I brought back 16 silos with 28 um mesh bottoms. Ryan and Mac both strongly suggest swaping to a larger mesh size. I may put 4 of the small mesh in to a system now while I work to swap out the mesh on the other 12.
+
+Since there were 3 of us, the cleaning went quickly and I was able to stop by the office after hatchery work around 330 to touch base with Andy about available supplies from the Friedman space for husbandry work. Will be grabbing a tank, air stones, and water pumps tomorrow.
+
+In the morning pre-hatchery + on the ferry, and while in the office after the hatchery, I did a bit of lit review on manila *and* cockle husbandry. While there is a bit of flexibility with the manila seed for trial and error with rearing setup, we will not have that luxury with the cockles so I'm trying to build up a SOP and idea for target thermal range of priming for the cockles once we bring them in.
+
+I think that it may also be good to do a 7 day exposure test for the manilas. This is more consistent with previous priming studies in them (granted it was with adults). This way, if shit hits the fan 3 weeks into the 6 week priming timeline and a bunch of the manilas die, we have the info neccessary to swiftly shift gears while still hitting the target outplant date of june 15.
+
+& 460 lecture prep
