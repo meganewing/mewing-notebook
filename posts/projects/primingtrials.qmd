@@ -17,9 +17,9 @@ color coding key (zip ties):
 
 -   yellow = poly(i:c)
 
-![](images/IMG_7226.png)
+![](images/primingtanks.png)
 
-### Warm temp priming 
+### Warm temp priming
 
 3 aquarium tanks setup with 2 buckets each.
 
@@ -53,7 +53,7 @@ color coding key (zip ties):
 
 -   put poly(i:c) individuals in one of the yellow tanks post priming for \~30 minutes to allow them to flush the solution out, and then do a water change on that tank
 
-![](images/Screenshot 2026-06-07 at 4.23.25 PM.png)
+![](images/logisticscal.png)
 
 \^ **June/July experimental logistics timeline**
 
