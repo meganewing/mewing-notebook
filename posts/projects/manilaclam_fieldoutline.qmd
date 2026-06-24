@@ -2,14 +2,14 @@
 title: "Manila Clam Field Deployment Plan"
 author: "Megan Ewing"
 date: "06-22-2026"
-categories: daily
+categories: projects
 format: 
   html:
     toc: true
 editor: visual
 ---
 
-#### **Premise** 
+#### **Premise**
 
 I am exposing (“priming”) Manila clam (*Ruditapes philippinarum*) seed (\~5 mm) to acute thermal and immune challenges 1x weekly for 4-6 weeks in a laboratory setting at UW prior to outplant to induce the physiological response that will serve as the basis for understanding their developed stress memory and potential for improved resiliency. This work will provide insights on the efficacy of thermal and immune priming on field performance (i.e. aquaculture setting applications of priming). 
 
@@ -19,7 +19,7 @@ Seed for both species will be held in closed-system recirculating artificial sea
 
 *For Westcott Site:* I intend to outplant 48 mesh clam box setups for manila seed July 17th, 2026 during low tide. Boxes are made of UV-resistant pet screen (demonstrated to be a strong choice of material for containing manila clam sample groups in field applications by [Grason et al. 2024](https://doi.org/10.1155/2024/7411697)). A “4-pack” of clam boxes will be buried together (2 x 2 formation) in the sediment with a 2.25’ x 2.25’ square of clam netting (1/6" mesh size) staked at each corner with 16” J-hook rebar for gear securement and predator exclusion. Each "4-pack" will be placed at the same tidal elevation in a line with approx. 1’ between each pack, leading to an approximate 3’ x 2.25’ footprint per pack with 12 "4-packs" (48 individuals bags) total being deployed. Boxes will be labeled with treatment, lab, and contact information.
 
-#### **Retrieval** 
+#### **Retrieval**
 
 4 of the “4-packs” (16 individual clam boxes) will be retrieved at 4-weeks, 8-weeks, and 50-weeks post outplant and returned to UW for sample processing (including metabolic and survival assays under simulated heatwave conditions).
 
