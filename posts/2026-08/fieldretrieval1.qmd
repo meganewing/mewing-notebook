@@ -107,9 +107,9 @@ Pilot **resazurin assay** (n=9 per temp) showed the following (2.5hr at 25C foll
 
 -   Option 1 (Plan A) for groups that allow it (lab manilas, lab cockles, and westcott manilas).
 
--   Option 3 (limited assay) for for agate manilas and agate cockles
+-   Option 3 (limited assay) for agate manilas and agate cockles
 
-    -   "higher target temp" can be based on which temp showed the "peak" fluorescence
+    -   "higher target temp," can be based on which temp showed the "peak" fluorescence in the option 1 groups
 
 -   this would allow us to do a greater range of temperature testing for the groups that have the capacity to test them, and then using that information to selectively test a temperature for the groups that have reduced capacity.
 
