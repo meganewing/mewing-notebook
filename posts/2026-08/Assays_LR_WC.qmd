@@ -1,5 +1,5 @@
 ---
-title: "Manila Clam Field Deployment Plan"
+title: "Manila Clam Prelim Assay Results"
 author: "Megan Ewing"
 date: "08-14-2026"
 categories: projects
