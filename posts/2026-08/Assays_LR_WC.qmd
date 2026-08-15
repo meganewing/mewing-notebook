@@ -1,0 +1,52 @@
+---
+title: "Manila Clam Field Deployment Plan"
+author: "Megan Ewing"
+date: "08-14-2026"
+categories: projects
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+Prelim Results from Temp Reexposure Assays for 35C and 40C exposures of Lab Reared (LR) manila clams:
+
+![](images/clam_mortality_40C.png)
+
+![](images/clam_mortality_35C.png)
+
+I'm heavily leaning towards doing 35C for the limited assay for the Agate Pass clams because that seemed to differentiate the Poly vs. no poly within temp groups a bit more.
+
+The metabolic assays haven't been size normalize / AUC calculated yet, but here's the general vibe:
+
+**Lab Reared:**
+
+![](images/mean_fluorescence_40C.png)
+
+![](images/mean_fluorescence_35C.png)
+
+But the noise in the data makes it a little confusing:
+
+![](images/individual_wells_40C.png)
+
+![](images/individual_wells_35C.png)
+
+**Here's the Westcott Clams:**
+
+![](images/mean_fluorescence_40C-01.png)
+
+![](images/mean_fluorescence_35C-01.png)
+
+\^\^\^ this is the pattern I was expecting at 35C under my hypothesis and based under trials.
+
+Here's the individual wells
+
+![](images/individual_wells_40C-01.png)
+
+![](images/individual_wells_35C-01.png)
+
+Size wise, the Agate Pass are more similar to the Westcott Clams than the Lab clams, just based on visual estimates. So that further leans me towards doing 35C to see if the EP & EE having higher resp. at 35C holds true across sites...
+
+[Repo here](https://github.com/meganewing/rphil_fieldprime)
+
+(no readme yet, sorry)

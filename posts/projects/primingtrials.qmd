@@ -56,7 +56,7 @@ color coding key (zip ties):
     -   WQ is checked the morning of the experiment for both tanks to ensure recovery conditions are consistent across tanks
 -   After recovery, put manilas and cockle silos are briefly rinsed (with seed in silos) and returned in their normal tanks as per usual. closely observe over the next 48 hrs
 
-![](images/experimental logistics.jpg)
+![](images/experimental%20logistics.jpg)
 
 *\^ June/July experimental logistics timeline*
 
@@ -127,7 +127,7 @@ Tank setup:
 Temp readings (ºC):
 
 |  |  |  |  |  |  |  |  |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|----|----|----|----|----|----|----|----|
 |  | **T0 Initial** | **T1** | **T2** | **T3** | **T4** | **T5 (Final)** |  |
 | **Time (PST)** | **12:38** | **13:06** | **13:37** | **14:09** | **14:40** | **14:06** | **Average** |
 | **MC-A1** | 30.9 | 33.7 | 33.1 | 33.1 | 32.5 | 33.1 | 32.7 |
@@ -159,7 +159,7 @@ tank setup:
 temp readings (ºC):
 
 |  |  |  |  |  |  |  |  |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|----|----|----|----|----|----|----|----|
 |  | **T0 Initial** | **T1** | **T2** | **T3** | **T4** | **T5 (Final)** |  |
 | **Time (PST)** | **10:46** | **11:17** | **11:47** | **12:17** | **12:47** | **13:15** | **Average** |
 | **MC-A1** | 31.3 | 32.1 | 32.0 | 32.2 | 32.1 | 32.2 | 32.0 |
@@ -175,7 +175,7 @@ temp readings (ºC):
 ### Prime 3 - 6/25/26
 
 |  |  |  |  |  |  |  |  |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|----|----|----|----|----|----|----|----|
 | **TANK SETUP** |  |  |  |  |  |  |  |
 |  | **MC-A** | **MC-B** | **BC-C** | **BC-D** |  |  |  |
 | **Warm** | Rep 2 | Rep 1 (P) | Rep 2 | Rep 1 (P) |  |  |  |
@@ -201,7 +201,7 @@ temp readings (ºC):
 ### Prime 4 - 6/30/26
 
 |  |  |  |  |  |  |  |  |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|----|----|----|----|----|----|----|----|
 | **TANK SETUP** |  |  |  |  |  |  |  |
 |  | **MC-A** | **MC-B** | **BC-C** | **BC-D** |  |  |  |
 | **Warm** | Rep 1 (P) | Rep 2 | Rep 1 (P) | Rep 2 |  |  |  |
@@ -227,7 +227,7 @@ temp readings (ºC):
 ### Prime 5 - 7/5/26
 
 |  |  |  |  |  |  |  |  |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|----|----|----|----|----|----|----|----|
 | **TANK SETUP** |  |  |  |  |  |  |  |
 |  | **MC-A** | **MC-B** | **BC-C** | **BC-D** |  |  |  |
 | **Warm** | Rep 2 | Rep 1 (P) | Rep 2 | Rep 1 (P) |  |  |  |
@@ -253,7 +253,7 @@ temp readings (ºC):
 ### Prime 6 - 7/10/26
 
 |  |  |  |  |  |  |  |  |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|----|----|----|----|----|----|----|----|
 | **TANK SETUP** |  |  |  |  |  |  |  |
 |  | **MC-A** | **MC-B** | **BC-C** | **BC-D** |  |  |  |
 | **Warm** | Rep 1 (P) | Rep 2 | Rep 1 (P) | Rep 2 |  |  |  |
@@ -276,7 +276,7 @@ temp readings (ºC):
 | **BC-D2** | 25.4 | 24.9 | 24.2 | 24.2 | 23.3 | 23.0 | 24.2 |
 | **COLD** | 9.4 | 9.1 | 9.4 | 9.7 | 9.7 | 9.4 | 9.45 |
 
-## Priming Conditions Summary 
+## Priming Conditions Summary
 
 Elevated Water Temp average: 32.9ºC (SD +/- 0.8)
 
