@@ -57,9 +57,9 @@ Pilot **resazurin assay** (n=9 per temp) showed the following (2.5hr at 25C foll
 
 [github repo here](https://github.com/meganewing/rphil_fieldprime) (see /test2 subdirs within code/ data/ and figures/)
 
-### Assay Options 
+### Assay Options
 
-#### **Option 1/"Plan A":** 
+#### **Option 1/"Plan A":**
 
 -   4 temps: 25C, 30C, 35C, 40C for manilas. 15, 20, 25, 30 for cockles
 
@@ -89,7 +89,7 @@ Pilot **resazurin assay** (n=9 per temp) showed the following (2.5hr at 25C foll
 
 -   would be possible for westcott manilas, lab manilas, agate cockles, lab cockles
 
-#### **Option 3 (super limited assay):** 
+#### **Option 3 (super limited assay):**
 
 -   2 temps: 25C\* and 35C\* for manilas, 15\*, and 25C for cockles (\* = starting temp)
 

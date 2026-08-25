@@ -1,0 +1,12 @@
+---
+title: "Clam and Cockle Priming: Preliminary Assay Results"
+author: "Megan Ewing"
+date: "08-25-2026"
+format: revealjs
+categories: projects
+editor: visual
+---
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSXatasrTiSvGqv5_iFnM0yfL3-W-iIhasc_233QcAWRlxh4srBy0Bju7qNKleHR3mpe_z0-upZzGnf/pubembed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
