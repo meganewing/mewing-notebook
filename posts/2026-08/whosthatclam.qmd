@@ -1,0 +1,54 @@
+---
+title: "Who's That Clam?"
+author: "Megan Ewing"
+date: "09-18-2026"
+categories: projects
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+**Identifying clams left in the yellow tank**
+
+#### Silos with manila seed will have small labels on them:
+
+-   A1: Combination Primed Clams (Heat + PolyIC)
+
+-   B1: Combination Primed Clams (Heat + PolyIC)
+
+-   C1: control (untreated) clams
+
+-   D1: control (untreated) clams
+
+-   A2: Heat Primed Only
+
+-   B2: Heat Primed Only
+
+-   C2: Immune Primed Only
+
+-   D2: Immune Primed Only
+
+more info on priming [here](https://meganewing.github.io/mewing-notebook/posts/projects/primingtrials.html)
+
+#### Silo (singluar) with tan mesh bags in it:
+
+-   These are remaining cockles from the Agate Pass site
+
+-   Bags have info with treatment, replicate, etc. Example:
+
+    -   BC-CP-T2A = Basket Cockle - Control Temp with Poly IC priming, Retrieval Time 2, Replicate A
+
+-   CC = control, EE = heat primed, CP = immune primed, EP = combination primed
+
+-   (Some cockles may have escaped their bags because we had to cut many of the strings to get the ones out for sampling. Like in the hit 2000 blockbuster *Gladiator*, these cunning cockles have put up a good fight and have thus earned their freedom. Leave in silo or give to Andy so he can feed them to the starfish in FSH.)
+
+#### Mesh Bags on bottom of tank: 
+
+These are remaining manila clams from the field collections. Cattle tag ID info [here](https://docs.google.com/spreadsheets/d/1PYjbRm6_xriQQLg8OzVKHTSSsQsYsbHzasL5AkbwQY8/edit?usp=sharing)
+
+-   tags 0-48 are agate pass clams
+
+-   tags 49+ are westcott clams
+
+-   sample codes follow same naming scheme as the cockles but with leading MC (manila clam) instead of BC (basket cockle)
