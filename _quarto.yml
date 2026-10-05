@@ -7,10 +7,12 @@ website:
   navbar:
     right:
       - about.qmd
+      - icon: researchgate
+        text: Researchgate
+        href: https://www.researchgate.net/profile/Megan-M-Ewing
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        text: Github
+        href: https://github.com/meganewing/
 format:
   html:
     theme: cosmo
