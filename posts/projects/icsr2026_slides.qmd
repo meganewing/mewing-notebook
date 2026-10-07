@@ -1,0 +1,12 @@
+---
+title: "ICSR 2026 Slides: Thermal and Immune Stress Priming Improves Resilience in Manila Clams and Basket Cockles"
+author: "Megan Ewing"
+date: "10-07-2026"
+format: revealjs
+categories: projects
+editor: visual
+---
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9DAW855vzJUQew5mJRCaSbs-F7b7f6TWD4q7Ujl7pi7Sqk0o7gNrwFcWiI4WNQc08D0bZoq9_sZTA/pubembed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
