@@ -1,0 +1,44 @@
+---
+title: "October Hopes, Dreams, and Musings"
+author: "Megan Ewing"
+date: "10-20-2026"
+categories: daily
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## Goals
+
+This month I have two main research goals:
+
+-   Identify candidate genes for qPCR and start training on qPCR (never done it before!)
+
+-   Finish mortality data analysis for lab survival assays (the main lifting on this is to change the data transformation script to be more robust for dealing with 12- vs. 24-well plates, not freaking out when there are blank wells in inconsistently placed positions, and reading in a metadata file with info on the different replicate groups represented in each well)
+
+A secondary research goal is to continue working through some literature on priming, env. epi., immune priming, etc. to help build the basis for my interpretations. A tertiary and tangential goal is to work with Jesse as he starts planning out what he wants to do for an independent project to present at the Undergrad Symposium (salinity priming & mussel grouping/bissel attachment strength?)
+
+Aside from research, I've been doing teaching/service stuff: TA 311, GRFP workshop & helping a few ppl with their apps, and then infrequent meetings for SAC, SAFS CC, and IBIS mentorship workshops.
+
+## qPCR
+
+### *10/19 & 10/20, identifying potential candidate genes* 
+
+-   HSP20, HSP70, HSP0 ([xu et al. 2022](https://doi.org/10.1016/j.scitotenv.2021.151189))
+
+-   [LaFont et al/ 2020](https://doi.org/10.1128/mBio.02777-19) — support 5C
+
+    -   DEGs classified into different categories based on when the change occurred and how long it persisted. DEGs initiated during priming and persisted overtime (incl. during challenge) were labeled “sustained”
+
+    -   hella genes, may not be a "narrow" place to start, but could be used to cross reference to confirm connection to PolyIC priming sustained responses
+
+    -   some explicitly called out sustained DEGs in the text include Toll-like receptor (TLR), E3upl,
+
+-   HSP70, HSP90, Viperin — [Ariana using](https://ahuffmyer.github.io/posts/2026-08-04-qPCR-polyIC-downsampling-analysis.html)
+
+-   E3 ubiquitin-protein ligase ([in manila clam intergen. DEGs](https://docs.google.com/document/d/1PU134kjWeOQ-tfc4bj0Uy9A43scroxjYzpHBMfkicqE/edit?usp=sharing), in [Nie et al. 2020](https://doi.org/10.1186/s12864-020-6734-6) re: hypoxia stress response, in lafont et al 2020 )
+
+**What are some other potential genes associated with CSR that are conserved across bivalves?**
+
+-   HSF1?
