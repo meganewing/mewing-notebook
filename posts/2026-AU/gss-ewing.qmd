@@ -1,6 +1,7 @@
 ---
 title: "Resilience is the Best Superpower (GSS 2026)"
-author: "Megan M Ewing"
+author: "Megan Ewing"
+date: "11-06-2026"
 format:
   revealjs:
     theme: default
