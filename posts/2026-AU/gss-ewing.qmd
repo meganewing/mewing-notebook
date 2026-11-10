@@ -1,0 +1,57 @@
+---
+title: "Resilience is the Best Superpower (GSS 2026)"
+author: "Megan M Ewing"
+format:
+  revealjs:
+    theme: default
+    center: true
+    auto-stretch: true
+---
+
+## 
+
+![](images/Slide1.png)
+
+## 
+
+![](images/Slide2.png)
+
+## 
+
+![](images/Slide3.png)
+
+## 
+
+![](images/Slide4.png)
+
+## 
+
+![](images/Slide5.png)
+
+## 
+
+![](images/Slide6.png)
+
+## 
+
+![](images/Slide7.png)
+
+## 
+
+![](images/Slide8.png)
+
+## 
+
+![](images/Slide9.png)
+
+## 
+
+![](images/Slide10.png)
+
+## 
+
+![](images/Slide11.png)
+
+## 
+
+![](images/Slide12.png)

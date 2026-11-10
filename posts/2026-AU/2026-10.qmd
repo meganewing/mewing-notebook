@@ -23,9 +23,9 @@ Aside from research, I've been doing teaching/service stuff: TA 311, GRFP worksh
 
 ## qPCR
 
-### *10/19 & 10/20, identifying potential candidate genes* 
+### *10/19 & 10/20, identifying potential candidate genes*
 
--   HSP20, HSP70, HSP0 ([xu et al. 2022](https://doi.org/10.1016/j.scitotenv.2021.151189))
+-   HSP20, HSP70, HSP90 ([xu et al. 2022](https://doi.org/10.1016/j.scitotenv.2021.151189))
 
 -   [LaFont et al/ 2020](https://doi.org/10.1128/mBio.02777-19) — support 5C
 
@@ -42,3 +42,15 @@ Aside from research, I've been doing teaching/service stuff: TA 311, GRFP worksh
 **What are some other potential genes associated with CSR that are conserved across bivalves?**
 
 -   HSF1?
+
+### *10/20, SR 1 on 1 meeting notes*
+
+-   look at [qPRC handbook protocol](https://robertslab.github.io/resources/protocols/protocol-qPCR/#part-2-bench-protocol-sop) & [this tusk page](https://robertslab.github.io/tusk/framework/gene-expression-methylation.html)
+
+-   need to come up with some hypotheses to guide plan:
+
+    -   **Hypothesis 1:** priming induces some **front loading** effect – will increase expression prior to exposure that makes exposure response more amendable
+
+    -   **Hypothesis 2:** priming induces **epi. mods.** that act as a "memory" increasing efficiency of response. Priming gets them used to the stress so when they are re exposed they are more equipped. proposed mechanism would be DNA methylation (or other epi. mech) affecting which genes are promoted for transcription - memory phenotype
+
+    -   
